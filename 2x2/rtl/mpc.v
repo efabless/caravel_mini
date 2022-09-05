@@ -38,7 +38,7 @@ wire [9:0] NC_3, NC_4;
 
 
 //vertical selectors
-vertical_selector #(.position(0)) v_selector_0 (
+v_line #(.position(0)) v_selector_0 (
     //inputs
     .configuration, 
 
@@ -63,7 +63,7 @@ vertical_selector #(.position(0)) v_selector_0 (
     .east_oe_selected(NC_2)
 
     );
-vertical_selector #(.position(1)) v_selector_1 (
+v_line #(.position(1)) v_selector_1 (
     //inputs
     .configuration, 
 
@@ -89,7 +89,7 @@ vertical_selector #(.position(1)) v_selector_1 (
 
     );
 
-vertical_selector #(.position(2)) v_selector_2 (
+v_line #(.position(2)) v_selector_2 (
     //inputs
     .configuration, 
 
