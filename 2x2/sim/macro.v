@@ -1,6 +1,9 @@
 module macro #(
     parameter integer number = 0
 ) (
+    input [9:0] IO_north_i,
+    input [13:0] IO_east_i,
+    input [13:0] IO_west_i,
     output [13:0] IO_east_o,
     output [13:0] IO_east_oe,
     output [13:0] IO_west_o,

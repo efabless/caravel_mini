@@ -4,8 +4,8 @@ module v_line #(parameter integer position = 0)
     input [3:0] configuration,
 
     //north outputs on macros
-    input [9:0] north_o_0, north_o_1,
-    input [9:0] north_oe_0, north_oe_1,
+    input [9:0] north_o_0,
+    input [9:0] north_oe_0, 
     //west outputs on macros
     input [13:0] west_o_0, west_o_1, west_o_2,
     input [13:0] west_oe_0, west_oe_1, west_oe_2,
@@ -14,17 +14,21 @@ module v_line #(parameter integer position = 0)
     input [13:0] east_oe_0, east_oe_1, east_oe_2,
 
     //selected output signals 
-    output [9:0] north_o_selected,
-    output [9:0] north_oe_selected,
+    output [9:0] north_o_buf,
+    output [9:0] north_oe_buf,
     output reg [13:0] west_o_selected,
     output reg [13:0] west_oe_selected,
     output reg [13:0] east_o_selected,
-    output reg [13:0] east_oe_selected
+    output reg [13:0] east_oe_selected,
 
-    //north inputs from pads
-    // input [9:0] north_i [n-1 : 0] [n-1 : 0],
-    // //buffered inputs to the macros
-    // output [9:0] north_i_buf [n-1 : 0] [n-1 : 0]
+    //inputs to buffer
+    input [9:0] north_i,
+    input [13:0] east_i,
+    input [13:0] west_i,
+    //buffered inputs to the macros
+    output [9:0] north_i_buf,
+    output [13:0] east_i_buf_0, east_i_buf_1, east_i_buf_2,
+    output [13:0] west_i_buf_0, west_i_buf_1, west_i_buf_2
 
     //
     // input wb_clk_i,
@@ -106,7 +110,17 @@ always @(*) begin
         default: east_oe_selected = east_oe_0;
     endcase
 end
-assign north_o_selected = select[0]? north_o_1: north_o_0;
-assign north_oe_selected = select[0]? north_oe_1: north_oe_0;
 //
+assign north_o_buf = north_o_0;
+assign north_oe_buf = north_oe_0;
+//
+assign north_i_buf = north_i;
+//
+assign east_i_buf_0 = east_i;
+assign east_i_buf_1 = east_i;
+assign east_i_buf_2 = east_i;
+//
+assign west_i_buf_0 = west_i;
+assign west_i_buf_1 = west_i;
+assign west_i_buf_2 = west_i;
 endmodule
