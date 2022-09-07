@@ -1,5 +1,4 @@
-# mpc
-Multi-Project Support for Caravel
+# Multi-Project Support for Caravel
 The objective is to enable multiple users to share the same Caravel chip.  This would allow several small MPW projects to be implemented into a single chip, increasing the number of designs per each MPW run. For chipIgnite, it would reduce the fabrication cost for designs that don’t utilize the whole user’s area. Each design can still access the whole Caravel 38 user's I/Os as well as the WB bus. In addition to WB and I/O pads access, each design area gets a clock and reset signals. The reset signal is asserted through the FW. Also, the clock can be enabled/disabled through the FW.
 
 
