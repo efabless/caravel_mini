@@ -1,900 +1,171 @@
 # vsim work.mpc_tb 
-# Start time: 16:34:06 on Sep 06,2022
+# Start time: 01:53:18 on Sep 07,2022
 # Loading work.mpc_tb
 # Loading work.macro
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
-add wave -position insertpoint  \
-sim:/mpc_tb/IO_west_oe \
-sim:/mpc_tb/IO_west_o \
-sim:/mpc_tb/IO_north_oe \
-sim:/mpc_tb/IO_north_o \
-sim:/mpc_tb/IO_east_oe \
-sim:/mpc_tb/IO_east_o
-run
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:36:00 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 16:36:00 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-run
-add wave -position insertpoint  \
-sim:/mpc_tb/configuration
-restart
-run
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:54:01 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# ** Error: (vlog-13069) rtl/mpc.v(27): near "input": syntax error, unexpected input, expecting ')'.
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13069) rtl/v_line.v(25): near "input": syntax error, unexpected input, expecting ')'.
-# End time: 16:54:02 on Sep 06,2022, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:54:19 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# ** Error: (vlog-13069) rtl/mpc.v(72): near ".": syntax error, unexpected '.', expecting ')'.
-# ** Error: (vlog-13069) rtl/mpc.v(99): near ".": syntax error, unexpected '.', expecting ')'.
-# ** Error: (vlog-13069) rtl/mpc.v(128): near ".": syntax error, unexpected '.', expecting ')'.
-# ** Error: (vlog-13069) rtl/mpc.v(143): near ".": syntax error, unexpected '.', expecting ')'.
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13069) rtl/v_line.v(25): near "input": syntax error, unexpected input, expecting ')'.
-# End time: 16:54:21 on Sep 06,2022, Elapsed time: 0:00:02
-# Errors: 5, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:54:53 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# ** Error: rtl/mpc.v(145): (vlog-2730) Undefined variable: 'north_i_buf_01_vline'.
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13069) rtl/v_line.v(25): near "input": syntax error, unexpected input, expecting ')'.
-# End time: 16:54:53 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:05 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13069) rtl/v_line.v(25): near "input": syntax error, unexpected input, expecting ')'.
-# End time: 16:55:05 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:15 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 16:55:15 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog dim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:21 on Sep 06,2022
-# vlog -reportprogress 300 dim/*.v 
-# ** Error: (vlog-7) Failed to open design unit file "dim/*.v" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 16:55:21 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:25 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# ** Error: (vlog-13069) sim/mpc_tb.v(45): near ".": syntax error, unexpected '.', expecting ')'.
-# End time: 16:55:25 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:55:35 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 16:55:35 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-restart
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Warning: (vsim-3017) sim/mpc_tb.v(27): [TFMPC] - Too few port connections. Expected 38, found 35.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Warning: (vsim-3722) sim/mpc_tb.v(27): [TFMPC] - Missing connection for port 'IO_north_i'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(27): [TFMPC] - Missing connection for port 'IO_east_i'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(27): [TFMPC] - Missing connection for port 'IO_west_i'.
-# ** Warning: (vsim-3017) rtl/mpc.v(48): [TFMPC] - Too few port connections. Expected 26, found 23.
+# Loading work.bot_h_line
+# ** Warning: (vsim-3017) rtl/mpc.v(86): [TFMPC] - Too few port connections. Expected 51, found 35.
 #    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(48): Port 'north_i_buf' not found in the connected module (23rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_3'.
-# ** Warning: (vsim-3017) rtl/mpc.v(75): [TFMPC] - Too few port connections. Expected 26, found 23.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wb_clk_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wb_rst_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_stb_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_cyc_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_we_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_sel_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_dat_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_adr_i'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wb_clk_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wb_rst_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_stb_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_cyc_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_we_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_sel_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_dat_i_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(86): [TFMPC] - Missing connection for port 'wbs_adr_i_buf'.
+# ** Warning: (vsim-3017) rtl/mpc.v(130): [TFMPC] - Too few port connections. Expected 51, found 49.
 #    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(75): Port 'north_i_buf' not found in the connected module (23rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_3'.
-# ** Warning: (vsim-3017) rtl/mpc.v(104): [TFMPC] - Too few port connections. Expected 26, found 23.
+# ** Warning: (vsim-3722) rtl/mpc.v(130): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(130): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3017) rtl/mpc.v(189): [TFMPC] - Too few port connections. Expected 51, found 47.
 #    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(104): Port 'north_i_buf' not found in the connected module (23rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_3'.
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i' not found in the connected module (12th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_0_vline' not found in the connected module (13th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_1_vline' not found in the connected module (14th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_2' not found in the connected module (15th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_3' not found in the connected module (16th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Fatal: (vsim-3365) rtl/mpc.v(133): Too many port connections. Expected 11, found 16.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# FATAL ERROR while loading design
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:58:10 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# ** Error: sim/mpc_tb.v(56): (vlog-2110) Illegal reference to net "IO_north_i".
-# End time: 16:58:10 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:58:51 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# ** Error: (vlog-13069) sim/mpc_tb.v(6): near "reg": syntax error, unexpected reg, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
-# ** Error: sim/mpc_tb.v(43): (vlog-2730) Undefined variable: 'IO_north_i'.
-# End time: 16:58:51 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:59:01 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 16:59:01 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 16:34:06 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Warning: (vsim-3017) rtl/mpc.v(48): [TFMPC] - Too few port connections. Expected 26, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(48): Port 'north_i_buf' not found in the connected module (23rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'north_i_buf_3'.
-# ** Warning: (vsim-3017) rtl/mpc.v(75): [TFMPC] - Too few port connections. Expected 26, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(75): Port 'north_i_buf' not found in the connected module (23rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'north_i_buf_3'.
-# ** Warning: (vsim-3017) rtl/mpc.v(104): [TFMPC] - Too few port connections. Expected 26, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(104): Port 'north_i_buf' not found in the connected module (23rd connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'north_i_buf_3'.
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i' not found in the connected module (12th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_0_vline' not found in the connected module (13th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_1_vline' not found in the connected module (14th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_2' not found in the connected module (15th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_3' not found in the connected module (16th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Fatal: (vsim-3365) rtl/mpc.v(133): Too many port connections. Expected 11, found 16.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 16:59:14 on Sep 06,2022, Elapsed time: 0:25:08
-# Errors: 36, Warnings: 34
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:00:04 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 17:00:04 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# ** Warning: (vsim-3722) rtl/mpc.v(189): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(189): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(189): [TFMPC] - Missing connection for port 'wbs_ack_o_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(189): [TFMPC] - Missing connection for port 'wbs_dat_o_buf'.
 vlog rtl/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:00:10 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13038) rtl/v_line.v(40): near ")": Missing port in ansi port list.
-# End time: 17:00:10 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:00:36 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# Start time: 01:57:21 on Sep 07,2022
+# vlog -reportprogress 300 rtl/bot_h_line.v rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# -- Compiling module bot_h_line
 # -- Compiling module mpc
 # -- Compiling module top_h_line
 # -- Compiling module v_line
 # 
 # Top level modules:
 # 	mpc
-# End time: 17:00:37 on Sep 06,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:00:39 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Error (suppressible): (vsim-3053) rtl/mpc.v(48): Illegal output or inout port connection for port 'north_i_buf'.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i' not found in the connected module (12th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_0_vline' not found in the connected module (13th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_1_vline' not found in the connected module (14th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_2' not found in the connected module (15th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_3' not found in the connected module (16th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Fatal: (vsim-3365) rtl/mpc.v(133): Too many port connections. Expected 11, found 16.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 17:00:39 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 7, Warnings: 0
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:01:27 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 17:01:27 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:01:29 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i' not found in the connected module (12th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_0_vline' not found in the connected module (13th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_1_vline' not found in the connected module (14th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_2' not found in the connected module (15th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3389) rtl/mpc.v(133): Port 'north_i_buf_3' not found in the connected module (16th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Fatal: (vsim-3365) rtl/mpc.v(133): Too many port connections. Expected 11, found 16.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 17:01:29 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:02:30 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# ** Error: (vlog-13069) rtl/top_h_line.v(13): near "input": syntax error, unexpected input, expecting ')'.
-# -- Compiling module v_line
-# End time: 17:02:30 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:02:43 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 17:02:43 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:02:44 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Error: (vsim-3063) rtl/mpc.v(133): Port 'north_i_buf_0_vline' not found in the connected module (13th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# ** Error: (vsim-3063) rtl/mpc.v(133): Port 'north_i_buf_1_vline' not found in the connected module (14th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# Error loading design
-# End time: 17:02:45 on Sep 06,2022, Elapsed time: 0:00:01
-# Errors: 2, Warnings: 0
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:03:17 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 17:03:17 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:03:19 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-add wave -position insertpoint  \
-sim:/mpc_tb/IO_west_oe \
-sim:/mpc_tb/IO_west_o \
-sim:/mpc_tb/IO_north_oe \
-sim:/mpc_tb/IO_north_o \
-sim:/mpc_tb/IO_north_i \
-sim:/mpc_tb/IO_east_oe \
-sim:/mpc_tb/IO_east_o
-add wave -position insertpoint  \
-sim:/mpc_tb/IO_north_i
-run
-add wave -position insertpoint  \
-sim:/mpc_tb/macro_0/IO_north_i
-add wave -position insertpoint  \
-sim:/mpc_tb/macro_1/IO_north_i
-add wave -position insertpoint  \
-sim:/mpc_tb/macro_2/IO_north_i
-add wave -position insertpoint  \
-sim:/mpc_tb/macro_3/IO_north_i
-restart
-run
-add wave -position insertpoint  \
-sim:/mpc_tb/dut/u_selector/north_i
-restart
-run
-add wave -position insertpoint  \
-sim:/mpc_tb/dut/u_selector/north_i_buf_3 \
-sim:/mpc_tb/dut/u_selector/north_i_buf_2 \
-sim:/mpc_tb/dut/u_selector/north_i_buf_1 \
-sim:/mpc_tb/dut/u_selector/north_i_buf_0
-restart
-run
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:07:19 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 17:07:19 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 01:57:21 on Sep 07,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 restart
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
-run
+# Loading work.bot_h_line
+# ** Warning: (vsim-3015) rtl/mpc.v(90): [PCDPC] - Port size (4) does not match connection size (3) for port 'wbs_sel_i'. The port definition is at: rtl/v_line.v(39).
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
+# ** Warning: (vsim-3017) rtl/mpc.v(152): [TFMPC] - Too few port connections. Expected 51, found 49.
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
+# ** Warning: (vsim-3722) rtl/mpc.v(152): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(152): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3017) rtl/mpc.v(211): [TFMPC] - Too few port connections. Expected 51, found 47.
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_ack_o_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_dat_o_buf'.
 vlog rtl/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:08:54 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# Start time: 01:57:44 on Sep 07,2022
+# vlog -reportprogress 300 rtl/bot_h_line.v rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# -- Compiling module bot_h_line
 # -- Compiling module mpc
 # -- Compiling module top_h_line
 # -- Compiling module v_line
 # 
 # Top level modules:
 # 	mpc
-# End time: 17:08:54 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 01:57:45 on Sep 07,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 restart
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
-run
+# Loading work.bot_h_line
+# ** Warning: (vsim-3015) rtl/mpc.v(90): [PCDPC] - Port size (4) does not match connection size (3) for port 'wbs_sel_i'. The port definition is at: rtl/v_line.v(39).
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
+# ** Warning: (vsim-3015) rtl/mpc.v(90): [PCDPC] - Port size (4) does not match connection size (3) for port 'wbs_sel_i_buf'. The port definition is at: rtl/v_line.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
+# ** Warning: (vsim-3017) rtl/mpc.v(152): [TFMPC] - Too few port connections. Expected 51, found 49.
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
+# ** Warning: (vsim-3722) rtl/mpc.v(152): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(152): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3017) rtl/mpc.v(211): [TFMPC] - Too few port connections. Expected 51, found 47.
+#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_ack_o_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_dat_o_buf'.
 vlog rtl/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:32:31 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# Start time: 01:58:33 on Sep 07,2022
+# vlog -reportprogress 300 rtl/bot_h_line.v rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# -- Compiling module bot_h_line
 # -- Compiling module mpc
 # -- Compiling module top_h_line
 # -- Compiling module v_line
 # 
 # Top level modules:
 # 	mpc
-# End time: 17:32:31 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 01:58:33 on Sep 07,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-
 restart
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
-# ** Warning: (vsim-3017) sim/mpc_tb.v(25): [TFMPC] - Too few port connections. Expected 46, found 38.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_buf_3' not found in the connected module (35th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_buf_1' not found in the connected module (37th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_buf_0' not found in the connected module (38th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_0'.
-# ** Warning: (vsim-3017) rtl/mpc.v(48): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(75): [TFMPC] - Too few port connections. Expected 29, found 23.
+# Loading work.bot_h_line
+# ** Warning: (vsim-3017) rtl/mpc.v(152): [TFMPC] - Too few port connections. Expected 51, found 49.
 #    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(104): [TFMPC] - Too few port connections. Expected 29, found 23.
+# ** Warning: (vsim-3722) rtl/mpc.v(152): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(152): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3017) rtl/mpc.v(211): [TFMPC] - Too few port connections. Expected 51, found 47.
 #    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3015) rtl/mpc.v(133): [PCDPC] - Port size (10) does not match connection size (1) for port 'north_i_buf_2'. The port definition is at: rtl/top_h_line.v(15).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_ack_o_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(211): [TFMPC] - Missing connection for port 'wbs_dat_o_buf'.
 vlog rtl/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:33:35 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# Start time: 02:00:57 on Sep 07,2022
+# vlog -reportprogress 300 rtl/bot_h_line.v rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# -- Compiling module bot_h_line
 # -- Compiling module mpc
 # -- Compiling module top_h_line
 # -- Compiling module v_line
 # 
 # Top level modules:
 # 	mpc
-# End time: 17:33:35 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 02:00:58 on Sep 07,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 restart
-# No Design Loaded!
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:03:19 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
-# ** Warning: (vsim-3017) sim/mpc_tb.v(25): [TFMPC] - Too few port connections. Expected 46, found 38.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_buf_3' not found in the connected module (35th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_buf_1' not found in the connected module (37th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_buf_0' not found in the connected module (38th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_0'.
-# ** Warning: (vsim-3017) rtl/mpc.v(48): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(75): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(104): [TFMPC] - Too few port connections. Expected 29, found 23.
+# Loading work.bot_h_line
+# ** Warning: (vsim-3017) rtl/mpc.v(214): [TFMPC] - Too few port connections. Expected 51, found 47.
 #    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3015) rtl/mpc.v(133): [PCDPC] - Port size (10) does not match connection size (1) for port 'north_i_buf_2'. The port definition is at: rtl/top_h_line.v(15).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# Error loading design
-# End time: 17:33:48 on Sep 06,2022, Elapsed time: 0:30:29
-# Errors: 6, Warnings: 68
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:34:18 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 17:34:18 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:34:20 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Warning: (vsim-3017) sim/mpc_tb.v(25): [TFMPC] - Too few port connections. Expected 46, found 38.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Error: (vsim-3063) sim/mpc_tb.v(25): Port 'north_i_2' not found in the connected module (36th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'north_i_buf_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_0'.
-# ** Warning: (vsim-3017) rtl/mpc.v(48): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(75): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(104): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3015) rtl/mpc.v(133): [PCDPC] - Port size (10) does not match connection size (1) for port 'north_i_buf_2'. The port definition is at: rtl/top_h_line.v(15).
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/u_selector File: rtl/top_h_line.v
-# Error loading design
-# End time: 17:34:20 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 32
+# ** Warning: (vsim-3722) rtl/mpc.v(214): [TFMPC] - Missing connection for port 'wbs_ack_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(214): [TFMPC] - Missing connection for port 'wbs_dat_o'.
+# ** Warning: (vsim-3722) rtl/mpc.v(214): [TFMPC] - Missing connection for port 'wbs_ack_o_buf'.
+# ** Warning: (vsim-3722) rtl/mpc.v(214): [TFMPC] - Missing connection for port 'wbs_dat_o_buf'.
 vlog rtl/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:34:52 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# Start time: 02:02:12 on Sep 07,2022
+# vlog -reportprogress 300 rtl/bot_h_line.v rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# -- Compiling module bot_h_line
 # -- Compiling module mpc
 # -- Compiling module top_h_line
 # -- Compiling module v_line
 # 
 # Top level modules:
 # 	mpc
-# End time: 17:34:52 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 02:02:12 on Sep 07,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# vsim work.mpc_tb 
-# Start time: 17:34:54 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
+restart
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
-# ** Warning: (vsim-3017) sim/mpc_tb.v(25): [TFMPC] - Too few port connections. Expected 46, found 38.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'west_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(25): [TFMPC] - Missing connection for port 'east_i_0'.
-# ** Warning: (vsim-3017) rtl/mpc.v(48): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_0 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(48): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(75): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(75): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-# ** Warning: (vsim-3017) rtl/mpc.v(104): [TFMPC] - Too few port connections. Expected 29, found 23.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_2 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'east_i_buf_1'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_0'.
-# ** Warning: (vsim-3722) rtl/mpc.v(104): [TFMPC] - Missing connection for port 'west_i_buf_1'.
-run
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:54:19 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# ** Error: (vlog-13069) rtl/mpc.v(115): near ".": syntax error, unexpected '.', expecting ')'.
-# ** Error: (vlog-13069) rtl/mpc.v(156): near ".": syntax error, unexpected '.', expecting ')'.
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13038) rtl/v_line.v(44): near ")": Missing port in ansi port list.
-# End time: 17:54:19 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:54:45 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# ** Error: (vlog-13038) rtl/v_line.v(44): near ")": Missing port in ansi port list.
-# End time: 17:54:45 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:54:56 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 17:54:56 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:55:00 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 17:55:00 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# End time: 17:55:04 on Sep 06,2022, Elapsed time: 0:20:10
-# Errors: 6, Warnings: 30
-# vsim work.mpc_tb 
-# Start time: 17:55:04 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Warning: (vsim-3017) sim/mpc_tb.v(28): [TFMPC] - Too few port connections. Expected 46, found 38.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut File: rtl/mpc.v
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'west_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'west_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'west_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'west_i_0'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'east_i_3'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'east_i_2'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'east_i_1'.
-# ** Warning: (vsim-3722) sim/mpc_tb.v(28): [TFMPC] - Missing connection for port 'east_i_0'.
-# ** Warning: (vsim-3017) rtl/mpc.v(88): [TFMPC] - Too few port connections. Expected 31, found 29.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(88): [TFMPC] - Missing connection for port 'east_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(88): [TFMPC] - Missing connection for port 'west_i_buf_2'.
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:55:52 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 17:55:52 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# End time: 17:55:54 on Sep 06,2022, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 12
-# vsim work.mpc_tb 
-# Start time: 17:55:54 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-# ** Warning: (vsim-3017) rtl/mpc.v(88): [TFMPC] - Too few port connections. Expected 31, found 29.
-#    Time: 0 ps  Iteration: 0  Instance: /mpc_tb/dut/v_selector_1 File: rtl/v_line.v
-# ** Warning: (vsim-3722) rtl/mpc.v(88): [TFMPC] - Missing connection for port 'east_i_buf_2'.
-# ** Warning: (vsim-3722) rtl/mpc.v(88): [TFMPC] - Missing connection for port 'west_i_buf_2'.
-vlog rtl/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:57:20 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
-# -- Compiling module mpc
-# -- Compiling module top_h_line
-# -- Compiling module v_line
-# 
-# Top level modules:
-# 	mpc
-# End time: 17:57:20 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# End time: 17:57:22 on Sep 06,2022, Elapsed time: 0:01:28
-# Errors: 0, Warnings: 3
-# vsim work.mpc_tb 
-# Start time: 17:57:23 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:58:39 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# ** Error: sim/mpc_tb.v(63): (vlog-2110) Illegal reference to net "IO_east_i".
-# ** Error: sim/mpc_tb.v(64): (vlog-2110) Illegal reference to net "IO_west_i".
-# End time: 17:58:39 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vsim work.mpc_tb
-# End time: 17:59:04 on Sep 06,2022, Elapsed time: 0:01:41
-# Errors: 3, Warnings: 0
-# vsim work.mpc_tb 
-# Start time: 17:59:04 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:59:07 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# ** Error: (vlog-13069) sim/mpc_tb.v(4): near "reg": syntax error, unexpected reg, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
-# ** Error: (vlog-13069) sim/mpc_tb.v(6): near "reg": syntax error, unexpected reg, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
-# ** Error: sim/mpc_tb.v(49): (vlog-2730) Undefined variable: 'IO_east_i'.
-# ** Error: sim/mpc_tb.v(50): (vlog-2730) Undefined variable: 'IO_west_i'.
-# End time: 17:59:07 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog sim/*.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:59:18 on Sep 06,2022
-# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
-# -- Compiling module macro
-# -- Compiling module mpc_tb
-# 
-# Top level modules:
-# 	mpc_tb
-# End time: 17:59:18 on Sep 06,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.mpc_tb
-# End time: 17:59:21 on Sep 06,2022, Elapsed time: 0:00:17
-# Errors: 5, Warnings: 0
-# vsim work.mpc_tb 
-# Start time: 17:59:21 on Sep 06,2022
-# Loading work.mpc_tb
-# Loading work.macro
-# Loading work.mpc
-# Loading work.v_line
-# Loading work.top_h_line
+# Loading work.bot_h_line
 add wave -position insertpoint  \
 sim:/mpc_tb/configuration \
 sim:/mpc_tb/IO_west_oe \
@@ -915,8 +186,6 @@ add wave -position insertpoint  \
 sim:/mpc_tb/macro_1/IO_west_i \
 sim:/mpc_tb/macro_1/IO_north_i \
 sim:/mpc_tb/macro_1/IO_east_i
-restart
-run
 add wave -position insertpoint  \
 sim:/mpc_tb/macro_2/IO_west_i \
 sim:/mpc_tb/macro_2/IO_north_i \
@@ -925,30 +194,138 @@ add wave -position insertpoint  \
 sim:/mpc_tb/macro_3/IO_west_i \
 sim:/mpc_tb/macro_3/IO_north_i \
 sim:/mpc_tb/macro_3/IO_east_i
+run
+restart
+run
+add wave -position insertpoint  \
+sim:/mpc_tb/dut/wb_clk_i \
+sim:/mpc_tb/dut/wb_rst_i \
+sim:/mpc_tb/dut/wbs_adr_i \
+sim:/mpc_tb/dut/wbs_cyc_i \
+sim:/mpc_tb/dut/wbs_dat_i \
+sim:/mpc_tb/dut/wbs_sel_i \
+sim:/mpc_tb/dut/wbs_stb_i \
+sim:/mpc_tb/dut/wbs_we_i
+add wave -position insertpoint  \
+sim:/mpc_tb/dut/wbs_ack_o
+add wave -position insertpoint  \
+sim:/mpc_tb/dut/wbs_dat_o
+run
+restart
+run
+add wave -position insertpoint  \
+sim:/mpc_tb/configuration
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_0/wb_clk_i \
+sim:/mpc_tb/macro_0/wb_rst_i \
+sim:/mpc_tb/macro_0/wbs_adr_i \
+sim:/mpc_tb/macro_0/wbs_cyc_i \
+sim:/mpc_tb/macro_0/wbs_dat_i \
+sim:/mpc_tb/macro_0/wbs_sel_i \
+sim:/mpc_tb/macro_0/wbs_stb_i \
+sim:/mpc_tb/macro_0/wbs_we_i
+restart
+run
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_1/wb_clk_i \
+sim:/mpc_tb/macro_1/wb_rst_i \
+sim:/mpc_tb/macro_1/wbs_adr_i \
+sim:/mpc_tb/macro_1/wbs_cyc_i \
+sim:/mpc_tb/macro_1/wbs_dat_i \
+sim:/mpc_tb/macro_1/wbs_sel_i \
+sim:/mpc_tb/macro_1/wbs_stb_i \
+sim:/mpc_tb/macro_1/wbs_we_i
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_2/wb_clk_i \
+sim:/mpc_tb/macro_2/wb_rst_i \
+sim:/mpc_tb/macro_2/wbs_adr_i \
+sim:/mpc_tb/macro_2/wbs_cyc_i \
+sim:/mpc_tb/macro_2/wbs_dat_i \
+sim:/mpc_tb/macro_2/wbs_sel_i \
+sim:/mpc_tb/macro_2/wbs_stb_i \
+sim:/mpc_tb/macro_2/wbs_we_i
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_3/wb_clk_i \
+sim:/mpc_tb/macro_3/wb_rst_i \
+sim:/mpc_tb/macro_3/wbs_adr_i \
+sim:/mpc_tb/macro_3/wbs_cyc_i \
+sim:/mpc_tb/macro_3/wbs_dat_i \
+sim:/mpc_tb/macro_3/wbs_sel_i \
+sim:/mpc_tb/macro_3/wbs_stb_i \
+sim:/mpc_tb/macro_3/wbs_we_i
+restart
+run
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_0/wbs_ack_o \
+sim:/mpc_tb/macro_0/wbs_dat_o
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_1/wbs_ack_o \
+sim:/mpc_tb/macro_1/wbs_dat_o
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_2/wbs_dat_o \
+sim:/mpc_tb/macro_2/number
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_3/wbs_dat_o \
+sim:/mpc_tb/macro_3/number
+restart
+run
+add wave -position insertpoint  \
+sim:/mpc_tb/macro_2/wbs_ack_o
 restart
 run
 vlog sim/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:04:12 on Sep 06,2022
+# Start time: 02:12:37 on Sep 07,2022
 # vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
 # -- Compiling module macro
 # -- Compiling module mpc_tb
 # 
 # Top level modules:
 # 	mpc_tb
-# End time: 18:04:12 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 02:12:38 on Sep 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.mpc_tb
+# Loading work.macro
+run
+vlog sim/*.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:01 on Sep 07,2022
+# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
+# -- Compiling module macro
+# -- Compiling module mpc_tb
+# 
+# Top level modules:
+# 	mpc_tb
+# End time: 02:13:01 on Sep 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.mpc_tb
+# Loading work.macro
+run
+vlog sim/*.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:19:32 on Sep 07,2022
+# vlog -reportprogress 300 sim/macro.v sim/mpc_tb.v 
+# -- Compiling module macro
+# -- Compiling module mpc_tb
+# 
+# Top level modules:
+# 	mpc_tb
+# End time: 02:19:32 on Sep 07,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog rtl/*.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:04:16 on Sep 06,2022
-# vlog -reportprogress 300 rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# Start time: 02:19:44 on Sep 07,2022
+# vlog -reportprogress 300 rtl/bot_h_line.v rtl/mpc.v rtl/top_h_line.v rtl/v_line.v 
+# -- Compiling module bot_h_line
 # -- Compiling module mpc
 # -- Compiling module top_h_line
 # -- Compiling module v_line
 # 
 # Top level modules:
 # 	mpc
-# End time: 18:04:16 on Sep 06,2022, Elapsed time: 0:00:00
+# End time: 02:19:44 on Sep 07,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 restart
 # Loading work.mpc_tb
@@ -956,4 +333,5 @@ restart
 # Loading work.mpc
 # Loading work.v_line
 # Loading work.top_h_line
+# Loading work.bot_h_line
 run

@@ -28,19 +28,32 @@ module v_line #(parameter integer position = 0)
     //buffered inputs to the macros
     output [9:0] north_i_buf,
     output [13:0] east_i_buf_0, east_i_buf_1, east_i_buf_2,
-    output [13:0] west_i_buf_0, west_i_buf_1, west_i_buf_2
+    output [13:0] west_i_buf_0, west_i_buf_1, west_i_buf_2,
 
+    //WB
+    input wb_clk_i,
+    input wb_rst_i,
+    input wbs_stb_i,
+    input wbs_cyc_i,
+    input wbs_we_i,
+    input [3:0] wbs_sel_i,
+    input [31:0] wbs_dat_i,
+    input [31:0] wbs_adr_i,
     //
-    // input wb_clk_i,
-    // input wb_rst_i,
-    // input wbs_stb_i,
-    // input wbs_cyc_i,
-    // input wbs_we_i,
-    // input [3:0] wbs_sel_i,
-    // input [31:0] wbs_dat_i,
-    // input [31:0] wbs_adr_i,
-    // output wbs_ack_o,
-    // output [31:0] wbs_dat_o,
+    output wb_clk_i_buf,
+    output wb_rst_i_buf,
+    output wbs_stb_i_buf,
+    output wbs_cyc_i_buf,
+    output wbs_we_i_buf,
+    output [3:0] wbs_sel_i_buf,
+    output [31:0] wbs_dat_i_buf,
+    output [31:0] wbs_adr_i_buf,
+    //
+    input wbs_ack_o,
+    input [31:0] wbs_dat_o,
+    //
+    output wbs_ack_o_buf,
+    output [31:0] wbs_dat_o_buf
 );
 //
 reg [1 : 0] select; 
@@ -123,4 +136,17 @@ assign east_i_buf_2 = east_i;
 assign west_i_buf_0 = west_i;
 assign west_i_buf_1 = west_i;
 assign west_i_buf_2 = west_i;
+//WB forwawrding
+assign wb_clk_i_buf = wb_clk_i;
+assign wb_rst_i_buf = wb_rst_i;
+assign wbs_stb_i_buf = wbs_stb_i;
+assign wbs_cyc_i_buf = wbs_cyc_i;
+assign wbs_we_i_buf = wbs_we_i;
+assign wbs_sel_i_buf = wbs_sel_i;
+assign wbs_dat_i_buf = wbs_dat_i;
+assign wbs_adr_i_buf = wbs_adr_i;
+//
+assign wbs_ack_o_buf = wbs_ack_o;
+assign wbs_dat_o_buf = wbs_dat_o;
+//
 endmodule
