@@ -5,6 +5,6 @@ The objective is to enable multiple users to share the same Caravel chip.  This 
 To minimize the effort, we will leverage the existing Caravel chip design through a custom user’s project design. This unique design partitions the user’s project area between multiple projects. After fabrication, only one design can be active at any time. Design selection is performed through a special management SoC firmware. 
 
 The project aims at the following configurations
-- 4 (2x2) designs, each 1.3x1.7 mm2 (~ 200K Sky130 HD cells)
-- 9 (3x3) designs, each 900x900 um2 (~ 80K Sky130 HD cells)
+- 4 (2x2) designs, each 1.3x1.6 mm2 (~ 200K Sky130 HD cells)
+- 9 (3x3) designs, each 850x1000 um2 (~ 80K Sky130 HD cells)
 - 20 (5x4) designs, each 650x650 um2 (~ 40K Sky130 HD cells)
