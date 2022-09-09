@@ -6,5 +6,5 @@ To minimize the effort, we will leverage the existing Caravel chip design throug
 
 The project aims at the following configurations
 - [4 (2x2) designs](docs/2x2.md), each 1.3x1.6 mm2 (~ 200K Sky130 HD cells)
-- [9 (3x3) designs](docs/2x2.md), each 850x1000 um2 (~ 80K Sky130 HD cells)
+- [9 (3x3) designs](docs/3x3.md), each 850x1000 um2 (~ 80K Sky130 HD cells)
 - 20 (5x4) designs, each 650x650 um2 (~ 40K Sky130 HD cells)
