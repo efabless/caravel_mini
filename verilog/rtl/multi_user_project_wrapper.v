@@ -70,8 +70,8 @@ module multi_user_project_wrapper #(
 
 
   // Configuration update
-  always @(posedge wb_clk_i, negedge wb_rst_i) begin
-    if (~wb_rst_i) configuration <= 0;
+    always @(posedge wb_clk_i or posedge wb_rst_i) begin
+    if (wb_rst_i) configuration <= 0;
     else if (wbs_adr_i == CFG_ADDRESS) configuration <= wbs_dat_i[CFG_BITS-1:0];
   end
 
