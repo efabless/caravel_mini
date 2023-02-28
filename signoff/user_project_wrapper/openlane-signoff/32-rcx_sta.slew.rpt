@@ -1,0 +1,27 @@
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+genblk1[3].user_project/wb_clk_i        0.10    0.37   -0.27 (VIOLATED)
+genblk1[0].user_project/wb_clk_i        0.10    0.26   -0.16 (VIOLATED)
+genblk1[1].user_project/wb_clk_i        0.10    0.25   -0.15 (VIOLATED)
+genblk1[2].user_project/wb_clk_i        0.10    0.22   -0.12 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+fanout4293/X                             18     21     -3 (VIOLATED)
+wire6448/X                               18     20     -2 (VIOLATED)
+wire6482/X                               18     20     -2 (VIOLATED)
+
+
+===========================================================================
+max slew violation count 4
+max fanout violation count 3
+max cap violation count 0
+============================================================================
