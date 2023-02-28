@@ -1,7 +1,7 @@
-module multi_user_project_wrapper #(
+module user_project_wrapper #(
     parameter BITS = 32,
-    parameter integer CFG_ADDRESS = 32'h0123abcd,
-    parameter integer USER_PROJECTS = 4,
+    parameter integer CFG_ADDRESS = 32'h300FFFFC, // last address in address space
+    parameter integer USER_PROJECTS = `USER_PROJECTS_NUM,
     parameter integer CFG_BITS = $ceil($clog2(USER_PROJECTS))
 ) (
 `ifdef USE_POWER_PINS
@@ -24,7 +24,7 @@ module multi_user_project_wrapper #(
     input [3:0] wbs_sel_i,
     input [31:0] wbs_dat_i,
     input [31:0] wbs_adr_i,
-    output wbs_ack_o,
+    output reg wbs_ack_o,
     output [31:0] wbs_dat_o,
 
     // Logic Analyzer Signals
@@ -68,18 +68,25 @@ module multi_user_project_wrapper #(
   // User maskable interrupt signals
   wire [              2:0] proj_user_irq   [USER_PROJECTS-1:0];
 
-
+  reg cfg_ack;
   // Configuration update
-    always @(posedge wb_clk_i or posedge wb_rst_i) begin
-    if (wb_rst_i) configuration <= 0;
-    else if (wbs_adr_i == CFG_ADDRESS) configuration <= wbs_dat_i[CFG_BITS-1:0];
+  always @(posedge wb_clk_i, posedge wb_rst_i) begin
+    if (wb_rst_i)begin 
+      configuration <= 0;
+      cfg_ack   <=0;
+    end else if  (wbs_adr_i == CFG_ADDRESS && wbs_cyc_i && wbs_stb_i && wbs_we_i && !cfg_ack) begin 
+      configuration <= wbs_dat_i[CFG_BITS-1:0];
+      cfg_ack   <=1;
+    end else begin 
+      cfg_ack   <=0;
+    end
   end
 
   // User projects
   genvar i;
   generate
-    for (i = 0; i < USER_PROJECTS; i = i + 1) begin
-      user_project #(i) user_project (
+    for (i = 0; i < USER_PROJECTS; i = i + 1) begin : user_projects_counters
+      user_project #(.COUNT_STEP(2*i+1),.COUNT_ADDR(i*4)) user_project (
 `ifdef USE_POWER_PINS
           .vdda1(vdda1), // User area 1 3.3V supply
           .vdda2(vdda2), // User area 2 3.3V supply
@@ -128,7 +135,7 @@ module multi_user_project_wrapper #(
   endgenerate
 
   // WB outputs selection
-  assign wbs_ack_o   = proj_wbs_ack_o[configuration];
+  assign wbs_ack_o   = proj_wbs_ack_o[configuration] | cfg_ack;
   assign wbs_dat_o   = proj_wbs_dat_o[configuration];
 
   // Logic Analyzer Outputs selection

@@ -1,6 +1,7 @@
 module user_project #(
-    parameter BITS = 32
-) (
+    parameter BITS = 30,
+    parameter COUNT_STEP = 1,
+    parameter COUNT_ADDR = 0) (
 `ifdef USE_POWER_PINS
     inout vdda1,  // User area 1 3.3V supply
     inout vdda2,  // User area 2 3.3V supply
@@ -47,8 +48,25 @@ module user_project #(
     output [2:0] user_irq
 );
 
-assign io_out = io_in; //* wbs_dat_i;
-// assign io_oeb = io_in * wbs_adr_i;
-// assign la_data_out = la_data_in * la_oenb;
+wire valid = wbs_cyc_i && wbs_stb_i;
+assign io_oeb[37:32] = 6'h3f;
+
+counter #(.COUNT_STEP(COUNT_STEP),.COUNT_ADDR(COUNT_ADDR)) count(
+    .wb_clk_i(wb_clk_i),
+    .wb_rst_i(wb_rst_i),
+    .la_clk_rst(la_data_in[31:30]),
+    .la_clk_rst_oenb(la_oenb[31:30]),
+    .valid(valid),
+    .wstrb(wbs_sel_i & {4{wbs_we_i}}),
+    .wdata(wbs_dat_i),
+    .wbs_adr_i(wbs_adr_i),
+    .la_write(~la_oenb[29:0] & ~{BITS-2{valid}}),
+    .la_input(la_data_in[29:0]),
+    .ready(wbs_ack_o),
+    .rdata(wbs_dat_o),
+    .count(io_out),
+    .io_oeb(io_oeb[BITS-1:0])
+
+);
 
 endmodule
