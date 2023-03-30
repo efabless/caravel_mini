@@ -55,14 +55,10 @@ set ::env(FP_TAPCELL_DIST) 10
 
 ## PDN 
 set ::env(FP_PDN_MACRO_HOOKS) {
-    genblk1\\\\\\[0\\\\\\].user_project vccd1 vssd1 vccd1 vssd1,\
-    genblk1\\\\\\[0\\\\\\].user_project vccd2 vssd2 vccd2 vssd2,\
-    genblk1\\\\\\[1\\\\\\].user_project vccd1 vssd1 vccd1 vssd1,\
-    genblk1\\\\\\[1\\\\\\].user_project vccd2 vssd2 vccd2 vssd2,\
-    genblk1\\\\\\[2\\\\\\].user_project vccd1 vssd1 vccd1 vssd1,\
-    genblk1\\\\\\[2\\\\\\].user_project vccd2 vssd2 vccd2 vssd2,\
-    genblk1\\\\\\[3\\\\\\].user_project vccd1 vssd1 vccd1 vssd1,\
-    genblk1\\\\\\[3\\\\\\].user_project vccd2 vssd2 vccd2 vssd2
+    user_projects\\\\\\[0\\\\\\].genblk1.user_project vccd2 vssd2 VPWR VGND,\
+    user_projects\\\\\\[1\\\\\\].genblk1.user_project vccd1 vssd1 VPWR VGND,\
+    user_projects\\\\\\[2\\\\\\].genblk1.user_project vccd2 vssd2 VPWR VGND,\
+    user_projects\\\\\\[3\\\\\\].genblk1.user_project vccd1 vssd1 VPWR VGND
 }
 
 
@@ -75,7 +71,7 @@ set ::env(CTS_CLK_BUFFER_LIST) {sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__clkbu
 set ::env(CTS_CLK_MAX_WIRE_LENGTH) 600
 
 ##PLACEMENT
-set ::env(PL_ROUTABILITY_DRIVEN) 0
+set ::env(PL_ROUTABILITY_DRIVEN) 1
 set ::env(PL_TIME_DRIVEN) 1
 set ::env(PL_TARGET_DENSITY) 0.15
 
@@ -113,7 +109,7 @@ set ::env(GLB_RESIZER_MAX_SLEW_MARGIN) 30
 set ::env(GLB_RESIZER_MAX_CAP_MARGIN) 30
 
 ## Antenna
-set ::env(DIODE_INSERTION_STRATEGY) 3
+set ::env(DIODE_INSERTION_STRATEGY) 6
 set ::env(GRT_ANT_ITERS) 15
 set ::env(GRT_MAX_DIODE_INS_ITERS) 40
 set ::env(DIODE_PADDING) 0

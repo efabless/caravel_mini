@@ -1,10 +1,14 @@
 Design Name: user_project_wrapper
-Run Directory: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38
-Source not found.
+Run Directory: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59
+----------------------------------------
+
+Magic DRC Summary:
+Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
 ----------------------------------------
 
 LVS Summary:
-Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/signoff/user_project_wrapper.lvs.lef.log
+Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/user_project_wrapper.lvs.lef.log
 Source not found.
 ----------------------------------------
 

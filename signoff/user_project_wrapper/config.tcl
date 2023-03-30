@@ -45,7 +45,7 @@ set ::env(DETAILED_ROUTER) {tritonroute}
 set ::env(DIE_AREA) {0 0 2920 3520}
 set ::env(DIODE_CELL) {sky130_fd_sc_hd__diode_2}
 set ::env(DIODE_CELL_PIN) {DIODE}
-set ::env(DIODE_INSERTION_STRATEGY) {3}
+set ::env(DIODE_INSERTION_STRATEGY) {6}
 set ::env(DIODE_PADDING) {0}
 set ::env(DPL_CELL_PADDING) {4}
 set ::env(DRC_EXCLUDE_CELL_LIST) {/home/hosni/mpc/openlane/user_project_wrapper/drc_exclude.cells}
@@ -94,7 +94,7 @@ set ::env(FP_PDN_HWIDTH) {3.1}
 set ::env(FP_PDN_IRDROP) {1}
 set ::env(FP_PDN_LOWER_LAYER) {met4}
 set ::env(FP_PDN_MACRO_HOOKS) {
-    genblk1\\\\\\[0\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[0\\\\\\].user_project vccd2 vssd2 vccd2 vssd2, genblk1\\\\\\[1\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[1\\\\\\].user_project vccd2 vssd2 vccd2 vssd2, genblk1\\\\\\[2\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[2\\\\\\].user_project vccd2 vssd2 vccd2 vssd2, genblk1\\\\\\[3\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[3\\\\\\].user_project vccd2 vssd2 vccd2 vssd2
+    user_projects\\\\\\[0\\\\\\].genblk1.user_project vccd2 vssd2 VPWR VGND, user_projects\\\\\\[1\\\\\\].genblk1.user_project vccd1 vssd1 VPWR VGND, user_projects\\\\\\[2\\\\\\].genblk1.user_project vccd2 vssd2 VPWR VGND, user_projects\\\\\\[3\\\\\\].genblk1.user_project vccd1 vssd1 VPWR VGND
 }
 set ::env(FP_PDN_RAILS_LAYER) {met1}
 set ::env(FP_PDN_RAIL_OFFSET) {0}
@@ -116,7 +116,7 @@ set ::env(FULL_ADDER_MAP) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/ope
 set ::env(GDS_FILES) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds}
 set ::env(GDS_FILES_OPT) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds}
 set ::env(GENERATE_FINAL_SUMMARY_REPORT) {1}
-set ::env(GLB_CFG_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/config.tcl}
+set ::env(GLB_CFG_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl}
 set ::env(GLB_OPTIMIZE_MIRRORING) {1}
 set ::env(GLB_RESIZER_ALLOW_SETUP_VIOS) {0}
 set ::env(GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT) {50}
@@ -160,7 +160,7 @@ set ::env(LIB_SLOWEST) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_
 set ::env(LIB_SLOWEST_OPT) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib}
 set ::env(LIB_SYNTH) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib}
 set ::env(LIB_TYPICAL) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib}
-set ::env(LOGS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs}
+set ::env(LOGS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs}
 set ::env(LVS_CONNECT_BY_LABEL) {0}
 set ::env(LVS_INSERT_POWER_PINS) {1}
 set ::env(MACRO_BLOCKAGES_LAYER) {li1 met1 met2 met3 met4}
@@ -215,7 +215,7 @@ set ::env(PL_RESIZER_SETUP_MAX_BUFFER_PERCENT) {50}
 set ::env(PL_RESIZER_SETUP_SLACK_MARGIN) {0.1}
 set ::env(PL_RESIZER_TIE_SEPERATION) {0}
 set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) {1}
-set ::env(PL_ROUTABILITY_DRIVEN) {0}
+set ::env(PL_ROUTABILITY_DRIVEN) {1}
 set ::env(PL_SKIP_INITIAL_PLACEMENT) {0}
 set ::env(PL_TARGET_DENSITY) {0.15}
 set ::env(PL_TIME_DRIVEN) {1}
@@ -240,8 +240,8 @@ set ::env(RCX_RULES) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane
 set ::env(RCX_RULES_MAX) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre}
 set ::env(RCX_RULES_MIN) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.min.calibre}
 set ::env(RCX_SDC_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/signoff_user_project_wrapper.sdc}
-set ::env(REPORTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports}
-set ::env(RESULTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results}
+set ::env(REPORTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports}
+set ::env(RESULTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results}
 set ::env(RE_BUFFER_CELL) {sky130_fd_sc_hd__buf_4}
 set ::env(RIGHT_MARGIN_MULT) {12}
 set ::env(RIPPLE_CARRY_ADDER_MAP) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/rca_map.v}
@@ -252,7 +252,7 @@ set ::env(RSZ_USE_OLD_REMOVER) {0}
 set ::env(RT_MAX_LAYER) {met5}
 set ::env(RT_MIN_LAYER) {met1}
 set ::env(RUN_CVC) {0}
-set ::env(RUN_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38}
+set ::env(RUN_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59}
 set ::env(RUN_DRT) {1}
 set ::env(RUN_FILL_INSERTION) {1}
 set ::env(RUN_IRDROP_REPORT) {1}
@@ -263,11 +263,11 @@ set ::env(RUN_LVS) {1}
 set ::env(RUN_MAGIC) {1}
 set ::env(RUN_MAGIC_DRC) {1}
 set ::env(RUN_SPEF_EXTRACTION) {1}
-set ::env(RUN_TAG) {23_02_28_05_38}
+set ::env(RUN_TAG) {23_03_20_08_59}
 set ::env(RUN_TAP_DECAP_INSERTION) {1}
 set ::env(SCLPATH) {/home/hosni/swift/OpenLane/pdks/sky130A/sky130_fd_sc_hd}
 set ::env(SPEF_EXTRACTOR) {openrcx}
-set ::env(START_TIME) {2023.02.28_13.38.26}
+set ::env(START_TIME) {2023.03.20_15.59.53}
 set ::env(STA_REPORT_POWER) {1}
 set ::env(STA_WRITE_LIB) {0}
 set ::env(STD_CELL_GROUND_PINS) {VGND VNB}
@@ -309,7 +309,7 @@ set ::env(TECH_LEF_MAX) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130
 set ::env(TECH_LEF_MIN) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef}
 set ::env(TECH_LEF_OPT) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef}
 set ::env(TERMINAL_OUTPUT) {/dev/null}
-set ::env(TMP_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp}
+set ::env(TMP_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp}
 set ::env(TOP_MARGIN_MULT) {4}
 set ::env(TRACKS_INFO_FILE) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info}
 set ::env(TRISTATE_BUFFER_MAP) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v}
@@ -321,42 +321,42 @@ set ::env(VERILOG_FILES) { /home/hosni/mpc/openlane/user_project_wrapper/../../v
 set ::env(VERILOG_FILES_BLACKBOX) { /home/hosni/mpc/openlane/user_project_wrapper/../../verilog/rtl/defines.v  /home/hosni/mpc/openlane/user_project_wrapper/../../verilog/rtl/user_project.v  }
 set ::env(WIRE_RC_LAYER) {met1}
 set ::env(YOSYS_REWRITE_VERILOG) {0}
-set ::env(cts_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/cts}
-set ::env(cts_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/cts}
-set ::env(cts_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/cts}
-set ::env(cts_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/cts}
-set ::env(eco_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/eco}
-set ::env(eco_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/eco}
-set ::env(eco_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/eco}
-set ::env(eco_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/eco}
-set ::env(floorplan_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/floorplan}
-set ::env(floorplan_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/floorplan}
-set ::env(floorplan_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/floorplan}
-set ::env(floorplan_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/floorplan}
-set ::env(placement_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/placement}
-set ::env(placement_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/placement}
-set ::env(placement_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/placement}
-set ::env(placement_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/placement}
-set ::env(routing_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/routing}
-set ::env(routing_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/routing}
-set ::env(routing_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing}
-set ::env(routing_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/routing}
-set ::env(signoff_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/signoff}
-set ::env(signoff_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/signoff}
-set ::env(signoff_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/signoff}
-set ::env(signoff_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/signoff}
-set ::env(synthesis_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/synthesis}
-set ::env(synthesis_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/synthesis}
-set ::env(synthesis_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/synthesis}
-set ::env(synthesis_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis}
-set ::env(CURRENT_INDEX) 34
-set ::env(CURRENT_DEF) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.def
-set ::env(CURRENT_GUIDE) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/routing/21-global.guide
-set ::env(CURRENT_NETLIST) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.nl.v
+set ::env(cts_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/cts}
+set ::env(cts_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/cts}
+set ::env(cts_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/cts}
+set ::env(cts_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/cts}
+set ::env(eco_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/eco}
+set ::env(eco_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/eco}
+set ::env(eco_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/eco}
+set ::env(eco_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/eco}
+set ::env(floorplan_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/floorplan}
+set ::env(floorplan_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/floorplan}
+set ::env(floorplan_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/floorplan}
+set ::env(floorplan_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan}
+set ::env(placement_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement}
+set ::env(placement_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/placement}
+set ::env(placement_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/placement}
+set ::env(placement_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/placement}
+set ::env(routing_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing}
+set ::env(routing_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/routing}
+set ::env(routing_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing}
+set ::env(routing_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing}
+set ::env(signoff_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff}
+set ::env(signoff_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff}
+set ::env(signoff_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/signoff}
+set ::env(signoff_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff}
+set ::env(synthesis_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/synthesis}
+set ::env(synthesis_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/synthesis}
+set ::env(synthesis_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/synthesis}
+set ::env(synthesis_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis}
+set ::env(CURRENT_INDEX) 40
+set ::env(CURRENT_DEF) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/user_project_wrapper.def
+set ::env(CURRENT_GUIDE) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/22-global.guide
+set ::env(CURRENT_NETLIST) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/36-user_project_wrapper.nl.v
 set ::env(CURRENT_POWERED_NETLIST) {0}
-set ::env(CURRENT_ODB) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.odb
+set ::env(CURRENT_ODB) /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/user_project_wrapper.odb
 set ::env(PDK_ROOT) {/home/hosni/swift/OpenLane/pdks}
-set ::env(ANTENNA_VIOLATOR_LIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/signoff/33-antenna_violators.rpt}
+set ::env(ANTENNA_VIOLATOR_LIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/34-antenna_violators.rpt}
 set ::env(BASE_SDC_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/base_user_project_wrapper.sdc}
 set ::env(BASIC_PREP_COMPLETE) {1}
 set ::env(BOTTOM_MARGIN_MULT) {4}
@@ -395,17 +395,17 @@ set ::env(CTS_SQR_RES) {0.125}
 set ::env(CTS_TARGET_SKEW) {200}
 set ::env(CTS_TECH_DIR) {N/A}
 set ::env(CTS_TOLERANCE) {100}
-set ::env(CURRENT_DEF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.def}
-set ::env(CURRENT_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/routing}
-set ::env(CURRENT_GDS) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/signoff/user_project_wrapper.gds}
-set ::env(CURRENT_GUIDE) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/routing/21-global.guide}
-set ::env(CURRENT_INDEX) {34}
-set ::env(CURRENT_NETLIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.nl.v}
-set ::env(CURRENT_ODB) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.odb}
-set ::env(CURRENT_POWERED_NETLIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/user_project_wrapper.pnl.v}
-set ::env(CURRENT_SDC) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/18-user_project_wrapper.sdc}
-set ::env(CURRENT_SDF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/mca/process_corner_nom/user_project_wrapper.sdf}
-set ::env(CURRENT_SPEF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/mca/process_corner_nom/user_project_wrapper.spef}
+set ::env(CURRENT_DEF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/36-user_project_wrapper.p.def}
+set ::env(CURRENT_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing}
+set ::env(CURRENT_GDS) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/signoff/user_project_wrapper.gds}
+set ::env(CURRENT_GUIDE) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/22-global.guide}
+set ::env(CURRENT_INDEX) {40}
+set ::env(CURRENT_NETLIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/36-user_project_wrapper.nl.v}
+set ::env(CURRENT_ODB) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/user_project_wrapper.odb}
+set ::env(CURRENT_POWERED_NETLIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/36-user_project_wrapper.pnl.v}
+set ::env(CURRENT_SDC) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/18-user_project_wrapper.sdc}
+set ::env(CURRENT_SDF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/mca/process_corner_nom/user_project_wrapper.sdf}
+set ::env(CURRENT_SPEF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/mca/process_corner_nom/user_project_wrapper.spef}
 set ::env(CVC_SCRIPTS_DIR) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/cvc}
 set ::env(DATA_WIRE_RC_LAYER) {met2}
 set ::env(DECAP_CELL) {sky130_ef_sc_hd__decap_12 sky130_fd_sc_hd__decap_8 sky130_fd_sc_hd__decap_6 sky130_fd_sc_hd__decap_4 sky130_fd_sc_hd__decap_3}
@@ -419,7 +419,7 @@ set ::env(DETAILED_ROUTER) {tritonroute}
 set ::env(DIE_AREA) {0.0 0.0 2920.0 3520.0}
 set ::env(DIODE_CELL) {sky130_fd_sc_hd__diode_2}
 set ::env(DIODE_CELL_PIN) {DIODE}
-set ::env(DIODE_INSERTION_STRATEGY) {3}
+set ::env(DIODE_INSERTION_STRATEGY) {6}
 set ::env(DIODE_PADDING) {0}
 set ::env(DONT_USE_CELLS) {sky130_fd_sc_hd__a2111oi_0 sky130_fd_sc_hd__a21boi_0 sky130_fd_sc_hd__and2_0 sky130_fd_sc_hd__buf_16 sky130_fd_sc_hd__clkdlybuf4s15_1 sky130_fd_sc_hd__clkdlybuf4s18_1 sky130_fd_sc_hd__fa_4 sky130_fd_sc_hd__lpflow_bleeder_1 sky130_fd_sc_hd__lpflow_clkbufkapwr_1 sky130_fd_sc_hd__lpflow_clkbufkapwr_16 sky130_fd_sc_hd__lpflow_clkbufkapwr_2 sky130_fd_sc_hd__lpflow_clkbufkapwr_4 sky130_fd_sc_hd__lpflow_clkbufkapwr_8 sky130_fd_sc_hd__lpflow_clkinvkapwr_1 sky130_fd_sc_hd__lpflow_clkinvkapwr_16 sky130_fd_sc_hd__lpflow_clkinvkapwr_2 sky130_fd_sc_hd__lpflow_clkinvkapwr_4 sky130_fd_sc_hd__lpflow_clkinvkapwr_8 sky130_fd_sc_hd__lpflow_decapkapwr_12 sky130_fd_sc_hd__lpflow_decapkapwr_3 sky130_fd_sc_hd__lpflow_decapkapwr_4 sky130_fd_sc_hd__lpflow_decapkapwr_6 sky130_fd_sc_hd__lpflow_decapkapwr_8 sky130_fd_sc_hd__lpflow_inputiso0n_1 sky130_fd_sc_hd__lpflow_inputiso0p_1 sky130_fd_sc_hd__lpflow_inputiso1n_1 sky130_fd_sc_hd__lpflow_inputiso1p_1 sky130_fd_sc_hd__lpflow_inputisolatch_1 sky130_fd_sc_hd__lpflow_isobufsrc_1 sky130_fd_sc_hd__lpflow_isobufsrc_16 sky130_fd_sc_hd__lpflow_isobufsrc_2 sky130_fd_sc_hd__lpflow_isobufsrc_4 sky130_fd_sc_hd__lpflow_isobufsrc_8 sky130_fd_sc_hd__lpflow_isobufsrckapwr_16 sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_4 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 sky130_fd_sc_hd__mux4_4 sky130_fd_sc_hd__o21ai_0 sky130_fd_sc_hd__o311ai_0 sky130_fd_sc_hd__or2_0 sky130_fd_sc_hd__probe_p_8 sky130_fd_sc_hd__probec_p_8 sky130_fd_sc_hd__xor3_1 sky130_fd_sc_hd__xor3_2 sky130_fd_sc_hd__xor3_4 sky130_fd_sc_hd__xnor3_1 sky130_fd_sc_hd__xnor3_2 sky130_fd_sc_hd__xnor3_4 sky130_fd_sc_hd__a2111oi_1 sky130_fd_sc_hd__a211o_1 sky130_fd_sc_hd__a211oi_1 sky130_fd_sc_hd__a2111o_1 sky130_fd_sc_hd__a21bo_1 sky130_fd_sc_hd__a21boi_1 sky130_fd_sc_hd__a21o_1 sky130_fd_sc_hd__a21oi_1 sky130_fd_sc_hd__a221o_1 sky130_fd_sc_hd__a221oi_1 sky130_fd_sc_hd__a222oi_1 sky130_fd_sc_hd__a22o_1 sky130_fd_sc_hd__a22oi_1 sky130_fd_sc_hd__a2bb2o_1 sky130_fd_sc_hd__a2bb2oi_1 sky130_fd_sc_hd__a311o_1 sky130_fd_sc_hd__a311oi_1 sky130_fd_sc_hd__a2111o_1 sky130_fd_sc_hd__a21bo_1 sky130_fd_sc_hd__a21boi_1 sky130_fd_sc_hd__a21o_1 sky130_fd_sc_hd__a21oi_1 sky130_fd_sc_hd__a221o_1 sky130_fd_sc_hd__a221oi_1 sky130_fd_sc_hd__a222oi_1 sky130_fd_sc_hd__a22o_1 sky130_fd_sc_hd__a22oi_1 sky130_fd_sc_hd__a2bb2o_1 sky130_fd_sc_hd__a2bb2oi_1 sky130_fd_sc_hd__a311o_1 sky130_fd_sc_hd__a311oi_1 sky130_fd_sc_hd__a31o_1 sky130_fd_sc_hd__a31oi_1 sky130_fd_sc_hd__a32o_1 sky130_fd_sc_hd__a32oi_1 sky130_fd_sc_hd__a41o_1 sky130_fd_sc_hd__a41oi_1 sky130_fd_sc_hd__and2_1 sky130_fd_sc_hd__and2b_1 sky130_fd_sc_hd__and3_1 sky130_fd_sc_hd__and3b_1 sky130_fd_sc_hd__and4_1 sky130_fd_sc_hd__and4b_1 sky130_fd_sc_hd__and4bb_1 sky130_fd_sc_hd__dfbbn_1 sky130_fd_sc_hd__dfbbp_1 sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrtn_1 sky130_fd_sc_hd__dfrtp_1 sky130_fd_sc_hd__dfsbp_1 sky130_fd_sc_hd__dfstp_1 sky130_fd_sc_hd__dfxbp_1 sky130_fd_sc_hd__dfxtp_1 sky130_fd_sc_hd__ebufn_1 sky130_fd_sc_hd__inv_1 sky130_fd_sc_hd__nand2_1 sky130_fd_sc_hd__nand2b_1 sky130_fd_sc_hd__nand3_1 sky130_fd_sc_hd__nand3b_1 sky130_fd_sc_hd__nand4_1 sky130_fd_sc_hd__nand4b_1 sky130_fd_sc_hd__nand4bb_1 sky130_fd_sc_hd__nor2_1 sky130_fd_sc_hd__nor2b_1 sky130_fd_sc_hd__nor3_1 sky130_fd_sc_hd__nor3b_1 sky130_fd_sc_hd__nor4_1 sky130_fd_sc_hd__nor4b_1 sky130_fd_sc_hd__nor4bb_1 sky130_fd_sc_hd__o2111a_1 sky130_fd_sc_hd__o2111ai_1 sky130_fd_sc_hd__o211a_1 sky130_fd_sc_hd__o211ai_1 sky130_fd_sc_hd__o21a_1 sky130_fd_sc_hd__o21ai_1 sky130_fd_sc_hd__o21ba_1 sky130_fd_sc_hd__o21bai_1 sky130_fd_sc_hd__o221a_1 sky130_fd_sc_hd__o221ai_1 sky130_fd_sc_hd__o22a_1 sky130_fd_sc_hd__o22ai_1 sky130_fd_sc_hd__o2bb2a_1 sky130_fd_sc_hd__o2bb2ai_1 sky130_fd_sc_hd__o311a_1 sky130_fd_sc_hd__o311ai_1 sky130_fd_sc_hd__o31a_1 sky130_fd_sc_hd__o31ai_1 sky130_fd_sc_hd__o32a_1 sky130_fd_sc_hd__o32ai_1 sky130_fd_sc_hd__o41a_1 sky130_fd_sc_hd__o41ai_1 sky130_fd_sc_hd__or2_1 sky130_fd_sc_hd__or2b_1 sky130_fd_sc_hd__or3_1 sky130_fd_sc_hd__or3b_1 sky130_fd_sc_hd__or4_1 sky130_fd_sc_hd__or4b_1 sky130_fd_sc_hd__or4bb_1 sky130_fd_sc_hd__xnor2_1 sky130_fd_sc_hd__xor2_1 sky130_fd_sc_hd__or2 sky130_fd_sc_hd__or2_0 sky130_fd_sc_hd__or2_1 sky130_fd_sc_hd__or2_2 sky130_fd_sc_hd__or2_4 sky130_fd_sc_hd__or2b sky130_fd_sc_hd__or2b_1 sky130_fd_sc_hd__or2b_2 sky130_fd_sc_hd__or2b_4 sky130_fd_sc_hd__or3 sky130_fd_sc_hd__or3_1 sky130_fd_sc_hd__or3_2 sky130_fd_sc_hd__or3_4 sky130_fd_sc_hd__or3b sky130_fd_sc_hd__or3b_1 sky130_fd_sc_hd__or3b_2 sky130_fd_sc_hd__or3b_4 sky130_fd_sc_hd__or4 sky130_fd_sc_hd__or4_1 sky130_fd_sc_hd__or4_2 sky130_fd_sc_hd__or4_4 sky130_fd_sc_hd__or4b sky130_fd_sc_hd__or4b_1 sky130_fd_sc_hd__or4b_2 sky130_fd_sc_hd__or4b_4 sky130_fd_sc_hd__or4bb sky130_fd_sc_hd__or4bb_1 sky130_fd_sc_hd__or4bb_2 sky130_fd_sc_hd__or4bb_4 sky130_fd_sc_hd__inv_2 sky130_fd_sc_hd__a21boi_0 sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_2 sky130_fd_sc_hd__bufbuf_1 sky130_fd_sc_hd__bufinv_1 sky130_fd_sc_hd__clkbuf_1 sky130_fd_sc_hd__clkbuf_2 sky130_fd_sc_hd__clkdlybuf4s18_1 sky130_fd_sc_hd__clkdlybuf4s25_1 sky130_fd_sc_hd__clkdlybuf4s50_1 sky130_fd_sc_hd__clkinv_1 sky130_fd_sc_hd__dlygate4sd2_1 sky130_fd_sc_hd__dlygate4sd3_1 sky130_fd_sc_hd__dlymetal6s4s_1 sky130_fd_sc_hd__dlymetal6s6s_1 }
 set ::env(DPL_CELL_PADDING) {4}
@@ -433,6 +433,7 @@ set ::env(ECO_SKIP_PIN) {1}
 set ::env(EXTRA_GDS_FILES) { /home/hosni/mpc/openlane/user_project_wrapper/../../gds/user_project.gds  }
 set ::env(EXTRA_LEFS) { /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef  }
 set ::env(EXTRA_LIBS) { /home/hosni/mpc/openlane/user_project_wrapper/../../lib/user_project.nom.lib  }
+set ::env(EXT_NETLIST) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/signoff/user_project_wrapper.spice}
 set ::env(FAKEDIODE_CELL) {sky130_ef_sc_hd__fakediode_2}
 set ::env(FILL_CELL) {sky130_fd_sc_hd__fill*}
 set ::env(FP_ASPECT_RATIO) {1}
@@ -469,7 +470,7 @@ set ::env(FP_PDN_HWIDTH) {3.1}
 set ::env(FP_PDN_IRDROP) {1}
 set ::env(FP_PDN_LOWER_LAYER) {met4}
 set ::env(FP_PDN_MACRO_HOOKS) {
-    genblk1\\\\\\[0\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[0\\\\\\].user_project vccd2 vssd2 vccd2 vssd2, genblk1\\\\\\[1\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[1\\\\\\].user_project vccd2 vssd2 vccd2 vssd2, genblk1\\\\\\[2\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[2\\\\\\].user_project vccd2 vssd2 vccd2 vssd2, genblk1\\\\\\[3\\\\\\].user_project vccd1 vssd1 vccd1 vssd1, genblk1\\\\\\[3\\\\\\].user_project vccd2 vssd2 vccd2 vssd2
+    user_projects\\\\\\[0\\\\\\].genblk1.user_project vccd2 vssd2 VPWR VGND, user_projects\\\\\\[1\\\\\\].genblk1.user_project vccd1 vssd1 VPWR VGND, user_projects\\\\\\[2\\\\\\].genblk1.user_project vccd2 vssd2 VPWR VGND, user_projects\\\\\\[3\\\\\\].genblk1.user_project vccd1 vssd1 VPWR VGND
 }
 set ::env(FP_PDN_RAILS_LAYER) {met1}
 set ::env(FP_PDN_RAIL_OFFSET) {0}
@@ -491,7 +492,7 @@ set ::env(FULL_ADDER_MAP) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/ope
 set ::env(GDS_FILES) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds}
 set ::env(GDS_FILES_OPT) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds}
 set ::env(GENERATE_FINAL_SUMMARY_REPORT) {1}
-set ::env(GLB_CFG_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/config.tcl}
+set ::env(GLB_CFG_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl}
 set ::env(GLB_OPTIMIZE_MIRRORING) {1}
 set ::env(GLB_RESIZER_ALLOW_SETUP_VIOS) {0}
 set ::env(GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT) {50}
@@ -521,7 +522,7 @@ set ::env(GRT_MAX_DIODE_INS_ITERS) {40}
 set ::env(GRT_OBS) { met5 86 116 1386 1716,  met5 1534 116 2834 1716,  met5 86 1830 1386 3430,  met5 1534 1830 2834 3430  }
 set ::env(GRT_OVERFLOW_ITERS) {50}
 set ::env(HOME) {/}
-set ::env(HOSTNAME) {082dbb6db41c}
+set ::env(HOSTNAME) {98e3a6b2b9a4}
 set ::env(IO_PCT) {0.2}
 set ::env(IO_SYNC) {0}
 set ::env(KLAYOUT_DRC_KLAYOUT_GDS) {0}
@@ -532,23 +533,23 @@ set ::env(KLAYOUT_XOR_GDS) {1}
 set ::env(KLAYOUT_XOR_THREADS) {1}
 set ::env(KLAYOUT_XOR_XML) {1}
 set ::env(LANG) {en_US.UTF-8}
-set ::env(LAST_TIMING_REPORT_TAG) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/signoff/32-rcx_sta}
+set ::env(LAST_TIMING_REPORT_TAG) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/33-rcx_sta}
 set ::env(LC_ALL) {en_US.UTF-8}
 set ::env(LC_CTYPE) {en_US.UTF-8}
 set ::env(LD_LIBRARY_PATH) {/build//lib:/build//lib/Linux-x86_64:}
 set ::env(LEC_ENABLE) {0}
 set ::env(LEFT_MARGIN_MULT) {12}
-set ::env(LIB_CTS) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/cts/cts.lib}
+set ::env(LIB_CTS) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/cts/cts.lib}
 set ::env(LIB_FASTEST) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib}
 set ::env(LIB_SLOWEST) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib}
 set ::env(LIB_SLOWEST_OPT) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib}
-set ::env(LIB_SYNTH) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis/trimmed.lib}
+set ::env(LIB_SYNTH) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/trimmed.lib}
 set ::env(LIB_SYNTH_COMPLETE) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib}
-set ::env(LIB_SYNTH_COMPLETE_NO_PG) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis/2-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib}
-set ::env(LIB_SYNTH_MERGED) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis/merged.lib}
-set ::env(LIB_SYNTH_NO_PG) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis/2-trimmed.no_pg.lib}
+set ::env(LIB_SYNTH_COMPLETE_NO_PG) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/2-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib}
+set ::env(LIB_SYNTH_MERGED) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/merged.lib}
+set ::env(LIB_SYNTH_NO_PG) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/2-trimmed.no_pg.lib}
 set ::env(LIB_TYPICAL) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib}
-set ::env(LOGS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs}
+set ::env(LOGS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs}
 set ::env(LVS_CONNECT_BY_LABEL) {0}
 set ::env(LVS_INSERT_POWER_PINS) {1}
 set ::env(MACRO_BLOCKAGES_LAYER) {li1 met1 met2 met3 met4}
@@ -559,7 +560,7 @@ set ::env(MAGIC_DEF_NO_BLOCKAGES) {1}
 set ::env(MAGIC_DISABLE_HIER_GDS) {1}
 set ::env(MAGIC_DRC_USE_GDS) {1}
 set ::env(MAGIC_EXT_USE_GDS) {0}
-set ::env(MAGIC_GDS) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/signoff/user_project_wrapper.magic.gds}
+set ::env(MAGIC_GDS) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/signoff/user_project_wrapper.magic.gds}
 set ::env(MAGIC_GDS_ALLOW_ABSTRACT) {0}
 set ::env(MAGIC_GDS_POLYGON_SUBCELLS) {0}
 set ::env(MAGIC_GENERATE_GDS) {1}
@@ -575,16 +576,16 @@ set ::env(MAGTYPE) {maglef}
 set ::env(MANPATH) {/build//share/man:}
 set ::env(MAX_METAL_LAYER) {6}
 set ::env(MCW_ROOT) {/home/hosni/caravel_sky130/caravel_mgmt_soc_litex}
-set ::env(MC_SDF_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/mca/sdf}
-set ::env(MC_SPEF_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing/mca/spef}
-set ::env(MERGED_LEF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/merged.nom.lef}
-set ::env(MERGED_LEF_MAX) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/merged.max.lef}
-set ::env(MERGED_LEF_MIN) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/merged.min.lef}
+set ::env(MC_SDF_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/mca/sdf}
+set ::env(MC_SPEF_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/mca/spef}
+set ::env(MERGED_LEF) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef}
+set ::env(MERGED_LEF_MAX) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.max.lef}
+set ::env(MERGED_LEF_MIN) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.min.lef}
 set ::env(MISMATCHES_OK) {1}
 set ::env(NETGEN_SETUP_FILE) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl}
 set ::env(NO_SYNTH_CELL_LIST) {/home/hosni/mpc/openlane/user_project_wrapper/no_synth.cells}
 set ::env(OPENLANE_ROOT) {/openlane}
-set ::env(OPENLANE_RUN_TAG) {23_02_28_05_38}
+set ::env(OPENLANE_RUN_TAG) {23_03_20_08_59}
 set ::env(OPENLANE_VERBOSE) {0}
 set ::env(OPENLANE_VERSION) {1ed36219093ce86ddbc1b981e461c5f38e5bba72}
 set ::env(OPENROAD) {/build/}
@@ -624,7 +625,7 @@ set ::env(PL_RESIZER_SETUP_MAX_BUFFER_PERCENT) {50}
 set ::env(PL_RESIZER_SETUP_SLACK_MARGIN) {1}
 set ::env(PL_RESIZER_TIE_SEPERATION) {0}
 set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) {1}
-set ::env(PL_ROUTABILITY_DRIVEN) {0}
+set ::env(PL_ROUTABILITY_DRIVEN) {1}
 set ::env(PL_SKIP_INITIAL_PLACEMENT) {0}
 set ::env(PL_TARGET_DENSITY) {0.2}
 set ::env(PL_TIME_DRIVEN) {1}
@@ -650,20 +651,20 @@ set ::env(RCX_RULES) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane
 set ::env(RCX_RULES_MAX) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.max.calibre}
 set ::env(RCX_RULES_MIN) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.min.calibre}
 set ::env(RCX_SDC_FILE) {/home/hosni/mpc/openlane/user_project_wrapper/signoff_user_project_wrapper.sdc}
-set ::env(REPORTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports}
-set ::env(RESULTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results}
+set ::env(REPORTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports}
+set ::env(RESULTS_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results}
 set ::env(RE_BUFFER_CELL) {sky130_fd_sc_hd__buf_4}
 set ::env(RIGHT_MARGIN_MULT) {12}
 set ::env(RIPPLE_CARRY_ADDER_MAP) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/rca_map.v}
 set ::env(ROOT_CLK_BUFFER) {sky130_fd_sc_hd__clkbuf_16}
 set ::env(ROUTING_CORES) {36}
 set ::env(RSZ_DONT_TOUCH_RX) {\$^}
-set ::env(RSZ_LIB) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis/resizer_sky130_fd_sc_hd__tt_025C_1v80.lib}
+set ::env(RSZ_LIB) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/resizer_sky130_fd_sc_hd__tt_025C_1v80.lib}
 set ::env(RSZ_USE_OLD_REMOVER) {0}
 set ::env(RT_MAX_LAYER) {met5}
 set ::env(RT_MIN_LAYER) {met1}
 set ::env(RUN_CVC) {0}
-set ::env(RUN_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38}
+set ::env(RUN_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59}
 set ::env(RUN_DRT) {1}
 set ::env(RUN_FILL_INSERTION) {1}
 set ::env(RUN_IRDROP_REPORT) {1}
@@ -675,13 +676,13 @@ set ::env(RUN_MAGIC) {1}
 set ::env(RUN_MAGIC_DRC) {1}
 set ::env(RUN_SPEF_EXTRACTION) {1}
 set ::env(RUN_STANDALONE) {1}
-set ::env(RUN_TAG) {23_02_28_05_38}
+set ::env(RUN_TAG) {23_03_20_08_59}
 set ::env(RUN_TAP_DECAP_INSERTION) {1}
 set ::env(SCLPATH) {/home/hosni/swift/OpenLane/pdks/sky130A/sky130_fd_sc_hd}
 set ::env(SCRIPTS_DIR) {/openlane/scripts}
 set ::env(SHLVL) {1}
 set ::env(SPEF_EXTRACTOR) {openrcx}
-set ::env(START_TIME) {2023.02.28_13.38.26}
+set ::env(START_TIME) {2023.03.20_15.59.53}
 set ::env(STA_PRE_CTS) {0}
 set ::env(STA_REPORT_POWER) {1}
 set ::env(STA_WRITE_LIB) {0}
@@ -729,10 +730,10 @@ set ::env(TECH_LEF_OPT) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130
 set ::env(TECH_METAL_LAYERS) {li1 met1 met2 met3 met4 met5}
 set ::env(TERM) {xterm}
 set ::env(TERMINAL_OUTPUT) {/dev/null}
-set ::env(TMP_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp}
+set ::env(TMP_DIR) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp}
 set ::env(TOP_MARGIN_MULT) {4}
 set ::env(TRACKS_INFO_FILE) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info}
-set ::env(TRACKS_INFO_FILE_PROCESSED) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/routing/config.tracks}
+set ::env(TRACKS_INFO_FILE_PROCESSED) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/config.tracks}
 set ::env(TRISTATE_BUFFER_MAP) {/home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tribuff_map.v}
 set ::env(USE_ARC_ANTENNA_CHECK) {1}
 set ::env(USE_GPIO_PADS) {0}
@@ -745,36 +746,37 @@ set ::env(VERILOG_FILES_BLACKBOX) { /home/hosni/mpc/openlane/user_project_wrappe
 set ::env(WIRE_RC_LAYER) {met1}
 set ::env(YOSYS_REWRITE_VERILOG) {0}
 set ::env(_) {/openlane/flow.tcl}
-set ::env(cts_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/cts}
-set ::env(cts_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/cts}
-set ::env(cts_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/cts}
-set ::env(cts_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/cts}
-set ::env(eco_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/eco}
-set ::env(eco_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/eco}
-set ::env(eco_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/eco}
-set ::env(eco_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/eco}
-set ::env(floorplan_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/floorplan}
-set ::env(floorplan_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/floorplan}
-set ::env(floorplan_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/floorplan}
-set ::env(floorplan_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/floorplan}
-set ::env(fp_report_prefix) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/floorplan/3-initial_fp}
-set ::env(placement_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/placement}
-set ::env(placement_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/placement}
-set ::env(placement_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/placement}
-set ::env(placement_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/placement}
-set ::env(routing_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/routing}
-set ::env(routing_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/routing}
-set ::env(routing_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/routing}
-set ::env(routing_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/routing}
-set ::env(signoff_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/signoff}
-set ::env(signoff_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/signoff}
-set ::env(signoff_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/signoff}
-set ::env(signoff_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/signoff}
-set ::env(synth_report_prefix) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/synthesis/2-synthesis}
-set ::env(synthesis_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/logs/synthesis}
-set ::env(synthesis_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/reports/synthesis}
-set ::env(synthesis_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/results/synthesis}
-set ::env(synthesis_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_02_28_05_38/tmp/synthesis}
-set ::env(timer_end) {1677593073}
-set ::env(timer_routed) {1677592912}
-set ::env(timer_start) {1677591506}
+set ::env(cts_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/cts}
+set ::env(cts_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/cts}
+set ::env(cts_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/cts}
+set ::env(cts_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/cts}
+set ::env(drc_prefix) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc}
+set ::env(eco_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/eco}
+set ::env(eco_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/eco}
+set ::env(eco_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/eco}
+set ::env(eco_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/eco}
+set ::env(floorplan_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/floorplan}
+set ::env(floorplan_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/floorplan}
+set ::env(floorplan_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/floorplan}
+set ::env(floorplan_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan}
+set ::env(fp_report_prefix) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/floorplan/3-initial_fp}
+set ::env(placement_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement}
+set ::env(placement_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/placement}
+set ::env(placement_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/placement}
+set ::env(placement_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/placement}
+set ::env(routing_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing}
+set ::env(routing_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/routing}
+set ::env(routing_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing}
+set ::env(routing_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing}
+set ::env(signoff_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff}
+set ::env(signoff_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff}
+set ::env(signoff_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/signoff}
+set ::env(signoff_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff}
+set ::env(synth_report_prefix) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/synthesis/2-synthesis}
+set ::env(synthesis_logs) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/synthesis}
+set ::env(synthesis_reports) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/synthesis}
+set ::env(synthesis_results) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/synthesis}
+set ::env(synthesis_tmpfiles) {/home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis}
+set ::env(timer_end) {1679330093}
+set ::env(timer_routed) {1679329026}
+set ::env(timer_start) {1679327993}
