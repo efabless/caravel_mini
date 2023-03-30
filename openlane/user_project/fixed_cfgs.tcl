@@ -45,8 +45,8 @@ set ::env(FP_PDN_CORE_RING) 0
 set ::env(FP_PDN_VWIDTH) 3.1
 set ::env(FP_PDN_VSPACING) 3.1
 
-set ::env(VDD_NETS) "vccd1 vccd2"
-set ::env(GND_NETS) "vssd1 vssd2"
+set ::env(VDD_NETS) "VPWR"
+set ::env(GND_NETS) "VGND"
 set ::env(FP_PDN_SKIPTRIM) 1
 set ::env(SYNTH_USE_PG_PINS_DEFINES) "USE_POWER_PINS"
 

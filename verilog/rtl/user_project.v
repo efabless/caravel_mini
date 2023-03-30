@@ -3,14 +3,8 @@ module user_project #(
     parameter COUNT_STEP = 1,
     parameter COUNT_ADDR = 0) (
 `ifdef USE_POWER_PINS
-    inout vdda1,  // User area 1 3.3V supply
-    inout vdda2,  // User area 2 3.3V supply
-    inout vssa1,  // User area 1 analog ground
-    inout vssa2,  // User area 2 analog ground
-    inout vccd1,  // User area 1 1.8V supply
-    inout vccd2,  // User area 2 1.8v supply
-    inout vssd1,  // User area 1 digital ground
-    inout vssd2,  // User area 2 digital ground
+    inout VPWR,  // User area 1 1.8V supply
+    inout VGND,  // User area 1 digital ground
 `endif
 
     // Wishbone Slave ports (WB MI A)
@@ -31,9 +25,9 @@ module user_project #(
     input  [31:0] la_oenb,
 
     // IOs
-    input  [`MPRJ_IO_PADS-1:0] io_in,
-    output [`MPRJ_IO_PADS-1:0] io_out,
-    output [`MPRJ_IO_PADS-1:0] io_oeb,
+    input  [`MPRJ_IO_PADS-3:0] io_in,
+    output [`MPRJ_IO_PADS-3:0] io_out,
+    output [`MPRJ_IO_PADS-3:0] io_oeb,
 
     // Analog (direct connection to GPIO pad---use with caution)
     // Note that analog I/O is not available on the 7 lowest-numbered
@@ -48,25 +42,29 @@ module user_project #(
     output [2:0] user_irq
 );
 
-wire valid = wbs_cyc_i && wbs_stb_i;
-assign io_oeb[37:32] = 6'h3f;
+`ifdef PnR
+    assign io_out = io_in;
+`else
+    wire valid = wbs_cyc_i && wbs_stb_i;
+    assign io_oeb[37:32] = 6'h3f;
 
-counter #(.COUNT_STEP(COUNT_STEP),.COUNT_ADDR(COUNT_ADDR)) count(
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
-    .la_clk_rst(la_data_in[31:30]),
-    .la_clk_rst_oenb(la_oenb[31:30]),
-    .valid(valid),
-    .wstrb(wbs_sel_i & {4{wbs_we_i}}),
-    .wdata(wbs_dat_i),
-    .wbs_adr_i(wbs_adr_i),
-    .la_write(~la_oenb[29:0] & ~{BITS-2{valid}}),
-    .la_input(la_data_in[29:0]),
-    .ready(wbs_ack_o),
-    .rdata(wbs_dat_o),
-    .count(io_out),
-    .io_oeb(io_oeb[BITS-1:0])
+    counter #(.COUNT_STEP(COUNT_STEP),.COUNT_ADDR(COUNT_ADDR)) count(
+        .wb_clk_i(wb_clk_i),
+        .wb_rst_i(wb_rst_i),
+        .la_clk_rst(la_data_in[31:30]),
+        .la_clk_rst_oenb(la_oenb[31:30]),
+        .valid(valid),
+        .wstrb(wbs_sel_i & {4{wbs_we_i}}),
+        .wdata(wbs_dat_i),
+        .wbs_adr_i(wbs_adr_i),
+        .la_write(~la_oenb[29:0] & ~{BITS-2{valid}}),
+        .la_input(la_data_in[29:0]),
+        .ready(wbs_ack_o),
+        .rdata(wbs_dat_o),
+        .count(io_out),
+        .io_oeb(io_oeb[BITS-1:0])
 
-);
+    );
+`endif
 
 endmodule

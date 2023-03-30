@@ -7,6 +7,186 @@ MACRO user_project
   FOREIGN user_project ;
   ORIGIN 0.000 0.000 ;
   SIZE 1300.000 BY 1600.000 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 38.970 10.880 42.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 98.970 10.880 102.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 158.970 10.880 162.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 218.970 10.880 222.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 278.970 10.880 282.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 338.970 10.880 342.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 398.970 10.880 402.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 458.970 10.880 462.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 518.970 10.880 522.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 578.970 10.880 582.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 638.970 10.880 642.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 698.970 10.880 702.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 758.970 10.880 762.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 818.970 10.880 822.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 878.970 10.880 882.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 938.970 10.880 942.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 998.970 10.880 1002.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1058.970 10.880 1062.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1118.970 10.880 1122.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1178.970 10.880 1182.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1238.970 10.880 1242.070 1588.480 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 8.970 10.880 12.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 68.970 10.880 72.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 128.970 10.880 132.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 188.970 10.880 192.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 248.970 10.880 252.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 308.970 10.880 312.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 368.970 10.880 372.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 428.970 10.880 432.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 488.970 10.880 492.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 548.970 10.880 552.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 608.970 10.880 612.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 668.970 10.880 672.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 728.970 10.880 732.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 788.970 10.880 792.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 848.970 10.880 852.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 908.970 10.880 912.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 968.970 10.880 972.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1028.970 10.880 1032.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1088.970 10.880 1092.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1148.970 10.880 1152.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1208.970 10.880 1212.070 1588.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 1268.970 10.880 1272.070 1588.480 ;
+    END
+  END VPWR
   PIN analog_io[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
@@ -76,7 +256,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1579.380 2.400 1580.580 ;
+        RECT -4.800 1578.020 2.400 1579.220 ;
     END
   END analog_io[17]
   PIN analog_io[18]
@@ -84,7 +264,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1505.940 2.400 1507.140 ;
+        RECT -4.800 1499.140 2.400 1500.340 ;
     END
   END analog_io[18]
   PIN analog_io[19]
@@ -92,7 +272,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1432.500 2.400 1433.700 ;
+        RECT -4.800 1420.260 2.400 1421.460 ;
     END
   END analog_io[19]
   PIN analog_io[1]
@@ -108,7 +288,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1359.060 2.400 1360.260 ;
+        RECT -4.800 1341.380 2.400 1342.580 ;
     END
   END analog_io[20]
   PIN analog_io[21]
@@ -116,7 +296,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1285.620 2.400 1286.820 ;
+        RECT -4.800 1262.500 2.400 1263.700 ;
     END
   END analog_io[21]
   PIN analog_io[22]
@@ -124,7 +304,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1212.180 2.400 1213.380 ;
+        RECT -4.800 1183.620 2.400 1184.820 ;
     END
   END analog_io[22]
   PIN analog_io[23]
@@ -132,7 +312,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1138.740 2.400 1139.940 ;
+        RECT -4.800 1104.740 2.400 1105.940 ;
     END
   END analog_io[23]
   PIN analog_io[24]
@@ -140,7 +320,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1065.300 2.400 1066.500 ;
+        RECT -4.800 1025.860 2.400 1027.060 ;
     END
   END analog_io[24]
   PIN analog_io[25]
@@ -148,7 +328,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 991.860 2.400 993.060 ;
+        RECT -4.800 946.980 2.400 948.180 ;
     END
   END analog_io[25]
   PIN analog_io[26]
@@ -156,7 +336,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 918.420 2.400 919.620 ;
+        RECT -4.800 868.100 2.400 869.300 ;
     END
   END analog_io[26]
   PIN analog_io[27]
@@ -164,7 +344,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 844.980 2.400 846.180 ;
+        RECT -4.800 789.220 2.400 790.420 ;
     END
   END analog_io[27]
   PIN analog_io[28]
@@ -172,7 +352,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 771.540 2.400 772.740 ;
+        RECT -4.800 710.340 2.400 711.540 ;
     END
   END analog_io[28]
   PIN analog_io[2]
@@ -372,7 +552,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1561.020 2.400 1562.220 ;
+        RECT -4.800 1558.300 2.400 1559.500 ;
     END
   END io_in[24]
   PIN io_in[25]
@@ -380,7 +560,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1487.580 2.400 1488.780 ;
+        RECT -4.800 1479.420 2.400 1480.620 ;
     END
   END io_in[25]
   PIN io_in[26]
@@ -388,7 +568,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1414.140 2.400 1415.340 ;
+        RECT -4.800 1400.540 2.400 1401.740 ;
     END
   END io_in[26]
   PIN io_in[27]
@@ -396,7 +576,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1340.700 2.400 1341.900 ;
+        RECT -4.800 1321.660 2.400 1322.860 ;
     END
   END io_in[27]
   PIN io_in[28]
@@ -404,7 +584,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1267.260 2.400 1268.460 ;
+        RECT -4.800 1242.780 2.400 1243.980 ;
     END
   END io_in[28]
   PIN io_in[29]
@@ -412,7 +592,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1193.820 2.400 1195.020 ;
+        RECT -4.800 1163.900 2.400 1165.100 ;
     END
   END io_in[29]
   PIN io_in[2]
@@ -428,7 +608,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1120.380 2.400 1121.580 ;
+        RECT -4.800 1085.020 2.400 1086.220 ;
     END
   END io_in[30]
   PIN io_in[31]
@@ -436,7 +616,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1046.940 2.400 1048.140 ;
+        RECT -4.800 1006.140 2.400 1007.340 ;
     END
   END io_in[31]
   PIN io_in[32]
@@ -444,7 +624,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 973.500 2.400 974.700 ;
+        RECT -4.800 927.260 2.400 928.460 ;
     END
   END io_in[32]
   PIN io_in[33]
@@ -452,7 +632,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 900.060 2.400 901.260 ;
+        RECT -4.800 848.380 2.400 849.580 ;
     END
   END io_in[33]
   PIN io_in[34]
@@ -460,7 +640,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 826.620 2.400 827.820 ;
+        RECT -4.800 769.500 2.400 770.700 ;
     END
   END io_in[34]
   PIN io_in[35]
@@ -468,25 +648,9 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 753.180 2.400 754.380 ;
+        RECT -4.800 690.620 2.400 691.820 ;
     END
   END io_in[35]
-  PIN io_in[36]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT -4.800 698.100 2.400 699.300 ;
-    END
-  END io_in[36]
-  PIN io_in[37]
-    DIRECTION INPUT ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT -4.800 643.020 2.400 644.220 ;
-    END
-  END io_in[37]
   PIN io_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
@@ -676,7 +840,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1524.300 2.400 1525.500 ;
+        RECT -4.800 1518.860 2.400 1520.060 ;
     END
   END io_oeb[24]
   PIN io_oeb[25]
@@ -684,7 +848,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1450.860 2.400 1452.060 ;
+        RECT -4.800 1439.980 2.400 1441.180 ;
     END
   END io_oeb[25]
   PIN io_oeb[26]
@@ -692,7 +856,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1377.420 2.400 1378.620 ;
+        RECT -4.800 1361.100 2.400 1362.300 ;
     END
   END io_oeb[26]
   PIN io_oeb[27]
@@ -700,7 +864,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1303.980 2.400 1305.180 ;
+        RECT -4.800 1282.220 2.400 1283.420 ;
     END
   END io_oeb[27]
   PIN io_oeb[28]
@@ -708,7 +872,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1230.540 2.400 1231.740 ;
+        RECT -4.800 1203.340 2.400 1204.540 ;
     END
   END io_oeb[28]
   PIN io_oeb[29]
@@ -716,7 +880,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1157.100 2.400 1158.300 ;
+        RECT -4.800 1124.460 2.400 1125.660 ;
     END
   END io_oeb[29]
   PIN io_oeb[2]
@@ -732,7 +896,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1083.660 2.400 1084.860 ;
+        RECT -4.800 1045.580 2.400 1046.780 ;
     END
   END io_oeb[30]
   PIN io_oeb[31]
@@ -740,7 +904,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1010.220 2.400 1011.420 ;
+        RECT -4.800 966.700 2.400 967.900 ;
     END
   END io_oeb[31]
   PIN io_oeb[32]
@@ -748,7 +912,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 936.780 2.400 937.980 ;
+        RECT -4.800 887.820 2.400 889.020 ;
     END
   END io_oeb[32]
   PIN io_oeb[33]
@@ -756,7 +920,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 863.340 2.400 864.540 ;
+        RECT -4.800 808.940 2.400 810.140 ;
     END
   END io_oeb[33]
   PIN io_oeb[34]
@@ -764,7 +928,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 789.900 2.400 791.100 ;
+        RECT -4.800 730.060 2.400 731.260 ;
     END
   END io_oeb[34]
   PIN io_oeb[35]
@@ -772,25 +936,9 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 716.460 2.400 717.660 ;
+        RECT -4.800 651.180 2.400 652.380 ;
     END
   END io_oeb[35]
-  PIN io_oeb[36]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT -4.800 661.380 2.400 662.580 ;
-    END
-  END io_oeb[36]
-  PIN io_oeb[37]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT -4.800 606.300 2.400 607.500 ;
-    END
-  END io_oeb[37]
   PIN io_oeb[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
@@ -980,7 +1128,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1542.660 2.400 1543.860 ;
+        RECT -4.800 1538.580 2.400 1539.780 ;
     END
   END io_out[24]
   PIN io_out[25]
@@ -988,7 +1136,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1469.220 2.400 1470.420 ;
+        RECT -4.800 1459.700 2.400 1460.900 ;
     END
   END io_out[25]
   PIN io_out[26]
@@ -996,7 +1144,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1395.780 2.400 1396.980 ;
+        RECT -4.800 1380.820 2.400 1382.020 ;
     END
   END io_out[26]
   PIN io_out[27]
@@ -1004,7 +1152,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1322.340 2.400 1323.540 ;
+        RECT -4.800 1301.940 2.400 1303.140 ;
     END
   END io_out[27]
   PIN io_out[28]
@@ -1012,7 +1160,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1248.900 2.400 1250.100 ;
+        RECT -4.800 1223.060 2.400 1224.260 ;
     END
   END io_out[28]
   PIN io_out[29]
@@ -1020,7 +1168,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1175.460 2.400 1176.660 ;
+        RECT -4.800 1144.180 2.400 1145.380 ;
     END
   END io_out[29]
   PIN io_out[2]
@@ -1036,7 +1184,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1102.020 2.400 1103.220 ;
+        RECT -4.800 1065.300 2.400 1066.500 ;
     END
   END io_out[30]
   PIN io_out[31]
@@ -1044,7 +1192,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 1028.580 2.400 1029.780 ;
+        RECT -4.800 986.420 2.400 987.620 ;
     END
   END io_out[31]
   PIN io_out[32]
@@ -1052,7 +1200,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 955.140 2.400 956.340 ;
+        RECT -4.800 907.540 2.400 908.740 ;
     END
   END io_out[32]
   PIN io_out[33]
@@ -1060,7 +1208,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 881.700 2.400 882.900 ;
+        RECT -4.800 828.660 2.400 829.860 ;
     END
   END io_out[33]
   PIN io_out[34]
@@ -1068,7 +1216,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 808.260 2.400 809.460 ;
+        RECT -4.800 749.780 2.400 750.980 ;
     END
   END io_out[34]
   PIN io_out[35]
@@ -1076,25 +1224,9 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 734.820 2.400 736.020 ;
+        RECT -4.800 670.900 2.400 672.100 ;
     END
   END io_out[35]
-  PIN io_out[36]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT -4.800 679.740 2.400 680.940 ;
-    END
-  END io_out[36]
-  PIN io_out[37]
-    DIRECTION OUTPUT TRISTATE ;
-    USE SIGNAL ;
-    PORT
-      LAYER met3 ;
-        RECT -4.800 624.660 2.400 625.860 ;
-    END
-  END io_out[37]
   PIN io_out[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
@@ -1156,7 +1288,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 587.940 2.400 589.140 ;
+        RECT -4.800 631.460 2.400 632.660 ;
     END
   END la_data_in[0]
   PIN la_data_in[10]
@@ -1164,7 +1296,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 404.340 2.400 405.540 ;
+        RECT -4.800 434.260 2.400 435.460 ;
     END
   END la_data_in[10]
   PIN la_data_in[11]
@@ -1172,7 +1304,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 385.980 2.400 387.180 ;
+        RECT -4.800 414.540 2.400 415.740 ;
     END
   END la_data_in[11]
   PIN la_data_in[12]
@@ -1180,7 +1312,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 367.620 2.400 368.820 ;
+        RECT -4.800 394.820 2.400 396.020 ;
     END
   END la_data_in[12]
   PIN la_data_in[13]
@@ -1188,7 +1320,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 349.260 2.400 350.460 ;
+        RECT -4.800 375.100 2.400 376.300 ;
     END
   END la_data_in[13]
   PIN la_data_in[14]
@@ -1196,7 +1328,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 330.900 2.400 332.100 ;
+        RECT -4.800 355.380 2.400 356.580 ;
     END
   END la_data_in[14]
   PIN la_data_in[15]
@@ -1204,7 +1336,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 312.540 2.400 313.740 ;
+        RECT -4.800 335.660 2.400 336.860 ;
     END
   END la_data_in[15]
   PIN la_data_in[16]
@@ -1212,7 +1344,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 294.180 2.400 295.380 ;
+        RECT -4.800 315.940 2.400 317.140 ;
     END
   END la_data_in[16]
   PIN la_data_in[17]
@@ -1220,7 +1352,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 275.820 2.400 277.020 ;
+        RECT -4.800 296.220 2.400 297.420 ;
     END
   END la_data_in[17]
   PIN la_data_in[18]
@@ -1228,7 +1360,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 257.460 2.400 258.660 ;
+        RECT -4.800 276.500 2.400 277.700 ;
     END
   END la_data_in[18]
   PIN la_data_in[19]
@@ -1236,7 +1368,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 239.100 2.400 240.300 ;
+        RECT -4.800 256.780 2.400 257.980 ;
     END
   END la_data_in[19]
   PIN la_data_in[1]
@@ -1244,7 +1376,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 569.580 2.400 570.780 ;
+        RECT -4.800 611.740 2.400 612.940 ;
     END
   END la_data_in[1]
   PIN la_data_in[20]
@@ -1252,7 +1384,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 220.740 2.400 221.940 ;
+        RECT -4.800 237.060 2.400 238.260 ;
     END
   END la_data_in[20]
   PIN la_data_in[21]
@@ -1260,7 +1392,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 202.380 2.400 203.580 ;
+        RECT -4.800 217.340 2.400 218.540 ;
     END
   END la_data_in[21]
   PIN la_data_in[22]
@@ -1268,7 +1400,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 184.020 2.400 185.220 ;
+        RECT -4.800 197.620 2.400 198.820 ;
     END
   END la_data_in[22]
   PIN la_data_in[23]
@@ -1276,7 +1408,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 165.660 2.400 166.860 ;
+        RECT -4.800 177.900 2.400 179.100 ;
     END
   END la_data_in[23]
   PIN la_data_in[24]
@@ -1284,7 +1416,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 147.300 2.400 148.500 ;
+        RECT -4.800 158.180 2.400 159.380 ;
     END
   END la_data_in[24]
   PIN la_data_in[25]
@@ -1292,7 +1424,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 128.940 2.400 130.140 ;
+        RECT -4.800 138.460 2.400 139.660 ;
     END
   END la_data_in[25]
   PIN la_data_in[26]
@@ -1300,7 +1432,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 110.580 2.400 111.780 ;
+        RECT -4.800 118.740 2.400 119.940 ;
     END
   END la_data_in[26]
   PIN la_data_in[27]
@@ -1308,7 +1440,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 92.220 2.400 93.420 ;
+        RECT -4.800 99.020 2.400 100.220 ;
     END
   END la_data_in[27]
   PIN la_data_in[28]
@@ -1316,7 +1448,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 73.860 2.400 75.060 ;
+        RECT -4.800 79.300 2.400 80.500 ;
     END
   END la_data_in[28]
   PIN la_data_in[29]
@@ -1324,7 +1456,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 55.500 2.400 56.700 ;
+        RECT -4.800 59.580 2.400 60.780 ;
     END
   END la_data_in[29]
   PIN la_data_in[2]
@@ -1332,7 +1464,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 551.220 2.400 552.420 ;
+        RECT -4.800 592.020 2.400 593.220 ;
     END
   END la_data_in[2]
   PIN la_data_in[30]
@@ -1340,7 +1472,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 37.140 2.400 38.340 ;
+        RECT -4.800 39.860 2.400 41.060 ;
     END
   END la_data_in[30]
   PIN la_data_in[31]
@@ -1348,7 +1480,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 18.780 2.400 19.980 ;
+        RECT -4.800 20.140 2.400 21.340 ;
     END
   END la_data_in[31]
   PIN la_data_in[3]
@@ -1356,7 +1488,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 532.860 2.400 534.060 ;
+        RECT -4.800 572.300 2.400 573.500 ;
     END
   END la_data_in[3]
   PIN la_data_in[4]
@@ -1364,7 +1496,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 514.500 2.400 515.700 ;
+        RECT -4.800 552.580 2.400 553.780 ;
     END
   END la_data_in[4]
   PIN la_data_in[5]
@@ -1372,7 +1504,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 496.140 2.400 497.340 ;
+        RECT -4.800 532.860 2.400 534.060 ;
     END
   END la_data_in[5]
   PIN la_data_in[6]
@@ -1380,7 +1512,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 477.780 2.400 478.980 ;
+        RECT -4.800 513.140 2.400 514.340 ;
     END
   END la_data_in[6]
   PIN la_data_in[7]
@@ -1388,7 +1520,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 459.420 2.400 460.620 ;
+        RECT -4.800 493.420 2.400 494.620 ;
     END
   END la_data_in[7]
   PIN la_data_in[8]
@@ -1396,7 +1528,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 441.060 2.400 442.260 ;
+        RECT -4.800 473.700 2.400 474.900 ;
     END
   END la_data_in[8]
   PIN la_data_in[9]
@@ -1404,7 +1536,7 @@ MACRO user_project
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT -4.800 422.700 2.400 423.900 ;
+        RECT -4.800 453.980 2.400 455.180 ;
     END
   END la_data_in[9]
   PIN la_data_out[0]
@@ -1951,230 +2083,6 @@ MACRO user_project
         RECT 1265.870 -4.800 1266.430 2.400 ;
     END
   END user_irq[2]
-  PIN vccd1
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 8.970 10.880 12.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 108.970 10.880 112.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 208.970 10.880 212.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 308.970 10.880 312.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 408.970 10.880 412.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 508.970 10.880 512.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 608.970 10.880 612.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 708.970 10.880 712.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 808.970 10.880 812.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 908.970 10.880 912.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1008.970 10.880 1012.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1108.970 10.880 1112.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1208.970 10.880 1212.070 1588.480 ;
-    END
-  END vccd1
-  PIN vccd2
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER met4 ;
-        RECT 58.970 10.880 62.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 158.970 10.880 162.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 258.970 10.880 262.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 358.970 10.880 362.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 458.970 10.880 462.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 558.970 10.880 562.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 658.970 10.880 662.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 758.970 10.880 762.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 858.970 10.880 862.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 958.970 10.880 962.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1058.970 10.880 1062.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1158.970 10.880 1162.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1258.970 10.880 1262.070 1588.480 ;
-    END
-  END vccd2
-  PIN vssd1
-    DIRECTION INOUT ;
-    USE GROUND ;
-    PORT
-      LAYER met4 ;
-        RECT 33.970 10.880 37.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 133.970 10.880 137.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 233.970 10.880 237.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 333.970 10.880 337.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 433.970 10.880 437.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 533.970 10.880 537.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 633.970 10.880 637.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 733.970 10.880 737.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 833.970 10.880 837.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 933.970 10.880 937.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1033.970 10.880 1037.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1133.970 10.880 1137.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1233.970 10.880 1237.070 1588.480 ;
-    END
-  END vssd1
-  PIN vssd2
-    DIRECTION INOUT ;
-    USE GROUND ;
-    PORT
-      LAYER met4 ;
-        RECT 83.970 10.880 87.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 183.970 10.880 187.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 283.970 10.880 287.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 383.970 10.880 387.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 483.970 10.880 487.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 583.970 10.880 587.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 683.970 10.880 687.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 783.970 10.880 787.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 883.970 10.880 887.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 983.970 10.880 987.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1083.970 10.880 1087.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1183.970 10.880 1187.070 1588.480 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 1283.970 10.880 1287.070 1588.480 ;
-    END
-  END vssd2
   PIN wb_clk_i
     DIRECTION INPUT ;
     USE SIGNAL ;

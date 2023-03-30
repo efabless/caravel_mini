@@ -16,7 +16,7 @@
 # THE FOLLOWING SECTIONS CAN BE CHANGED IF NEEDED
 
 # PDN Pitch
-set ::env(FP_PDN_VPITCH) 100
+set ::env(FP_PDN_VPITCH) 60
 
 # PDN Offset 
 set ::env(FP_PDN_VOFFSET) 5

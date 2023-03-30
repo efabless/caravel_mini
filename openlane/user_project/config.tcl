@@ -36,3 +36,5 @@ set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 0
 set ::env(VERILOG_FILES) "\
 	$script_dir/../../verilog/rtl/defines.v \
 	$script_dir/../../verilog/rtl/user_project.v"
+
+set ::env(SYNTH_DEFINES) "PnR"
