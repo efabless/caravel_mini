@@ -193,12 +193,12 @@ module user_project_wrapper #(
   // IRQ selection
   assign user_irq    = proj_user_irq[configuration];
 
-  //assigning unconnected outputs to 0
+  //assigning unconnected outputs
   genvar j;
   generate
     for (j = `MPRJ_IO_PADS - CFG_BITS; j < `MPRJ_IO_PADS; j = j + 1) begin
       assign io_out[j] = 0;
-      assign io_oeb[j] = 0;
+      assign io_oeb[j] = 1;
     end
   endgenerate
 
