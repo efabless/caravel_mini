@@ -75,8 +75,8 @@ module user_project_wrapper #(
   wire [             31:0] proj_la_data_out[USER_PROJECTS-1:0];
 
   // IOs outputs from user projects
-  wire [`MPRJ_IO_PADS-1:0] proj_io_out     [USER_PROJECTS-1:0];
-  wire [`MPRJ_IO_PADS-1:0] proj_io_oeb     [USER_PROJECTS-1:0];
+  wire [`MPRJ_IO_PADS-CFG_BITS-1:0] proj_io_out     [USER_PROJECTS-1:0];
+  wire [`MPRJ_IO_PADS-CFG_BITS-1:0] proj_io_oeb     [USER_PROJECTS-1:0];
 
   // ANALOG IOs
 
@@ -117,7 +117,7 @@ module user_project_wrapper #(
             .la_oenb    (la_oenb[31:0]),
 
             // IOs
-            .io_in (io_in),
+            .io_in (io_in[`MPRJ_IO_PADS-CFG_BITS-1:0]),
             .io_out(proj_io_out[i]),
             .io_oeb(proj_io_oeb[i]),
 
@@ -160,7 +160,7 @@ module user_project_wrapper #(
             .la_oenb    (la_oenb[31:0]),
 
             // IOs
-            .io_in (io_in),
+            .io_in (io_in[`MPRJ_IO_PADS-CFG_BITS-1:0]),
             .io_out(proj_io_out[i]),
             .io_oeb(proj_io_oeb[i]),
 
