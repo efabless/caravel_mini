@@ -9,7 +9,7 @@ The number of projects per chip depends on the configuration. We planned 3 confi
 - [9 (3x3) designs], each 0.85x1.0 $mm^2$ (~ 80K Sky130 HD cells)
 - 20 (4x5) designs, each 0.6x0.6 $mm^2$ (~ 40K Sky130 HD cells)
 
-![](docs/mpc-4.png)
+![](docs/mpc-4.jpg)
  
 ## Benefits
 For chipIgnite runs, it would reduce the fabrication cost for designs that don’t utilize the whole user’s area. Each design can still access most of Caravel user's I/Os as well as the Wishbone bus. 
