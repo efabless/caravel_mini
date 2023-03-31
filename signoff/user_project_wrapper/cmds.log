@@ -1,172 +1,196 @@
-Mon Mar 20 15:59:54 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/lefutil.py get_metal_layers -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/layers.list /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
+Fri Mar 31 13:43:49 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/lefutil.py get_metal_layers -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/layers.list /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef -i /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef -i /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef {/home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef -i /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef |& tee /dev/null"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef -i /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef |& tee /dev/null"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.min.lef -i /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.min.lef -i /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__min.tlef {/home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.min.lef -i /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.min.lef /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef |& tee /dev/null"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.min.lef -i /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.min.lef /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef |& tee /dev/null"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.max.lef -i /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.max.lef -i /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__max.tlef {/home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd.lef /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef} |& tee /dev/null"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.max.lef -i /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.max.lef /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef |& tee /dev/null"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "/openlane/scripts/mergeLef.py -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.max.lef -i /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.max.lef /home/hosni/mpc/openlane/user_project_wrapper/../../lef/user_project.lef |& tee /dev/null"
 
-Mon Mar 20 15:59:54 UTC 2023 - Executing "python3 /openlane/scripts/mergeLib.py --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/merged.lib --name sky130A_merged /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "python3 /openlane/scripts/mergeLib.py --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/merged.lib --name sky130A_merged /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
-Mon Mar 20 15:59:55 UTC 2023 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/trimmed.lib.exclude.list --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/trimmed.lib /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/merged.lib"
+Fri Mar 31 13:43:50 UTC 2023 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/trimmed.lib.exclude.list --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/trimmed.lib /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/merged.lib"
 
-Mon Mar 20 15:59:55 UTC 2023 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/cts/cts.lib.exclude.list --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/cts/cts.lib /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
+Fri Mar 31 13:43:51 UTC 2023 - Executing "python3 /openlane/scripts/libtrim.py --cell-file /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/cts/cts.lib.exclude.list --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/cts/cts.lib /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
-Mon Mar 20 15:59:55 UTC 2023 - Executing "python3 /openlane/scripts/new_tracks.py -i /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/config.tracks"
+Fri Mar 31 13:43:51 UTC 2023 - Executing "python3 /openlane/scripts/new_tracks.py -i /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/openlane/sky130_fd_sc_hd/tracks.info -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/config.tracks"
 
-Mon Mar 20 15:59:55 UTC 2023 - Executing "echo {OpenLane 1ed36219093ce86ddbc1b981e461c5f38e5bba72} > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/OPENLANE_VERSION"
+Fri Mar 31 13:43:51 UTC 2023 - Executing "echo {OpenLane 1ed36219093ce86ddbc1b981e461c5f38e5bba72} > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/OPENLANE_VERSION"
 
-Mon Mar 20 15:59:55 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+Fri Mar 31 13:43:51 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/1-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
 
-Mon Mar 20 15:59:56 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/trimmed.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/1-trimmed.no_pg.lib"
+Fri Mar 31 13:43:51 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/trimmed.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/1-trimmed.no_pg.lib"
 
-Mon Mar 20 15:59:56 UTC 2023 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/synthesis/1-synthesis.log"
+Fri Mar 31 13:43:51 UTC 2023 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/synthesis/1-synthesis.log"
 
-Mon Mar 20 15:59:59 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/results\/synthesis\/user_project_wrapper.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:43:55 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/results\/synthesis\/user_project_wrapper.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 15:59:59 UTC 2023 - Executing "sed -i /defparam/d /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/synthesis/user_project_wrapper.v"
+Fri Mar 31 13:43:55 UTC 2023 - Executing "sed -i.bak /defparam/d /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/results/synthesis/user_project_wrapper.v"
 
-Mon Mar 20 15:59:59 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/synthesis/2-sta.log"
+Fri Mar 31 13:43:55 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/synthesis/2-sta.log"
 
-Mon Mar 20 16:00:00 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/swift/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/2-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+Fri Mar 31 13:43:56 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/OpenFPGA/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/2-sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
 
-Mon Mar 20 16:00:00 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/trimmed.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/2-trimmed.no_pg.lib"
+Fri Mar 31 13:43:56 UTC 2023 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/trimmed.lib > /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/2-trimmed.no_pg.lib"
 
-Mon Mar 20 16:00:00 UTC 2023 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /dev/null"
+Fri Mar 31 13:43:56 UTC 2023 - Executing "yosys -c /openlane/scripts/yosys/synth.tcl |& tee /dev/null /dev/null"
 
-Mon Mar 20 16:00:04 UTC 2023 - Executing "sed -i /defparam/d /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/synthesis/user_project_wrapper.v"
+Fri Mar 31 13:43:59 UTC 2023 - Executing "sed -i.bak /defparam/d /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/pg_define.v"
 
-Mon Mar 20 16:00:04 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/floorplan/3-initial_fp.log"
+Fri Mar 31 13:43:59 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/floorplan.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/floorplan/3-initial_fp.log"
 
-Mon Mar 20 16:00:04 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py extract_core_dims --output-data /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/dimensions.txt --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/3-initial_fp.def"
+Fri Mar 31 13:44:00 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py extract_core_dims --output-data /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/dimensions.txt --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/3-initial_fp.def"
 
-Mon Mar 20 16:00:05 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/io_place.py --config /home/hosni/mpc/openlane/user_project_wrapper/pin_order.cfg --hor-layer met3 --ver-layer met2 --ver-width-mult 4 --hor-width-mult 4 --hor-extension 4.8 --ver-extension 4.8 --length 2.4 --unmatched-error --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/4-io.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/4-io.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/3-initial_fp.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/floorplan/4-place_io.log"
+Fri Mar 31 13:44:01 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/io_place.py --config /home/hosni/mpc/openlane/user_project_wrapper/pin_order.cfg --hor-layer met3 --ver-layer met2 --ver-width-mult 4 --hor-width-mult 4 --hor-extension 4.8 --ver-extension 4.8 --length 2.4 --unmatched-error --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/4-io.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/4-io.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/3-initial_fp.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/floorplan/4-place_io.log"
 
-Mon Mar 20 16:00:05 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/manual_macro_place.py --config /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/placement/macro_placement.cfg --fixed --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/4-io.macro_placement.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/4-io.macro_placement.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/floorplan/4-io.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/5-macro_placement.log"
+Fri Mar 31 13:44:01 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/manual_macro_place.py --config /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/placement/macro_placement.cfg --fixed --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/4-io.macro_placement.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/4-io.macro_placement.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/floorplan/4-io.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/5-macro_placement.log"
 
-Mon Mar 20 16:00:06 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/tapcell.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/floorplan/6-tap.log"
+Fri Mar 31 13:44:01 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/tapcell.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/floorplan/6-tap.log"
 
-Mon Mar 20 16:00:07 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/pdn.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/floorplan/7-pdn.log"
+Fri Mar 31 13:44:02 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/pdn.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/floorplan/7-pdn.log"
 
-Mon Mar 20 16:00:11 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/8-global.log"
+Fri Mar 31 13:44:07 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/8-global.log"
 
-Mon Mar 20 16:00:39 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/9-resizer.log"
+Fri Mar 31 13:44:49 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/9-resizer.log"
 
-Mon Mar 20 16:00:43 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/placement\/9-resizer.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:44:53 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/placement\/9-resizer.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:00:43 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/10-detailed.log"
+Fri Mar 31 13:44:53 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/10-detailed.log"
 
-Mon Mar 20 16:00:45 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/results\/placement\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:44:55 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/results\/placement\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:00:45 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/cts/11-cts.log"
+Fri Mar 31 13:44:55 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/cts/11-cts.log"
 
-Mon Mar 20 16:00:58 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/12-resizer.log"
+Fri Mar 31 13:45:08 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/cts/12-resizer.log"
 
-Mon Mar 20 16:08:14 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/12-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:45:12 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/cts\/12-user_project_wrapper.resized.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:08:14 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/13-global.log"
+Fri Mar 31 13:45:12 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_design.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/13-resizer_design.log"
 
-Mon Mar 20 16:08:25 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/14-resizer.log"
+Fri Mar 31 13:51:03 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/13-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:08:30 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/placement\/14-resizer.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:51:03 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/14-resizer_timing.log"
 
-Mon Mar 20 16:08:30 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/placement/15-detailed.log"
+Fri Mar 31 13:51:11 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/14-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:08:33 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/results\/placement\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:51:11 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/15-global.log"
 
-Mon Mar 20 16:08:33 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/cts/16-cts.log"
+Fri Mar 31 13:51:23 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/16-resizer.log"
 
-Mon Mar 20 16:08:46 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/cts/17-resizer.log"
+Fri Mar 31 13:51:27 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/placement\/16-resizer.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:08:51 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/cts\/17-user_project_wrapper.resized.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:51:27 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/17-detailed.log"
 
-Mon Mar 20 16:08:51 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/18-resizer.log"
+Fri Mar 31 13:51:30 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/results\/placement\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:10:21 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/18-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:51:30 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/cts/18-cts.log"
 
-Mon Mar 20 16:10:21 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/diodes.py place --diode-cell sky130_fd_sc_hd__diode_2 --diode-pin DIODE --fake-diode-cell sky130_fd_sc_hd__diode_2 --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/19-diodes.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/19-diodes.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/18-user_project_wrapper.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/19-diodes.log"
+Fri Mar 31 13:51:43 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/cts/19-resizer.log"
 
-Mon Mar 20 16:10:31 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/20-diode_legalization.log"
+Fri Mar 31 13:51:47 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/cts\/19-user_project_wrapper.resized.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:10:34 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/routing\/diodes.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:51:47 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_design.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/20-resizer_design.log"
 
-Mon Mar 20 16:10:34 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py add_obstructions --obstructions { met5 86 116 1386 1716,  met5 1534 116 2834 1716,  met5 86 1830 1386 3430,  met5 1534 1830 2834 3430  } --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/diodes.obs.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/diodes.obs.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/diodes.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/21-obs.log"
+Fri Mar 31 13:52:30 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/20-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:10:36 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/22-global.log"
+Fri Mar 31 13:52:30 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/resizer_routing_timing.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/21-resizer_timing.log"
 
-Mon Mar 20 16:10:53 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py replace_instance_prefixes --original-prefix ANTENNA --new-prefix INSDIODE1 --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/diodes.obs.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/diodes.obs.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/routing/diodes.obs.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/22-antenna_diodes_1.log"
+Fri Mar 31 13:52:37 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/21-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:10:54 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/22-antenna_route_1.log"
+Fri Mar 31 13:52:37 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/gpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/22-global.log"
 
-Mon Mar 20 16:11:11 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/write_views.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/22-global_write_netlist.log"
+Fri Mar 31 13:52:50 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/placement/23-detailed.log"
 
-Mon Mar 20 16:11:13 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/routing\/global.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:52:52 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/results\/placement\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:11:13 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/fill.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/24-fill.log"
+Fri Mar 31 13:52:52 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/cts.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/cts/24-cts.log"
 
-Mon Mar 20 16:11:17 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/routing\/24-fill.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:53:06 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/diodes.py place --diode-cell sky130_fd_sc_hd__diode_2 --diode-pin DIODE --threshold Infinity --side-strategy source --port-protect both --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/25-io_diodes.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/25-io_diodes.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/results/cts/user_project_wrapper.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/25-io_diodes.log"
 
-Mon Mar 20 16:11:18 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/droute.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/25-detailed.log"
+Fri Mar 31 13:53:07 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/26-io_diode_legalization.log"
 
-Mon Mar 20 16:17:03 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/results\/routing\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 13:53:09 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/routing\/.\/25-io_diode_legalized.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:17:03 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py tr to_klayout -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/routing/drt.klayout.xml --design-name user_project_wrapper /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/routing/drt.drc"
+Fri Mar 31 13:53:09 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/diodes.py place --diode-cell sky130_fd_sc_hd__diode_2 --diode-pin DIODE --threshold 90 --side-strategy source --port-protect none --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/27-diodes.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/27-diodes.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./25-io_diode_legalized.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/27-diodes.log"
 
-Mon Mar 20 16:17:03 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/wire_lengths.py --report-out /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/routing/26-wire_lengths.csv --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --output-def /dev/null --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/user_project_wrapper.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/user_project_wrapper.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/routing/26-wire_lengths.log"
+Fri Mar 31 13:53:20 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/dpl.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/28-diode_legalization.log"
 
-Mon Mar 20 16:17:06 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/27-parasitics_extraction.min.log"
+Fri Mar 31 13:53:22 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/routing\/.\/27-diodes_legalized.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:17:14 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/28-rcx_mcsta.min.log"
+Fri Mar 31 13:53:22 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py add_obstructions --obstructions { met5 86 116 1386 1716,  met5 1534 116 2834 1716,  met5 86 1830 1386 3430,  met5 1534 1830 2834 3430  } --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./27-diodes_legalized.obs.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./27-diodes_legalized.obs.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./27-diodes_legalized.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/29-obs.log"
 
-Mon Mar 20 16:17:29 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/29-parasitics_extraction.max.log"
+Fri Mar 31 13:53:24 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/30-global.log"
 
-Mon Mar 20 16:17:37 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/30-rcx_mcsta.max.log"
+Fri Mar 31 13:53:40 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/defutil.py replace_instance_prefixes --original-prefix ANTENNA --new-prefix INSDIODE1 --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./27-diodes_legalized.obs.def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./27-diodes_legalized.obs.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/routing/./27-diodes_legalized.obs.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/30-antenna_diodes_1.log"
 
-Mon Mar 20 16:17:53 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/31-parasitics_extraction.nom.log"
+Fri Mar 31 13:53:42 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/groute.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/30-antenna_route_1.log"
 
-Mon Mar 20 16:18:01 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/32-rcx_mcsta.nom.log"
+Fri Mar 31 13:53:59 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/write_views.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/30-global_write_netlist.log"
 
-Mon Mar 20 16:18:16 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/33-rcx_sta.log"
+Fri Mar 31 13:54:00 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/routing\/global.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:18:22 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/antenna_check.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/34-antenna.log"
+Fri Mar 31 13:54:00 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/fill.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/32-fill.log"
 
-Mon Mar 20 16:18:26 UTC 2023 - Executing "python3 /openlane/scripts/extract_antenna_violators.py --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/34-antenna_violators.rpt /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/34-antenna.log"
+Fri Mar 31 13:54:04 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/routing\/32-fill.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:18:26 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/def/mag_gds.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/35-gdsii.log"
+Fri Mar 31 13:54:04 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/droute.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/33-detailed.log"
 
-Mon Mar 20 16:18:57 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/gds/mag_with_pointers.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/35-gds_ptrs.log"
+Fri Mar 31 14:09:49 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/results\/routing\/user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
 
-Mon Mar 20 16:19:21 UTC 2023 - Executing "sed -i -n {/^<< properties >>/,/^<< end >>/p} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/gds_ptrs.mag"
+Fri Mar 31 14:09:49 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py tr to_klayout -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/routing/drt.klayout.xml --design-name user_project_wrapper /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/routing/drt.drc"
 
-Mon Mar 20 16:19:21 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/mag/lef.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/35-lef.log"
+Fri Mar 31 14:09:49 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/wire_lengths.py --report-out /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/routing/34-wire_lengths.csv --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --output-def /dev/null --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/results/routing/user_project_wrapper.odb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/results/routing/user_project_wrapper.odb |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/routing/34-wire_lengths.log"
 
-Mon Mar 20 16:20:13 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/lef/maglef.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/35-maglef.log"
+Fri Mar 31 14:09:52 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/35-parasitics_extraction.min.log"
 
-Mon Mar 20 16:20:13 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/extract_spice.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/36-spice.log"
+Fri Mar 31 14:10:00 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/36-rcx_mcsta.min.log"
 
-Mon Mar 20 16:29:12 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/power_utils.py write_powered_def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/36-user_project_wrapper.p.def --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/merged.nom.lef --power-port vccd1 --ground-port vssd1 --powered-netlist /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/synthesis/pg_define.v /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/results/routing/user_project_wrapper.def |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/37-write_powered_def.log"
+Fri Mar 31 14:10:15 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/37-parasitics_extraction.max.log"
 
-Mon Mar 20 16:29:19 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/write_views.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/37-write_powered_verilog.log"
+Fri Mar 31 14:10:24 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/38-rcx_mcsta.max.log"
 
-Mon Mar 20 16:29:22 UTC 2023 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_20_08_59\/tmp\/signoff\/36-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/config.tcl"
+Fri Mar 31 14:10:39 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/rcx.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/39-parasitics_extraction.nom.log"
 
-Mon Mar 20 16:29:22 UTC 2023 - Executing "netgen -batch source /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/tmp/signoff/39-setup_file.lef.lvs |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/39-lvs.lef.log"
+Fri Mar 31 14:10:48 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta_multi_corner.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/40-rcx_mcsta.nom.log"
 
-Mon Mar 20 16:29:32 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/swift/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/drc.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/logs/signoff/40-drc.log"
+Fri Mar 31 14:11:02 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/sta.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/41-rcx_sta.log"
 
-Mon Mar 20 16:34:52 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_tcl -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.tcl /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.rpt"
+Fri Mar 31 14:11:08 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/antenna_check.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/42-antenna.log"
 
-Mon Mar 20 16:34:52 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_tr -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.tr /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.rpt"
+Fri Mar 31 14:11:11 UTC 2023 - Executing "python3 /openlane/scripts/extract_antenna_violators.py --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/42-antenna_violators.rpt /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/42-antenna.log"
 
-Mon Mar 20 16:34:52 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py tr to_klayout -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.klayout.xml --design-name user_project_wrapper /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.tr"
+Fri Mar 31 14:11:12 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/def/mag_gds.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/43-gdsii.log"
 
-Mon Mar 20 16:34:52 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_rdb -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.rdb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/signoff/drc.rpt"
+Fri Mar 31 14:11:44 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/gds/mag_with_pointers.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/43-gds_ptrs.log"
 
-Mon Mar 20 16:34:53 UTC 2023 - Executing "python3 /openlane/scripts/generate_reports.py -d /home/hosni/mpc/openlane/user_project_wrapper --design_name user_project_wrapper --tag 23_03_20_08_59 --output_file /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/metrics.csv --man_report /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59/reports/manufacturability.rpt --run_path /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_20_08_59"
+Fri Mar 31 14:12:08 UTC 2023 - Executing "sed -i.bak -n {/^<< properties >>/,/^<< end >>/p} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/signoff/gds_ptrs.mag"
+
+Fri Mar 31 14:12:08 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/mag/lef.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/43-lef.log"
+
+Fri Mar 31 14:13:01 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/lef/maglef.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/43-maglef.log"
+
+Fri Mar 31 14:13:01 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/extract_spice.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/44-spice.log"
+
+Fri Mar 31 14:22:01 UTC 2023 - Executing "openroad -exit -no_init -python /openlane/scripts/odbpy/power_utils.py write_powered_def --output /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/signoff/44-user_project_wrapper.p.def --input-lef /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/merged.nom.lef --power-port vccd1 --ground-port vssd1 --powered-netlist /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/synthesis/pg_define.v /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/results/routing/user_project_wrapper.def |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/45-write_powered_def.log"
+
+Fri Mar 31 14:22:07 UTC 2023 - Executing "openroad -exit /openlane/scripts/openroad/write_views.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/45-write_powered_verilog.log"
+
+Fri Mar 31 14:22:10 UTC 2023 - Executing "sed -i.bak -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/home\/hosni\/mpc\/openlane\/user_project_wrapper\/runs\/23_03_31_06_43\/tmp\/signoff\/44-user_project_wrapper.nl.v/} /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/config.tcl"
+
+Fri Mar 31 14:22:10 UTC 2023 - Executing "netgen -batch source /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/tmp/signoff/47-setup_file.lef.lvs |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/47-lvs.lef.log"
+
+Fri Mar 31 14:22:21 UTC 2023 - Executing "magic -noconsole -dnull -rcfile /home/hosni/OpenFPGA/pdk/sky130A/libs.tech/magic/sky130A.magicrc < /openlane/scripts/magic/drc.tcl |& tee /dev/null /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/logs/signoff/48-drc.log"
+
+Fri Mar 31 14:27:46 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_tcl -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.tcl /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.rpt"
+
+Fri Mar 31 14:27:46 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_tr -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.tr /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.rpt"
+
+Fri Mar 31 14:27:46 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py tr to_klayout -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.klayout.xml --design-name user_project_wrapper /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.tr"
+
+Fri Mar 31 14:27:46 UTC 2023 - Executing "python3 /openlane/scripts/drc_rosetta.py magic to_rdb -o /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.rdb /home/hosni/mpc/openlane/user_project_wrapper/runs/23_03_31_06_43/reports/signoff/drc.rpt"
 

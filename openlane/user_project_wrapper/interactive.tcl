@@ -12,33 +12,34 @@ run_synthesis
 run_floorplan
 
 ################   placement   ################
-set ::env(PL_TARGET_DENSITY) 0.15
-set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 70
-set ::env(PL_RESIZER_CAP_SLEW_MARGIN) 70
-set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1
-set ::env(PL_RESIZER_SETUP_SLACK_MARGIN) 2
+set ::env(PL_TARGET_DENSITY) 0.20
 run_placement
 
 ################   CTS   ################
 run_cts
+run_resizer_timing
 
 ################ Global Routing Optmization  ################
+run_resizer_design_routing
 run_resizer_timing_routing
 
-################ Place and route on optmized netlist ################
-set ::env(PL_TARGET_DENSITY) 0.2
-set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 1
-set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 1
-set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 50
-set ::env(PL_RESIZER_CAP_SLEW_MARGIN) 50
-set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.05
-set ::env(PL_RESIZER_SETUP_SLACK_MARGIN) 1
-
+################ Another Optmization iteration ################
+set ::env(PL_TARGET_DENSITY) 0.23
 run_placement
 run_cts
 run_resizer_timing
+run_resizer_design_routing
+run_resizer_timing_routing
 
-################   Routing   ################
+################ Place and route on optmized netlist ################
+set ::env(PL_TARGET_DENSITY) 0.24
+set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 0
+set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
+set ::env(GLB_RESIZER_DESIGN_OPTIMIZATIONS) 0
+set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 0
+
+run_placement
+run_cts
 run_routing
 
 ################   RCX sta    ################
