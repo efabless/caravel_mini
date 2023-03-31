@@ -14,7 +14,7 @@ The number of projects per chip depends on the configuration. We planned 3 confi
 ## Benefits
 For chipIgnite runs, it would reduce the fabrication cost for designs that don’t utilize the whole user’s area. Each design can still access most of Caravel user's I/Os as well as the Wishbone bus. 
 
-## Project's Resources
+## User's Project available resources
 Each project gets the following:
 - Area of 1300 um x 1600 um (for 4 projects/chip configuration)
 - 36 IO ports.
