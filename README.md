@@ -29,8 +29,6 @@ Each project gets the following:
 
 ## Clocking and Powering (4 projects config)
 - The Clock is enabled only for the selected project. The active project selection is achieved through Caravel I/Os 36 and 37.
-- Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board.
+- Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board. <b>There is no on-chip power switching to power down non-active projects<b>.
 
-11:04
-We cannot disable power supplies as we don't have any power gating support
 
