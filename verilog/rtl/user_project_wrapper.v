@@ -100,7 +100,7 @@ module user_project_wrapper #(
             .VGND(vssd2), // User area 1 digital ground
 `endif
             // Wishbone Slave ports (WB MI A)
-            .wb_clk_i   (wb_clk_i),
+            .wb_clk_i   (wb_clk_i && (configuration == i)),
             .wb_rst_i   (wb_rst_i),
             .wbs_stb_i  (wbs_stb_i),
             .wbs_cyc_i  (wbs_cyc_i),
@@ -143,7 +143,7 @@ module user_project_wrapper #(
             .VGND(vssd1), // User area 1 digital ground
 `endif
             // Wishbone Slave ports (WB MI A)
-            .wb_clk_i   (wb_clk_i),
+            .wb_clk_i   (wb_clk_i && (configuration == i)),
             .wb_rst_i   (wb_rst_i),
             .wbs_stb_i  (wbs_stb_i),
             .wbs_cyc_i  (wbs_cyc_i),
