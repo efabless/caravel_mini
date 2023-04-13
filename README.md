@@ -14,7 +14,7 @@ The number of projects per chip depends on the configuration. We planned 3 confi
 ## Benefits
 For chipIgnite runs, it would reduce the fabrication cost for designs that don’t utilize the whole user’s area. Each design can still access most of Caravel user's I/Os as well as the Wishbone bus. 
 
-## User's Project available resources
+## User's Project available resources (4 projects config)
 Each project gets the following:
 - Area of 1300 um x 1600 um (for 4 projects/chip configuration)
 - 36 IO ports.
@@ -27,7 +27,7 @@ Each project gets the following:
 - Metal5 cannot be used in the user's project.
 - The User's project has a fixed PDN configuration.
 
-## Clocking and Powering
+## Clocking and Powering (4 projects config)
 - The Clock is enabled only for the selected project. The active project selection is achieved through Caravel I/Os 36 and 37.
 - Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board.
 
