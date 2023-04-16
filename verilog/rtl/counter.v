@@ -38,8 +38,7 @@
 
 module counter #(
     parameter BITS = 30,
-    parameter COUNT_STEP = 1,
-    parameter COUNT_ADDR = 0
+    parameter COUNT_STEP = 1
 )(
     input wb_clk_i,
     input wb_rst_i,
@@ -76,14 +75,12 @@ module counter #(
                 count <= count + COUNT_STEP;
             end
             if (valid && !ready) begin
-                if (wbs_adr_i[19:0] == COUNT_ADDR)begin 
-                    ready <= 1'b1;
-                    rdata <= count;
-                    if (wstrb[0]) count[7:0]   <= wdata[7:0];
-                    if (wstrb[1]) count[15:8]  <= wdata[15:8];
-                    if (wstrb[2]) count[23:16] <= wdata[23:16];
-                    if (wstrb[3]) count[31:24] <= wdata[31:24];
-                end
+                ready <= 1'b1;
+                rdata <= count;
+                if (wstrb[0]) count[7:0]   <= wdata[7:0];
+                if (wstrb[1]) count[15:8]  <= wdata[15:8];
+                if (wstrb[2]) count[23:16] <= wdata[23:16];
+                if (wstrb[3]) count[31:24] <= wdata[31:24];
             end else if (|la_write) begin
                 count <= la_write & la_input;
             end

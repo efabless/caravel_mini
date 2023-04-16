@@ -15,8 +15,7 @@
 
 module user_project #(
     parameter BITS = 30,
-    parameter COUNT_STEP = 1,
-    parameter COUNT_ADDR = 0) (
+    parameter COUNT_STEP = 1) (
 `ifdef USE_POWER_PINS
     inout VPWR,  // User area 1 1.8V supply
     inout VGND,  // User area 1 digital ground
@@ -57,7 +56,7 @@ module user_project #(
     wire valid = wbs_cyc_i && wbs_stb_i;
     assign io_oeb[37:32] = 6'h3f;
 
-    counter #(.COUNT_STEP(COUNT_STEP),.COUNT_ADDR(COUNT_ADDR)) count(
+    counter #(.COUNT_STEP(COUNT_STEP)) count(
         .wb_clk_i(wb_clk_i),
         .wb_rst_i(wb_rst_i),
         .la_clk_rst(la_data_in[31:30]),

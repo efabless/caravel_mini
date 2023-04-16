@@ -11,11 +11,10 @@ async def counter_la(dut):
     selected_projeted = random.randint(0,3)
     counter_step = selected_projeted*2+1
     cocotb.log.info(f"[TEST] seleceted project = {selected_projeted}")  
-    caravelEnv.drive_gpio_in(selected_projeted+32,1)
+    caravelEnv.drive_gpio_in((37,36),selected_projeted)
     await caravelEnv.wait_mgmt_gpio(1)
     await caravelEnv.release_csb()
-    cocotb.log.info(f"[TEST] finish configuration") 
-    await caravelEnv.wait_mgmt_gpio(0)
+    cocotb.log.info("[TEST] finish configuration") 
     cocotb.log.info(f"[TEST] project {selected_projeted} selected, counter step = {counter_step}") 
     
     overwrite_val = 7 # value will be written to the counter by la 

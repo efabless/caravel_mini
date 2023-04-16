@@ -8,19 +8,13 @@ void main(){
     enable_hk_spi(0); // disable housekeeping spi
     // configure all gpios as  user out then chenge gpios from 32 to 37 before loading this configurations
     configure_all_gpios(GPIO_MODE_USER_STD_OUT_MONITORED);
-    configure_gpio(32, GPIO_MODE_MGMT_STD_INPUT_PULLDOWN);
-    configure_gpio(33, GPIO_MODE_MGMT_STD_INPUT_PULLDOWN);
-    configure_gpio(34, GPIO_MODE_MGMT_STD_INPUT_PULLDOWN);
-    configure_gpio(35, GPIO_MODE_MGMT_STD_INPUT_PULLDOWN);
     configure_gpio(36, GPIO_MODE_MGMT_STD_INPUT_PULLDOWN);
     configure_gpio(37, GPIO_MODE_MGMT_STD_INPUT_PULLDOWN);
     gpio_config_load(); // load the configuration 
     enable_user_interface(); // this necessary when reading or writing between wishbone and user project if interface isn't enabled no ack would be recieve and the command will be stuck
     mgmt_gpio_wr(1); // configuration finished 
-    int sel_project_num = selected_project();
-    mgmt_gpio_wr(0); // start counting from 7
     // writing to any address inside user project address space would reload the counter value
-    write_user_double_word(0x7,sel_project_num);
+    write_user_double_word(0x7,0x1);
     mgmt_gpio_wr(1); // start counting from 7
 
     return;

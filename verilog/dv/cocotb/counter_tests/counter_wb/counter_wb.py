@@ -11,15 +11,14 @@ async def counter_wb(dut):
     selected_projeted = random.randint(0,3)
     counter_step = selected_projeted*2+1
     cocotb.log.info(f"[TEST] seleceted project = {selected_projeted}")  
-    caravelEnv.drive_gpio_in(selected_projeted+32,1)
+    caravelEnv.drive_gpio_in((37, 36), selected_projeted)
     await caravelEnv.wait_mgmt_gpio(1)
     await caravelEnv.release_csb()
     cocotb.log.info(f"[TEST] finish configuration") 
-    await caravelEnv.wait_mgmt_gpio(0)
     cocotb.log.info(f"[TEST] project {selected_projeted} selected, counter step = {counter_step}") 
     overwrite_val = 7 # value will be written to the counter by wishbone 
     # expect value bigger than 7 
-    received_val = caravelEnv.monitor_gpio(29,0).integer 
+    received_val = caravelEnv.monitor_gpio(29,0).integer
     counter = received_val
     if received_val <= overwrite_val :
         cocotb.log.error(f"counter started late and value captured after configuration is smaller than overwrite value: {overwrite_val} receieved: {received_val}")
@@ -27,14 +26,14 @@ async def counter_wb(dut):
 
     while True: # wait until the value 1 start counting after the initial
         received_val = caravelEnv.monitor_gpio(29,0).integer 
-        counter +=counter_step
-        if received_val != counter: 
-            if received_val == overwrite_val: 
-                counter = received_val +counter_step
+        counter += counter_step
+        if received_val != counter:
+            if received_val == overwrite_val:
+                counter = received_val + counter_step
                 cocotb.log.info(f"counter value has been overwritten by wishbone to be {received_val}")
                 while True: #wait until the wishbone writing finished and the counter start running again
                     received_val = caravelEnv.monitor_gpio(29,0).integer 
-                    if counter == received_val: 
+                    if counter == received_val:
                         break
                     await cocotb.triggers.ClockCycles(caravelEnv.clk,1)
                 cocotb.log.info(f"counter value has been overwritten by wishbone to be {received_val}")
