@@ -40,6 +40,7 @@ set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 0
 
 run_placement
 run_cts
+set ::env(GRT_ALLOW_CONGESTION) 0
 run_routing
 
 ################   RCX sta    ################

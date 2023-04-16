@@ -42,11 +42,11 @@ set ::env(DRC_EXCLUDE_CELL_LIST) $::env(DESIGN_DIR)/drc_exclude.cells
 set ::env(SYNTH_READ_BLACKBOX_LIB) 0
 set ::env(SYNTH_USE_PG_PINS_DEFINES) "USE_POWER_PINS"
 set ::env(SYNTH_BUFFERING) 0
-set ::env(SYNTH_MAX_FANOUT) 10
+set ::env(SYNTH_MAX_FANOUT) 12
 set ::env(SYNTH_CAP_LOAD) 52
 set ::env(SYNTH_CLOCK_TRANSITION) 0.50
 set ::env(SYNTH_CLOCK_UNCERTAINTY) 0.25
-set ::env(SYNTH_MAX_TRAN) 0.40
+set ::env(SYNTH_MAX_TRAN) 0.30
 
 ## Floorplan
 set ::env(FP_TAPCELL_DIST) 10
@@ -64,11 +64,11 @@ set ::env(FP_PDN_MACRO_HOOKS) {
 
 ##CTS
 set ::env(CLOCK_TREE_SYNTH) 1
-set ::env(CTS_MAX_CAP) 0.5
+set ::env(CTS_MAX_CAP) 0.4
 set ::env(CTS_SINK_CLUSTERING_SIZE) 12
 set ::env(CTS_SINK_CLUSTERING_MAX_DIAMETER) 30
-set ::env(CTS_CLK_BUFFER_LIST) {sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__clkbuf_4}
-set ::env(CTS_CLK_MAX_WIRE_LENGTH) 600
+set ::env(CTS_CLK_BUFFER_LIST) {sky130_fd_sc_hd__clkbuf_16 sky130_fd_sc_hd__clkbuf_8 sky130_fd_sc_hd__clkbuf_4}
+set ::env(CTS_CLK_MAX_WIRE_LENGTH) 500
 
 ##PLACEMENT
 set ::env(PL_ROUTABILITY_DRIVEN) 1
@@ -82,8 +82,8 @@ set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.03
 set ::env(PL_RESIZER_ALLOW_SETUP_VIOS) 0
 set ::env(PL_RESIZER_SETUP_SLACK_MARGIN) 0.1
 set ::env(PL_RESIZER_MAX_WIRE_LENGTH) 600
-set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 50
-set ::env(PL_RESIZER_MAX_CAP_MARGIN) 50
+set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 20
+set ::env(PL_RESIZER_MAX_CAP_MARGIN) 20
 
 ##ROUTING
 set ::env(GRT_ALLOW_CONGESTION) 1
@@ -93,7 +93,7 @@ set ::env(GRT_OBS) "\
     met5 86 1830 1386 3430, \
     met5 1534 1830 2834 3430 \
 "
-set ::env(GRT_ADJUSTMENT) 0.15
+set ::env(GRT_ADJUSTMENT) 0.10
 ##                                li1 ,met1,met2,met3,met4,met5
 set ::env(GRT_LAYER_ADJUSTMENTS) "0.99,0.10,0.05,0.10,0.05,0.00"
 set ::env(GRT_OVERFLOW_ITERS) 50
@@ -105,8 +105,8 @@ set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 1
 set ::env(GLB_RESIZER_HOLD_SLACK_MARGIN) 0.4
 set ::env(GLB_RESIZER_SETUP_SLACK_MARGIN) 1
 set ::env(GLB_RESIZER_MAX_WIRE_LENGTH) 600
-set ::env(GLB_RESIZER_MAX_SLEW_MARGIN) 50
-set ::env(GLB_RESIZER_MAX_CAP_MARGIN) 50
+set ::env(GLB_RESIZER_MAX_SLEW_MARGIN) 20
+set ::env(GLB_RESIZER_MAX_CAP_MARGIN) 20
 
 ## Antenna
 set ::env(GRT_REPAIR_ANTENNAS) 1
@@ -114,6 +114,7 @@ set ::env(RUN_HEURISTIC_DIODE_INSERTION) 1
 set ::env(HEURISTIC_ANTENNA_THRESHOLD) 90
 set ::env(DIODE_ON_PORTS) "both"
 set ::env(GRT_ANT_ITERS) 12
+set ::env(GRT_ANT_MARGIN) 20
 set ::env(GRT_MAX_DIODE_INS_ITERS) 4
 set ::env(DIODE_PADDING) 0
 

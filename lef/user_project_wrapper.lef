@@ -242,6 +242,7 @@ MACRO user_project_wrapper
   PIN io_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 43.940 2924.800 45.140 ;
@@ -250,6 +251,7 @@ MACRO user_project_wrapper
   PIN io_in[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2286.580 2924.800 2287.780 ;
@@ -258,6 +260,7 @@ MACRO user_project_wrapper
   PIN io_in[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2550.420 2924.800 2551.620 ;
@@ -266,6 +269,7 @@ MACRO user_project_wrapper
   PIN io_in[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2814.260 2924.800 2815.460 ;
@@ -274,6 +278,7 @@ MACRO user_project_wrapper
   PIN io_in[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3078.100 2924.800 3079.300 ;
@@ -282,6 +287,7 @@ MACRO user_project_wrapper
   PIN io_in[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3341.940 2924.800 3343.140 ;
@@ -290,6 +296,7 @@ MACRO user_project_wrapper
   PIN io_in[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2795.370 3517.600 2795.930 3524.800 ;
@@ -298,6 +305,7 @@ MACRO user_project_wrapper
   PIN io_in[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2471.530 3517.600 2472.090 3524.800 ;
@@ -306,6 +314,7 @@ MACRO user_project_wrapper
   PIN io_in[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2147.690 3517.600 2148.250 3524.800 ;
@@ -314,6 +323,7 @@ MACRO user_project_wrapper
   PIN io_in[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1823.850 3517.600 1824.410 3524.800 ;
@@ -322,6 +332,7 @@ MACRO user_project_wrapper
   PIN io_in[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1500.010 3517.600 1500.570 3524.800 ;
@@ -330,6 +341,7 @@ MACRO user_project_wrapper
   PIN io_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 241.820 2924.800 243.020 ;
@@ -338,6 +350,7 @@ MACRO user_project_wrapper
   PIN io_in[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1176.170 3517.600 1176.730 3524.800 ;
@@ -346,6 +359,7 @@ MACRO user_project_wrapper
   PIN io_in[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 852.330 3517.600 852.890 3524.800 ;
@@ -354,6 +368,7 @@ MACRO user_project_wrapper
   PIN io_in[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 528.490 3517.600 529.050 3524.800 ;
@@ -362,6 +377,7 @@ MACRO user_project_wrapper
   PIN io_in[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 204.650 3517.600 205.210 3524.800 ;
@@ -370,6 +386,7 @@ MACRO user_project_wrapper
   PIN io_in[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 3406.540 2.400 3407.740 ;
@@ -378,6 +395,7 @@ MACRO user_project_wrapper
   PIN io_in[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 3148.140 2.400 3149.340 ;
@@ -386,6 +404,7 @@ MACRO user_project_wrapper
   PIN io_in[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2889.740 2.400 2890.940 ;
@@ -394,6 +413,7 @@ MACRO user_project_wrapper
   PIN io_in[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2631.340 2.400 2632.540 ;
@@ -402,6 +422,7 @@ MACRO user_project_wrapper
   PIN io_in[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2372.940 2.400 2374.140 ;
@@ -410,6 +431,7 @@ MACRO user_project_wrapper
   PIN io_in[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2114.540 2.400 2115.740 ;
@@ -418,6 +440,7 @@ MACRO user_project_wrapper
   PIN io_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 439.700 2924.800 440.900 ;
@@ -426,6 +449,7 @@ MACRO user_project_wrapper
   PIN io_in[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1856.140 2.400 1857.340 ;
@@ -434,6 +458,7 @@ MACRO user_project_wrapper
   PIN io_in[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1597.740 2.400 1598.940 ;
@@ -442,6 +467,7 @@ MACRO user_project_wrapper
   PIN io_in[32]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1339.340 2.400 1340.540 ;
@@ -450,6 +476,7 @@ MACRO user_project_wrapper
   PIN io_in[33]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1080.940 2.400 1082.140 ;
@@ -458,6 +485,7 @@ MACRO user_project_wrapper
   PIN io_in[34]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 822.540 2.400 823.740 ;
@@ -466,6 +494,7 @@ MACRO user_project_wrapper
   PIN io_in[35]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 564.140 2.400 565.340 ;
@@ -474,6 +503,7 @@ MACRO user_project_wrapper
   PIN io_in[36]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 370.340 2.400 371.540 ;
@@ -482,6 +512,7 @@ MACRO user_project_wrapper
   PIN io_in[37]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT -4.800 176.540 2.400 177.740 ;
@@ -490,6 +521,7 @@ MACRO user_project_wrapper
   PIN io_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 637.580 2924.800 638.780 ;
@@ -498,6 +530,7 @@ MACRO user_project_wrapper
   PIN io_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 835.460 2924.800 836.660 ;
@@ -506,6 +539,7 @@ MACRO user_project_wrapper
   PIN io_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1033.340 2924.800 1034.540 ;
@@ -514,6 +548,7 @@ MACRO user_project_wrapper
   PIN io_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1231.220 2924.800 1232.420 ;
@@ -522,6 +557,7 @@ MACRO user_project_wrapper
   PIN io_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1495.060 2924.800 1496.260 ;
@@ -530,6 +566,7 @@ MACRO user_project_wrapper
   PIN io_in[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1758.900 2924.800 1760.100 ;
@@ -538,6 +575,7 @@ MACRO user_project_wrapper
   PIN io_in[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2022.740 2924.800 2023.940 ;
@@ -546,6 +584,7 @@ MACRO user_project_wrapper
   PIN io_oeb[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 175.860 2924.800 177.060 ;
@@ -554,6 +593,7 @@ MACRO user_project_wrapper
   PIN io_oeb[10]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2418.500 2924.800 2419.700 ;
@@ -562,6 +602,7 @@ MACRO user_project_wrapper
   PIN io_oeb[11]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2682.340 2924.800 2683.540 ;
@@ -570,6 +611,7 @@ MACRO user_project_wrapper
   PIN io_oeb[12]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2946.180 2924.800 2947.380 ;
@@ -578,6 +620,7 @@ MACRO user_project_wrapper
   PIN io_oeb[13]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3210.020 2924.800 3211.220 ;
@@ -586,6 +629,7 @@ MACRO user_project_wrapper
   PIN io_oeb[14]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3473.860 2924.800 3475.060 ;
@@ -594,6 +638,7 @@ MACRO user_project_wrapper
   PIN io_oeb[15]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2633.450 3517.600 2634.010 3524.800 ;
@@ -602,6 +647,7 @@ MACRO user_project_wrapper
   PIN io_oeb[16]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2309.610 3517.600 2310.170 3524.800 ;
@@ -610,6 +656,7 @@ MACRO user_project_wrapper
   PIN io_oeb[17]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1985.770 3517.600 1986.330 3524.800 ;
@@ -618,6 +665,7 @@ MACRO user_project_wrapper
   PIN io_oeb[18]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1661.930 3517.600 1662.490 3524.800 ;
@@ -626,6 +674,7 @@ MACRO user_project_wrapper
   PIN io_oeb[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1338.090 3517.600 1338.650 3524.800 ;
@@ -634,6 +683,7 @@ MACRO user_project_wrapper
   PIN io_oeb[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 373.740 2924.800 374.940 ;
@@ -642,6 +692,7 @@ MACRO user_project_wrapper
   PIN io_oeb[20]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1014.250 3517.600 1014.810 3524.800 ;
@@ -650,6 +701,7 @@ MACRO user_project_wrapper
   PIN io_oeb[21]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 690.410 3517.600 690.970 3524.800 ;
@@ -658,6 +710,7 @@ MACRO user_project_wrapper
   PIN io_oeb[22]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 366.570 3517.600 367.130 3524.800 ;
@@ -666,6 +719,7 @@ MACRO user_project_wrapper
   PIN io_oeb[23]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 42.730 3517.600 43.290 3524.800 ;
@@ -674,6 +728,7 @@ MACRO user_project_wrapper
   PIN io_oeb[24]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 3277.340 2.400 3278.540 ;
@@ -682,6 +737,7 @@ MACRO user_project_wrapper
   PIN io_oeb[25]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 3018.940 2.400 3020.140 ;
@@ -690,6 +746,7 @@ MACRO user_project_wrapper
   PIN io_oeb[26]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2760.540 2.400 2761.740 ;
@@ -698,6 +755,7 @@ MACRO user_project_wrapper
   PIN io_oeb[27]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2502.140 2.400 2503.340 ;
@@ -706,6 +764,7 @@ MACRO user_project_wrapper
   PIN io_oeb[28]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2243.740 2.400 2244.940 ;
@@ -714,6 +773,7 @@ MACRO user_project_wrapper
   PIN io_oeb[29]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1985.340 2.400 1986.540 ;
@@ -722,6 +782,7 @@ MACRO user_project_wrapper
   PIN io_oeb[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 571.620 2924.800 572.820 ;
@@ -730,6 +791,7 @@ MACRO user_project_wrapper
   PIN io_oeb[30]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1726.940 2.400 1728.140 ;
@@ -738,6 +800,7 @@ MACRO user_project_wrapper
   PIN io_oeb[31]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1468.540 2.400 1469.740 ;
@@ -746,6 +809,7 @@ MACRO user_project_wrapper
   PIN io_oeb[32]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1210.140 2.400 1211.340 ;
@@ -754,6 +818,7 @@ MACRO user_project_wrapper
   PIN io_oeb[33]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 951.740 2.400 952.940 ;
@@ -762,6 +827,7 @@ MACRO user_project_wrapper
   PIN io_oeb[34]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 693.340 2.400 694.540 ;
@@ -770,6 +836,7 @@ MACRO user_project_wrapper
   PIN io_oeb[35]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 434.940 2.400 436.140 ;
@@ -778,6 +845,7 @@ MACRO user_project_wrapper
   PIN io_oeb[36]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 241.140 2.400 242.340 ;
@@ -786,6 +854,7 @@ MACRO user_project_wrapper
   PIN io_oeb[37]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 47.340 2.400 48.540 ;
@@ -794,6 +863,7 @@ MACRO user_project_wrapper
   PIN io_oeb[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 769.500 2924.800 770.700 ;
@@ -802,6 +872,7 @@ MACRO user_project_wrapper
   PIN io_oeb[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 967.380 2924.800 968.580 ;
@@ -810,6 +881,7 @@ MACRO user_project_wrapper
   PIN io_oeb[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1165.260 2924.800 1166.460 ;
@@ -818,6 +890,7 @@ MACRO user_project_wrapper
   PIN io_oeb[6]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1363.140 2924.800 1364.340 ;
@@ -826,6 +899,7 @@ MACRO user_project_wrapper
   PIN io_oeb[7]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1626.980 2924.800 1628.180 ;
@@ -834,6 +908,7 @@ MACRO user_project_wrapper
   PIN io_oeb[8]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1890.820 2924.800 1892.020 ;
@@ -842,6 +917,7 @@ MACRO user_project_wrapper
   PIN io_oeb[9]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2154.660 2924.800 2155.860 ;
@@ -850,6 +926,7 @@ MACRO user_project_wrapper
   PIN io_out[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 109.900 2924.800 111.100 ;
@@ -858,6 +935,7 @@ MACRO user_project_wrapper
   PIN io_out[10]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2352.540 2924.800 2353.740 ;
@@ -866,6 +944,7 @@ MACRO user_project_wrapper
   PIN io_out[11]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2616.380 2924.800 2617.580 ;
@@ -874,6 +953,7 @@ MACRO user_project_wrapper
   PIN io_out[12]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2880.220 2924.800 2881.420 ;
@@ -882,6 +962,7 @@ MACRO user_project_wrapper
   PIN io_out[13]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3144.060 2924.800 3145.260 ;
@@ -890,6 +971,7 @@ MACRO user_project_wrapper
   PIN io_out[14]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3407.900 2924.800 3409.100 ;
@@ -898,6 +980,7 @@ MACRO user_project_wrapper
   PIN io_out[15]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2714.410 3517.600 2714.970 3524.800 ;
@@ -906,6 +989,7 @@ MACRO user_project_wrapper
   PIN io_out[16]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2390.570 3517.600 2391.130 3524.800 ;
@@ -914,6 +998,7 @@ MACRO user_project_wrapper
   PIN io_out[17]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2066.730 3517.600 2067.290 3524.800 ;
@@ -922,6 +1007,7 @@ MACRO user_project_wrapper
   PIN io_out[18]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1742.890 3517.600 1743.450 3524.800 ;
@@ -930,6 +1016,7 @@ MACRO user_project_wrapper
   PIN io_out[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1419.050 3517.600 1419.610 3524.800 ;
@@ -938,6 +1025,7 @@ MACRO user_project_wrapper
   PIN io_out[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 307.780 2924.800 308.980 ;
@@ -946,6 +1034,7 @@ MACRO user_project_wrapper
   PIN io_out[20]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1095.210 3517.600 1095.770 3524.800 ;
@@ -954,6 +1043,7 @@ MACRO user_project_wrapper
   PIN io_out[21]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 771.370 3517.600 771.930 3524.800 ;
@@ -962,6 +1052,7 @@ MACRO user_project_wrapper
   PIN io_out[22]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 447.530 3517.600 448.090 3524.800 ;
@@ -970,6 +1061,7 @@ MACRO user_project_wrapper
   PIN io_out[23]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 123.690 3517.600 124.250 3524.800 ;
@@ -978,6 +1070,7 @@ MACRO user_project_wrapper
   PIN io_out[24]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 3341.940 2.400 3343.140 ;
@@ -986,6 +1079,7 @@ MACRO user_project_wrapper
   PIN io_out[25]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 3083.540 2.400 3084.740 ;
@@ -994,6 +1088,7 @@ MACRO user_project_wrapper
   PIN io_out[26]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2825.140 2.400 2826.340 ;
@@ -1002,6 +1097,7 @@ MACRO user_project_wrapper
   PIN io_out[27]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2566.740 2.400 2567.940 ;
@@ -1010,6 +1106,7 @@ MACRO user_project_wrapper
   PIN io_out[28]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2308.340 2.400 2309.540 ;
@@ -1018,6 +1115,7 @@ MACRO user_project_wrapper
   PIN io_out[29]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 2049.940 2.400 2051.140 ;
@@ -1026,6 +1124,7 @@ MACRO user_project_wrapper
   PIN io_out[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 505.660 2924.800 506.860 ;
@@ -1034,6 +1133,7 @@ MACRO user_project_wrapper
   PIN io_out[30]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1791.540 2.400 1792.740 ;
@@ -1042,6 +1142,7 @@ MACRO user_project_wrapper
   PIN io_out[31]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1533.140 2.400 1534.340 ;
@@ -1050,6 +1151,7 @@ MACRO user_project_wrapper
   PIN io_out[32]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1274.740 2.400 1275.940 ;
@@ -1058,6 +1160,7 @@ MACRO user_project_wrapper
   PIN io_out[33]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 1016.340 2.400 1017.540 ;
@@ -1066,6 +1169,7 @@ MACRO user_project_wrapper
   PIN io_out[34]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 757.940 2.400 759.140 ;
@@ -1074,6 +1178,7 @@ MACRO user_project_wrapper
   PIN io_out[35]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 499.540 2.400 500.740 ;
@@ -1082,6 +1187,7 @@ MACRO user_project_wrapper
   PIN io_out[36]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 305.740 2.400 306.940 ;
@@ -1090,6 +1196,7 @@ MACRO user_project_wrapper
   PIN io_out[37]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT -4.800 111.940 2.400 113.140 ;
@@ -1098,6 +1205,7 @@ MACRO user_project_wrapper
   PIN io_out[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 703.540 2924.800 704.740 ;
@@ -1106,6 +1214,7 @@ MACRO user_project_wrapper
   PIN io_out[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 901.420 2924.800 902.620 ;
@@ -1114,6 +1223,7 @@ MACRO user_project_wrapper
   PIN io_out[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1099.300 2924.800 1100.500 ;
@@ -1122,6 +1232,7 @@ MACRO user_project_wrapper
   PIN io_out[6]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1297.180 2924.800 1298.380 ;
@@ -1130,6 +1241,7 @@ MACRO user_project_wrapper
   PIN io_out[7]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1561.020 2924.800 1562.220 ;
@@ -1138,6 +1250,7 @@ MACRO user_project_wrapper
   PIN io_out[8]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1824.860 2924.800 1826.060 ;
@@ -1146,6 +1259,7 @@ MACRO user_project_wrapper
   PIN io_out[9]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2088.700 2924.800 2089.900 ;
@@ -1154,6 +1268,7 @@ MACRO user_project_wrapper
   PIN la_data_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 683.970 -4.800 684.530 2.400 ;
@@ -1162,6 +1277,7 @@ MACRO user_project_wrapper
   PIN la_data_in[100]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2339.970 -4.800 2340.530 2.400 ;
@@ -1170,6 +1286,7 @@ MACRO user_project_wrapper
   PIN la_data_in[101]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2356.530 -4.800 2357.090 2.400 ;
@@ -1178,6 +1295,7 @@ MACRO user_project_wrapper
   PIN la_data_in[102]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2373.090 -4.800 2373.650 2.400 ;
@@ -1186,6 +1304,7 @@ MACRO user_project_wrapper
   PIN la_data_in[103]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2389.650 -4.800 2390.210 2.400 ;
@@ -1194,6 +1313,7 @@ MACRO user_project_wrapper
   PIN la_data_in[104]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2406.210 -4.800 2406.770 2.400 ;
@@ -1202,6 +1322,7 @@ MACRO user_project_wrapper
   PIN la_data_in[105]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2422.770 -4.800 2423.330 2.400 ;
@@ -1210,6 +1331,7 @@ MACRO user_project_wrapper
   PIN la_data_in[106]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2439.330 -4.800 2439.890 2.400 ;
@@ -1218,6 +1340,7 @@ MACRO user_project_wrapper
   PIN la_data_in[107]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2455.890 -4.800 2456.450 2.400 ;
@@ -1226,6 +1349,7 @@ MACRO user_project_wrapper
   PIN la_data_in[108]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2472.450 -4.800 2473.010 2.400 ;
@@ -1234,6 +1358,7 @@ MACRO user_project_wrapper
   PIN la_data_in[109]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2489.010 -4.800 2489.570 2.400 ;
@@ -1242,6 +1367,7 @@ MACRO user_project_wrapper
   PIN la_data_in[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 849.570 -4.800 850.130 2.400 ;
@@ -1250,6 +1376,7 @@ MACRO user_project_wrapper
   PIN la_data_in[110]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2505.570 -4.800 2506.130 2.400 ;
@@ -1258,6 +1385,7 @@ MACRO user_project_wrapper
   PIN la_data_in[111]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2522.130 -4.800 2522.690 2.400 ;
@@ -1266,6 +1394,7 @@ MACRO user_project_wrapper
   PIN la_data_in[112]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2538.690 -4.800 2539.250 2.400 ;
@@ -1274,6 +1403,7 @@ MACRO user_project_wrapper
   PIN la_data_in[113]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2555.250 -4.800 2555.810 2.400 ;
@@ -1282,6 +1412,7 @@ MACRO user_project_wrapper
   PIN la_data_in[114]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2571.810 -4.800 2572.370 2.400 ;
@@ -1290,6 +1421,7 @@ MACRO user_project_wrapper
   PIN la_data_in[115]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2588.370 -4.800 2588.930 2.400 ;
@@ -1298,6 +1430,7 @@ MACRO user_project_wrapper
   PIN la_data_in[116]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2604.930 -4.800 2605.490 2.400 ;
@@ -1306,6 +1439,7 @@ MACRO user_project_wrapper
   PIN la_data_in[117]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2621.490 -4.800 2622.050 2.400 ;
@@ -1314,6 +1448,7 @@ MACRO user_project_wrapper
   PIN la_data_in[118]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2638.050 -4.800 2638.610 2.400 ;
@@ -1322,6 +1457,7 @@ MACRO user_project_wrapper
   PIN la_data_in[119]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2654.610 -4.800 2655.170 2.400 ;
@@ -1330,6 +1466,7 @@ MACRO user_project_wrapper
   PIN la_data_in[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 866.130 -4.800 866.690 2.400 ;
@@ -1338,6 +1475,7 @@ MACRO user_project_wrapper
   PIN la_data_in[120]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2671.170 -4.800 2671.730 2.400 ;
@@ -1346,6 +1484,7 @@ MACRO user_project_wrapper
   PIN la_data_in[121]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2687.730 -4.800 2688.290 2.400 ;
@@ -1354,6 +1493,7 @@ MACRO user_project_wrapper
   PIN la_data_in[122]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2704.290 -4.800 2704.850 2.400 ;
@@ -1362,6 +1502,7 @@ MACRO user_project_wrapper
   PIN la_data_in[123]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2720.850 -4.800 2721.410 2.400 ;
@@ -1370,6 +1511,7 @@ MACRO user_project_wrapper
   PIN la_data_in[124]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2737.410 -4.800 2737.970 2.400 ;
@@ -1378,6 +1520,7 @@ MACRO user_project_wrapper
   PIN la_data_in[125]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2753.970 -4.800 2754.530 2.400 ;
@@ -1386,6 +1529,7 @@ MACRO user_project_wrapper
   PIN la_data_in[126]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2770.530 -4.800 2771.090 2.400 ;
@@ -1394,6 +1538,7 @@ MACRO user_project_wrapper
   PIN la_data_in[127]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2787.090 -4.800 2787.650 2.400 ;
@@ -1402,6 +1547,7 @@ MACRO user_project_wrapper
   PIN la_data_in[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 882.690 -4.800 883.250 2.400 ;
@@ -1410,6 +1556,7 @@ MACRO user_project_wrapper
   PIN la_data_in[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 899.250 -4.800 899.810 2.400 ;
@@ -1418,6 +1565,7 @@ MACRO user_project_wrapper
   PIN la_data_in[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 915.810 -4.800 916.370 2.400 ;
@@ -1426,6 +1574,7 @@ MACRO user_project_wrapper
   PIN la_data_in[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 932.370 -4.800 932.930 2.400 ;
@@ -1434,6 +1583,7 @@ MACRO user_project_wrapper
   PIN la_data_in[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 948.930 -4.800 949.490 2.400 ;
@@ -1442,6 +1592,7 @@ MACRO user_project_wrapper
   PIN la_data_in[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 965.490 -4.800 966.050 2.400 ;
@@ -1450,6 +1601,7 @@ MACRO user_project_wrapper
   PIN la_data_in[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 982.050 -4.800 982.610 2.400 ;
@@ -1458,6 +1610,7 @@ MACRO user_project_wrapper
   PIN la_data_in[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 998.610 -4.800 999.170 2.400 ;
@@ -1466,6 +1619,7 @@ MACRO user_project_wrapper
   PIN la_data_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 700.530 -4.800 701.090 2.400 ;
@@ -1474,6 +1628,7 @@ MACRO user_project_wrapper
   PIN la_data_in[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1015.170 -4.800 1015.730 2.400 ;
@@ -1482,6 +1637,7 @@ MACRO user_project_wrapper
   PIN la_data_in[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1031.730 -4.800 1032.290 2.400 ;
@@ -1490,6 +1646,7 @@ MACRO user_project_wrapper
   PIN la_data_in[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1048.290 -4.800 1048.850 2.400 ;
@@ -1498,6 +1655,7 @@ MACRO user_project_wrapper
   PIN la_data_in[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1064.850 -4.800 1065.410 2.400 ;
@@ -1506,6 +1664,7 @@ MACRO user_project_wrapper
   PIN la_data_in[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1081.410 -4.800 1081.970 2.400 ;
@@ -1514,6 +1673,7 @@ MACRO user_project_wrapper
   PIN la_data_in[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1097.970 -4.800 1098.530 2.400 ;
@@ -1522,6 +1682,7 @@ MACRO user_project_wrapper
   PIN la_data_in[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1114.530 -4.800 1115.090 2.400 ;
@@ -1530,6 +1691,7 @@ MACRO user_project_wrapper
   PIN la_data_in[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1131.090 -4.800 1131.650 2.400 ;
@@ -1538,6 +1700,7 @@ MACRO user_project_wrapper
   PIN la_data_in[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1147.650 -4.800 1148.210 2.400 ;
@@ -1546,6 +1709,7 @@ MACRO user_project_wrapper
   PIN la_data_in[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1164.210 -4.800 1164.770 2.400 ;
@@ -1554,6 +1718,7 @@ MACRO user_project_wrapper
   PIN la_data_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 717.090 -4.800 717.650 2.400 ;
@@ -1562,6 +1727,7 @@ MACRO user_project_wrapper
   PIN la_data_in[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1180.770 -4.800 1181.330 2.400 ;
@@ -1570,6 +1736,7 @@ MACRO user_project_wrapper
   PIN la_data_in[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1197.330 -4.800 1197.890 2.400 ;
@@ -1578,6 +1745,7 @@ MACRO user_project_wrapper
   PIN la_data_in[32]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1213.890 -4.800 1214.450 2.400 ;
@@ -1586,6 +1754,7 @@ MACRO user_project_wrapper
   PIN la_data_in[33]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1230.450 -4.800 1231.010 2.400 ;
@@ -1594,6 +1763,7 @@ MACRO user_project_wrapper
   PIN la_data_in[34]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1247.010 -4.800 1247.570 2.400 ;
@@ -1602,6 +1772,7 @@ MACRO user_project_wrapper
   PIN la_data_in[35]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1263.570 -4.800 1264.130 2.400 ;
@@ -1610,6 +1781,7 @@ MACRO user_project_wrapper
   PIN la_data_in[36]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1280.130 -4.800 1280.690 2.400 ;
@@ -1618,6 +1790,7 @@ MACRO user_project_wrapper
   PIN la_data_in[37]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1296.690 -4.800 1297.250 2.400 ;
@@ -1626,6 +1799,7 @@ MACRO user_project_wrapper
   PIN la_data_in[38]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1313.250 -4.800 1313.810 2.400 ;
@@ -1634,6 +1808,7 @@ MACRO user_project_wrapper
   PIN la_data_in[39]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1329.810 -4.800 1330.370 2.400 ;
@@ -1642,6 +1817,7 @@ MACRO user_project_wrapper
   PIN la_data_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 733.650 -4.800 734.210 2.400 ;
@@ -1650,6 +1826,7 @@ MACRO user_project_wrapper
   PIN la_data_in[40]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1346.370 -4.800 1346.930 2.400 ;
@@ -1658,6 +1835,7 @@ MACRO user_project_wrapper
   PIN la_data_in[41]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1362.930 -4.800 1363.490 2.400 ;
@@ -1666,6 +1844,7 @@ MACRO user_project_wrapper
   PIN la_data_in[42]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1379.490 -4.800 1380.050 2.400 ;
@@ -1674,6 +1853,7 @@ MACRO user_project_wrapper
   PIN la_data_in[43]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1396.050 -4.800 1396.610 2.400 ;
@@ -1682,6 +1862,7 @@ MACRO user_project_wrapper
   PIN la_data_in[44]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1412.610 -4.800 1413.170 2.400 ;
@@ -1690,6 +1871,7 @@ MACRO user_project_wrapper
   PIN la_data_in[45]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1429.170 -4.800 1429.730 2.400 ;
@@ -1698,6 +1880,7 @@ MACRO user_project_wrapper
   PIN la_data_in[46]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1445.730 -4.800 1446.290 2.400 ;
@@ -1706,6 +1889,7 @@ MACRO user_project_wrapper
   PIN la_data_in[47]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1462.290 -4.800 1462.850 2.400 ;
@@ -1714,6 +1898,7 @@ MACRO user_project_wrapper
   PIN la_data_in[48]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1478.850 -4.800 1479.410 2.400 ;
@@ -1722,6 +1907,7 @@ MACRO user_project_wrapper
   PIN la_data_in[49]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1495.410 -4.800 1495.970 2.400 ;
@@ -1730,6 +1916,7 @@ MACRO user_project_wrapper
   PIN la_data_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 750.210 -4.800 750.770 2.400 ;
@@ -1738,6 +1925,7 @@ MACRO user_project_wrapper
   PIN la_data_in[50]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1511.970 -4.800 1512.530 2.400 ;
@@ -1746,6 +1934,7 @@ MACRO user_project_wrapper
   PIN la_data_in[51]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1528.530 -4.800 1529.090 2.400 ;
@@ -1754,6 +1943,7 @@ MACRO user_project_wrapper
   PIN la_data_in[52]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1545.090 -4.800 1545.650 2.400 ;
@@ -1762,6 +1952,7 @@ MACRO user_project_wrapper
   PIN la_data_in[53]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1561.650 -4.800 1562.210 2.400 ;
@@ -1770,6 +1961,7 @@ MACRO user_project_wrapper
   PIN la_data_in[54]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1578.210 -4.800 1578.770 2.400 ;
@@ -1778,6 +1970,7 @@ MACRO user_project_wrapper
   PIN la_data_in[55]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1594.770 -4.800 1595.330 2.400 ;
@@ -1786,6 +1979,7 @@ MACRO user_project_wrapper
   PIN la_data_in[56]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1611.330 -4.800 1611.890 2.400 ;
@@ -1794,6 +1988,7 @@ MACRO user_project_wrapper
   PIN la_data_in[57]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1627.890 -4.800 1628.450 2.400 ;
@@ -1802,6 +1997,7 @@ MACRO user_project_wrapper
   PIN la_data_in[58]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1644.450 -4.800 1645.010 2.400 ;
@@ -1810,6 +2006,7 @@ MACRO user_project_wrapper
   PIN la_data_in[59]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1661.010 -4.800 1661.570 2.400 ;
@@ -1818,6 +2015,7 @@ MACRO user_project_wrapper
   PIN la_data_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 766.770 -4.800 767.330 2.400 ;
@@ -1826,6 +2024,7 @@ MACRO user_project_wrapper
   PIN la_data_in[60]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1677.570 -4.800 1678.130 2.400 ;
@@ -1834,6 +2033,7 @@ MACRO user_project_wrapper
   PIN la_data_in[61]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1694.130 -4.800 1694.690 2.400 ;
@@ -1842,6 +2042,7 @@ MACRO user_project_wrapper
   PIN la_data_in[62]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1710.690 -4.800 1711.250 2.400 ;
@@ -1850,6 +2051,7 @@ MACRO user_project_wrapper
   PIN la_data_in[63]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1727.250 -4.800 1727.810 2.400 ;
@@ -1858,6 +2060,7 @@ MACRO user_project_wrapper
   PIN la_data_in[64]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1743.810 -4.800 1744.370 2.400 ;
@@ -1866,6 +2069,7 @@ MACRO user_project_wrapper
   PIN la_data_in[65]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1760.370 -4.800 1760.930 2.400 ;
@@ -1874,6 +2078,7 @@ MACRO user_project_wrapper
   PIN la_data_in[66]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1776.930 -4.800 1777.490 2.400 ;
@@ -1882,6 +2087,7 @@ MACRO user_project_wrapper
   PIN la_data_in[67]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1793.490 -4.800 1794.050 2.400 ;
@@ -1890,6 +2096,7 @@ MACRO user_project_wrapper
   PIN la_data_in[68]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1810.050 -4.800 1810.610 2.400 ;
@@ -1898,6 +2105,7 @@ MACRO user_project_wrapper
   PIN la_data_in[69]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1826.610 -4.800 1827.170 2.400 ;
@@ -1906,6 +2114,7 @@ MACRO user_project_wrapper
   PIN la_data_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 783.330 -4.800 783.890 2.400 ;
@@ -1914,6 +2123,7 @@ MACRO user_project_wrapper
   PIN la_data_in[70]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1843.170 -4.800 1843.730 2.400 ;
@@ -1922,6 +2132,7 @@ MACRO user_project_wrapper
   PIN la_data_in[71]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1859.730 -4.800 1860.290 2.400 ;
@@ -1930,6 +2141,7 @@ MACRO user_project_wrapper
   PIN la_data_in[72]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1876.290 -4.800 1876.850 2.400 ;
@@ -1938,6 +2150,7 @@ MACRO user_project_wrapper
   PIN la_data_in[73]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1892.850 -4.800 1893.410 2.400 ;
@@ -1946,6 +2159,7 @@ MACRO user_project_wrapper
   PIN la_data_in[74]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1909.410 -4.800 1909.970 2.400 ;
@@ -1954,6 +2168,7 @@ MACRO user_project_wrapper
   PIN la_data_in[75]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1925.970 -4.800 1926.530 2.400 ;
@@ -1962,6 +2177,7 @@ MACRO user_project_wrapper
   PIN la_data_in[76]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1942.530 -4.800 1943.090 2.400 ;
@@ -1970,6 +2186,7 @@ MACRO user_project_wrapper
   PIN la_data_in[77]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1959.090 -4.800 1959.650 2.400 ;
@@ -1978,6 +2195,7 @@ MACRO user_project_wrapper
   PIN la_data_in[78]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1975.650 -4.800 1976.210 2.400 ;
@@ -1986,6 +2204,7 @@ MACRO user_project_wrapper
   PIN la_data_in[79]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1992.210 -4.800 1992.770 2.400 ;
@@ -1994,6 +2213,7 @@ MACRO user_project_wrapper
   PIN la_data_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 799.890 -4.800 800.450 2.400 ;
@@ -2002,6 +2222,7 @@ MACRO user_project_wrapper
   PIN la_data_in[80]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2008.770 -4.800 2009.330 2.400 ;
@@ -2010,6 +2231,7 @@ MACRO user_project_wrapper
   PIN la_data_in[81]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2025.330 -4.800 2025.890 2.400 ;
@@ -2018,6 +2240,7 @@ MACRO user_project_wrapper
   PIN la_data_in[82]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2041.890 -4.800 2042.450 2.400 ;
@@ -2026,6 +2249,7 @@ MACRO user_project_wrapper
   PIN la_data_in[83]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2058.450 -4.800 2059.010 2.400 ;
@@ -2034,6 +2258,7 @@ MACRO user_project_wrapper
   PIN la_data_in[84]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2075.010 -4.800 2075.570 2.400 ;
@@ -2042,6 +2267,7 @@ MACRO user_project_wrapper
   PIN la_data_in[85]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2091.570 -4.800 2092.130 2.400 ;
@@ -2050,6 +2276,7 @@ MACRO user_project_wrapper
   PIN la_data_in[86]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2108.130 -4.800 2108.690 2.400 ;
@@ -2058,6 +2285,7 @@ MACRO user_project_wrapper
   PIN la_data_in[87]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2124.690 -4.800 2125.250 2.400 ;
@@ -2066,6 +2294,7 @@ MACRO user_project_wrapper
   PIN la_data_in[88]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2141.250 -4.800 2141.810 2.400 ;
@@ -2074,6 +2303,7 @@ MACRO user_project_wrapper
   PIN la_data_in[89]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2157.810 -4.800 2158.370 2.400 ;
@@ -2082,6 +2312,7 @@ MACRO user_project_wrapper
   PIN la_data_in[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 816.450 -4.800 817.010 2.400 ;
@@ -2090,6 +2321,7 @@ MACRO user_project_wrapper
   PIN la_data_in[90]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2174.370 -4.800 2174.930 2.400 ;
@@ -2098,6 +2330,7 @@ MACRO user_project_wrapper
   PIN la_data_in[91]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2190.930 -4.800 2191.490 2.400 ;
@@ -2106,6 +2339,7 @@ MACRO user_project_wrapper
   PIN la_data_in[92]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2207.490 -4.800 2208.050 2.400 ;
@@ -2114,6 +2348,7 @@ MACRO user_project_wrapper
   PIN la_data_in[93]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2224.050 -4.800 2224.610 2.400 ;
@@ -2122,6 +2357,7 @@ MACRO user_project_wrapper
   PIN la_data_in[94]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2240.610 -4.800 2241.170 2.400 ;
@@ -2130,6 +2366,7 @@ MACRO user_project_wrapper
   PIN la_data_in[95]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2257.170 -4.800 2257.730 2.400 ;
@@ -2138,6 +2375,7 @@ MACRO user_project_wrapper
   PIN la_data_in[96]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2273.730 -4.800 2274.290 2.400 ;
@@ -2146,6 +2384,7 @@ MACRO user_project_wrapper
   PIN la_data_in[97]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2290.290 -4.800 2290.850 2.400 ;
@@ -2154,6 +2393,7 @@ MACRO user_project_wrapper
   PIN la_data_in[98]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2306.850 -4.800 2307.410 2.400 ;
@@ -2162,6 +2402,7 @@ MACRO user_project_wrapper
   PIN la_data_in[99]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2323.410 -4.800 2323.970 2.400 ;
@@ -2170,6 +2411,7 @@ MACRO user_project_wrapper
   PIN la_data_in[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 833.010 -4.800 833.570 2.400 ;
@@ -2178,6 +2420,7 @@ MACRO user_project_wrapper
   PIN la_data_out[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 689.490 -4.800 690.050 2.400 ;
@@ -2186,6 +2429,7 @@ MACRO user_project_wrapper
   PIN la_data_out[100]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2345.490 -4.800 2346.050 2.400 ;
@@ -2194,6 +2438,7 @@ MACRO user_project_wrapper
   PIN la_data_out[101]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2362.050 -4.800 2362.610 2.400 ;
@@ -2202,6 +2447,7 @@ MACRO user_project_wrapper
   PIN la_data_out[102]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2378.610 -4.800 2379.170 2.400 ;
@@ -2210,6 +2456,7 @@ MACRO user_project_wrapper
   PIN la_data_out[103]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2395.170 -4.800 2395.730 2.400 ;
@@ -2218,6 +2465,7 @@ MACRO user_project_wrapper
   PIN la_data_out[104]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2411.730 -4.800 2412.290 2.400 ;
@@ -2226,6 +2474,7 @@ MACRO user_project_wrapper
   PIN la_data_out[105]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2428.290 -4.800 2428.850 2.400 ;
@@ -2234,6 +2483,7 @@ MACRO user_project_wrapper
   PIN la_data_out[106]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2444.850 -4.800 2445.410 2.400 ;
@@ -2242,6 +2492,7 @@ MACRO user_project_wrapper
   PIN la_data_out[107]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2461.410 -4.800 2461.970 2.400 ;
@@ -2250,6 +2501,7 @@ MACRO user_project_wrapper
   PIN la_data_out[108]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2477.970 -4.800 2478.530 2.400 ;
@@ -2258,6 +2510,7 @@ MACRO user_project_wrapper
   PIN la_data_out[109]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2494.530 -4.800 2495.090 2.400 ;
@@ -2266,6 +2519,7 @@ MACRO user_project_wrapper
   PIN la_data_out[10]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 855.090 -4.800 855.650 2.400 ;
@@ -2274,6 +2528,7 @@ MACRO user_project_wrapper
   PIN la_data_out[110]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2511.090 -4.800 2511.650 2.400 ;
@@ -2282,6 +2537,7 @@ MACRO user_project_wrapper
   PIN la_data_out[111]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2527.650 -4.800 2528.210 2.400 ;
@@ -2290,6 +2546,7 @@ MACRO user_project_wrapper
   PIN la_data_out[112]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2544.210 -4.800 2544.770 2.400 ;
@@ -2298,6 +2555,7 @@ MACRO user_project_wrapper
   PIN la_data_out[113]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2560.770 -4.800 2561.330 2.400 ;
@@ -2306,6 +2564,7 @@ MACRO user_project_wrapper
   PIN la_data_out[114]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2577.330 -4.800 2577.890 2.400 ;
@@ -2314,6 +2573,7 @@ MACRO user_project_wrapper
   PIN la_data_out[115]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2593.890 -4.800 2594.450 2.400 ;
@@ -2322,6 +2582,7 @@ MACRO user_project_wrapper
   PIN la_data_out[116]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2610.450 -4.800 2611.010 2.400 ;
@@ -2330,6 +2591,7 @@ MACRO user_project_wrapper
   PIN la_data_out[117]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2627.010 -4.800 2627.570 2.400 ;
@@ -2338,6 +2600,7 @@ MACRO user_project_wrapper
   PIN la_data_out[118]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2643.570 -4.800 2644.130 2.400 ;
@@ -2346,6 +2609,7 @@ MACRO user_project_wrapper
   PIN la_data_out[119]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2660.130 -4.800 2660.690 2.400 ;
@@ -2354,6 +2618,7 @@ MACRO user_project_wrapper
   PIN la_data_out[11]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 871.650 -4.800 872.210 2.400 ;
@@ -2362,6 +2627,7 @@ MACRO user_project_wrapper
   PIN la_data_out[120]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2676.690 -4.800 2677.250 2.400 ;
@@ -2370,6 +2636,7 @@ MACRO user_project_wrapper
   PIN la_data_out[121]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2693.250 -4.800 2693.810 2.400 ;
@@ -2378,6 +2645,7 @@ MACRO user_project_wrapper
   PIN la_data_out[122]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2709.810 -4.800 2710.370 2.400 ;
@@ -2386,6 +2654,7 @@ MACRO user_project_wrapper
   PIN la_data_out[123]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2726.370 -4.800 2726.930 2.400 ;
@@ -2394,6 +2663,7 @@ MACRO user_project_wrapper
   PIN la_data_out[124]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2742.930 -4.800 2743.490 2.400 ;
@@ -2402,6 +2672,7 @@ MACRO user_project_wrapper
   PIN la_data_out[125]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2759.490 -4.800 2760.050 2.400 ;
@@ -2410,6 +2681,7 @@ MACRO user_project_wrapper
   PIN la_data_out[126]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2776.050 -4.800 2776.610 2.400 ;
@@ -2418,6 +2690,7 @@ MACRO user_project_wrapper
   PIN la_data_out[127]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2792.610 -4.800 2793.170 2.400 ;
@@ -2426,6 +2699,7 @@ MACRO user_project_wrapper
   PIN la_data_out[12]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 888.210 -4.800 888.770 2.400 ;
@@ -2434,6 +2708,7 @@ MACRO user_project_wrapper
   PIN la_data_out[13]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 904.770 -4.800 905.330 2.400 ;
@@ -2442,6 +2717,7 @@ MACRO user_project_wrapper
   PIN la_data_out[14]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 921.330 -4.800 921.890 2.400 ;
@@ -2450,6 +2726,7 @@ MACRO user_project_wrapper
   PIN la_data_out[15]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 937.890 -4.800 938.450 2.400 ;
@@ -2458,6 +2735,7 @@ MACRO user_project_wrapper
   PIN la_data_out[16]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 954.450 -4.800 955.010 2.400 ;
@@ -2466,6 +2744,7 @@ MACRO user_project_wrapper
   PIN la_data_out[17]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 971.010 -4.800 971.570 2.400 ;
@@ -2474,6 +2753,7 @@ MACRO user_project_wrapper
   PIN la_data_out[18]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 987.570 -4.800 988.130 2.400 ;
@@ -2482,6 +2762,7 @@ MACRO user_project_wrapper
   PIN la_data_out[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1004.130 -4.800 1004.690 2.400 ;
@@ -2490,6 +2771,7 @@ MACRO user_project_wrapper
   PIN la_data_out[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 706.050 -4.800 706.610 2.400 ;
@@ -2498,6 +2780,7 @@ MACRO user_project_wrapper
   PIN la_data_out[20]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1020.690 -4.800 1021.250 2.400 ;
@@ -2506,6 +2789,7 @@ MACRO user_project_wrapper
   PIN la_data_out[21]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1037.250 -4.800 1037.810 2.400 ;
@@ -2514,6 +2798,7 @@ MACRO user_project_wrapper
   PIN la_data_out[22]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1053.810 -4.800 1054.370 2.400 ;
@@ -2522,6 +2807,7 @@ MACRO user_project_wrapper
   PIN la_data_out[23]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1070.370 -4.800 1070.930 2.400 ;
@@ -2530,6 +2816,7 @@ MACRO user_project_wrapper
   PIN la_data_out[24]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1086.930 -4.800 1087.490 2.400 ;
@@ -2538,6 +2825,7 @@ MACRO user_project_wrapper
   PIN la_data_out[25]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1103.490 -4.800 1104.050 2.400 ;
@@ -2546,6 +2834,7 @@ MACRO user_project_wrapper
   PIN la_data_out[26]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1120.050 -4.800 1120.610 2.400 ;
@@ -2554,6 +2843,7 @@ MACRO user_project_wrapper
   PIN la_data_out[27]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1136.610 -4.800 1137.170 2.400 ;
@@ -2562,6 +2852,7 @@ MACRO user_project_wrapper
   PIN la_data_out[28]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1153.170 -4.800 1153.730 2.400 ;
@@ -2570,6 +2861,7 @@ MACRO user_project_wrapper
   PIN la_data_out[29]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1169.730 -4.800 1170.290 2.400 ;
@@ -2578,6 +2870,7 @@ MACRO user_project_wrapper
   PIN la_data_out[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 722.610 -4.800 723.170 2.400 ;
@@ -2586,6 +2879,7 @@ MACRO user_project_wrapper
   PIN la_data_out[30]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1186.290 -4.800 1186.850 2.400 ;
@@ -2594,6 +2888,7 @@ MACRO user_project_wrapper
   PIN la_data_out[31]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1202.850 -4.800 1203.410 2.400 ;
@@ -2602,6 +2897,7 @@ MACRO user_project_wrapper
   PIN la_data_out[32]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1219.410 -4.800 1219.970 2.400 ;
@@ -2610,6 +2906,7 @@ MACRO user_project_wrapper
   PIN la_data_out[33]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1235.970 -4.800 1236.530 2.400 ;
@@ -2618,6 +2915,7 @@ MACRO user_project_wrapper
   PIN la_data_out[34]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1252.530 -4.800 1253.090 2.400 ;
@@ -2626,6 +2924,7 @@ MACRO user_project_wrapper
   PIN la_data_out[35]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1269.090 -4.800 1269.650 2.400 ;
@@ -2634,6 +2933,7 @@ MACRO user_project_wrapper
   PIN la_data_out[36]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1285.650 -4.800 1286.210 2.400 ;
@@ -2642,6 +2942,7 @@ MACRO user_project_wrapper
   PIN la_data_out[37]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1302.210 -4.800 1302.770 2.400 ;
@@ -2650,6 +2951,7 @@ MACRO user_project_wrapper
   PIN la_data_out[38]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1318.770 -4.800 1319.330 2.400 ;
@@ -2658,6 +2960,7 @@ MACRO user_project_wrapper
   PIN la_data_out[39]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1335.330 -4.800 1335.890 2.400 ;
@@ -2666,6 +2969,7 @@ MACRO user_project_wrapper
   PIN la_data_out[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 739.170 -4.800 739.730 2.400 ;
@@ -2674,6 +2978,7 @@ MACRO user_project_wrapper
   PIN la_data_out[40]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1351.890 -4.800 1352.450 2.400 ;
@@ -2682,6 +2987,7 @@ MACRO user_project_wrapper
   PIN la_data_out[41]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1368.450 -4.800 1369.010 2.400 ;
@@ -2690,6 +2996,7 @@ MACRO user_project_wrapper
   PIN la_data_out[42]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1385.010 -4.800 1385.570 2.400 ;
@@ -2698,6 +3005,7 @@ MACRO user_project_wrapper
   PIN la_data_out[43]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1401.570 -4.800 1402.130 2.400 ;
@@ -2706,6 +3014,7 @@ MACRO user_project_wrapper
   PIN la_data_out[44]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1418.130 -4.800 1418.690 2.400 ;
@@ -2714,6 +3023,7 @@ MACRO user_project_wrapper
   PIN la_data_out[45]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1434.690 -4.800 1435.250 2.400 ;
@@ -2722,6 +3032,7 @@ MACRO user_project_wrapper
   PIN la_data_out[46]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1451.250 -4.800 1451.810 2.400 ;
@@ -2730,6 +3041,7 @@ MACRO user_project_wrapper
   PIN la_data_out[47]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1467.810 -4.800 1468.370 2.400 ;
@@ -2738,6 +3050,7 @@ MACRO user_project_wrapper
   PIN la_data_out[48]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1484.370 -4.800 1484.930 2.400 ;
@@ -2746,6 +3059,7 @@ MACRO user_project_wrapper
   PIN la_data_out[49]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1500.930 -4.800 1501.490 2.400 ;
@@ -2754,6 +3068,7 @@ MACRO user_project_wrapper
   PIN la_data_out[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 755.730 -4.800 756.290 2.400 ;
@@ -2762,6 +3077,7 @@ MACRO user_project_wrapper
   PIN la_data_out[50]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1517.490 -4.800 1518.050 2.400 ;
@@ -2770,6 +3086,7 @@ MACRO user_project_wrapper
   PIN la_data_out[51]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1534.050 -4.800 1534.610 2.400 ;
@@ -2778,6 +3095,7 @@ MACRO user_project_wrapper
   PIN la_data_out[52]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1550.610 -4.800 1551.170 2.400 ;
@@ -2786,6 +3104,7 @@ MACRO user_project_wrapper
   PIN la_data_out[53]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1567.170 -4.800 1567.730 2.400 ;
@@ -2794,6 +3113,7 @@ MACRO user_project_wrapper
   PIN la_data_out[54]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1583.730 -4.800 1584.290 2.400 ;
@@ -2802,6 +3122,7 @@ MACRO user_project_wrapper
   PIN la_data_out[55]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1600.290 -4.800 1600.850 2.400 ;
@@ -2810,6 +3131,7 @@ MACRO user_project_wrapper
   PIN la_data_out[56]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1616.850 -4.800 1617.410 2.400 ;
@@ -2818,6 +3140,7 @@ MACRO user_project_wrapper
   PIN la_data_out[57]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1633.410 -4.800 1633.970 2.400 ;
@@ -2826,6 +3149,7 @@ MACRO user_project_wrapper
   PIN la_data_out[58]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1649.970 -4.800 1650.530 2.400 ;
@@ -2834,6 +3158,7 @@ MACRO user_project_wrapper
   PIN la_data_out[59]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1666.530 -4.800 1667.090 2.400 ;
@@ -2842,6 +3167,7 @@ MACRO user_project_wrapper
   PIN la_data_out[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 772.290 -4.800 772.850 2.400 ;
@@ -2850,6 +3176,7 @@ MACRO user_project_wrapper
   PIN la_data_out[60]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1683.090 -4.800 1683.650 2.400 ;
@@ -2858,6 +3185,7 @@ MACRO user_project_wrapper
   PIN la_data_out[61]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1699.650 -4.800 1700.210 2.400 ;
@@ -2866,6 +3194,7 @@ MACRO user_project_wrapper
   PIN la_data_out[62]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1716.210 -4.800 1716.770 2.400 ;
@@ -2874,6 +3203,7 @@ MACRO user_project_wrapper
   PIN la_data_out[63]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1732.770 -4.800 1733.330 2.400 ;
@@ -2882,6 +3212,7 @@ MACRO user_project_wrapper
   PIN la_data_out[64]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1749.330 -4.800 1749.890 2.400 ;
@@ -2890,6 +3221,7 @@ MACRO user_project_wrapper
   PIN la_data_out[65]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1765.890 -4.800 1766.450 2.400 ;
@@ -2898,6 +3230,7 @@ MACRO user_project_wrapper
   PIN la_data_out[66]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1782.450 -4.800 1783.010 2.400 ;
@@ -2906,6 +3239,7 @@ MACRO user_project_wrapper
   PIN la_data_out[67]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1799.010 -4.800 1799.570 2.400 ;
@@ -2914,6 +3248,7 @@ MACRO user_project_wrapper
   PIN la_data_out[68]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1815.570 -4.800 1816.130 2.400 ;
@@ -2922,6 +3257,7 @@ MACRO user_project_wrapper
   PIN la_data_out[69]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1832.130 -4.800 1832.690 2.400 ;
@@ -2930,6 +3266,7 @@ MACRO user_project_wrapper
   PIN la_data_out[6]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 788.850 -4.800 789.410 2.400 ;
@@ -2938,6 +3275,7 @@ MACRO user_project_wrapper
   PIN la_data_out[70]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1848.690 -4.800 1849.250 2.400 ;
@@ -2946,6 +3284,7 @@ MACRO user_project_wrapper
   PIN la_data_out[71]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1865.250 -4.800 1865.810 2.400 ;
@@ -2954,6 +3293,7 @@ MACRO user_project_wrapper
   PIN la_data_out[72]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1881.810 -4.800 1882.370 2.400 ;
@@ -2962,6 +3302,7 @@ MACRO user_project_wrapper
   PIN la_data_out[73]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1898.370 -4.800 1898.930 2.400 ;
@@ -2970,6 +3311,7 @@ MACRO user_project_wrapper
   PIN la_data_out[74]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1914.930 -4.800 1915.490 2.400 ;
@@ -2978,6 +3320,7 @@ MACRO user_project_wrapper
   PIN la_data_out[75]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1931.490 -4.800 1932.050 2.400 ;
@@ -2986,6 +3329,7 @@ MACRO user_project_wrapper
   PIN la_data_out[76]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1948.050 -4.800 1948.610 2.400 ;
@@ -2994,6 +3338,7 @@ MACRO user_project_wrapper
   PIN la_data_out[77]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1964.610 -4.800 1965.170 2.400 ;
@@ -3002,6 +3347,7 @@ MACRO user_project_wrapper
   PIN la_data_out[78]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1981.170 -4.800 1981.730 2.400 ;
@@ -3010,6 +3356,7 @@ MACRO user_project_wrapper
   PIN la_data_out[79]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 1997.730 -4.800 1998.290 2.400 ;
@@ -3018,6 +3365,7 @@ MACRO user_project_wrapper
   PIN la_data_out[7]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 805.410 -4.800 805.970 2.400 ;
@@ -3026,6 +3374,7 @@ MACRO user_project_wrapper
   PIN la_data_out[80]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2014.290 -4.800 2014.850 2.400 ;
@@ -3034,6 +3383,7 @@ MACRO user_project_wrapper
   PIN la_data_out[81]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2030.850 -4.800 2031.410 2.400 ;
@@ -3042,6 +3392,7 @@ MACRO user_project_wrapper
   PIN la_data_out[82]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2047.410 -4.800 2047.970 2.400 ;
@@ -3050,6 +3401,7 @@ MACRO user_project_wrapper
   PIN la_data_out[83]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2063.970 -4.800 2064.530 2.400 ;
@@ -3058,6 +3410,7 @@ MACRO user_project_wrapper
   PIN la_data_out[84]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2080.530 -4.800 2081.090 2.400 ;
@@ -3066,6 +3419,7 @@ MACRO user_project_wrapper
   PIN la_data_out[85]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2097.090 -4.800 2097.650 2.400 ;
@@ -3074,6 +3428,7 @@ MACRO user_project_wrapper
   PIN la_data_out[86]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2113.650 -4.800 2114.210 2.400 ;
@@ -3082,6 +3437,7 @@ MACRO user_project_wrapper
   PIN la_data_out[87]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2130.210 -4.800 2130.770 2.400 ;
@@ -3090,6 +3446,7 @@ MACRO user_project_wrapper
   PIN la_data_out[88]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2146.770 -4.800 2147.330 2.400 ;
@@ -3098,6 +3455,7 @@ MACRO user_project_wrapper
   PIN la_data_out[89]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2163.330 -4.800 2163.890 2.400 ;
@@ -3106,6 +3464,7 @@ MACRO user_project_wrapper
   PIN la_data_out[8]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 821.970 -4.800 822.530 2.400 ;
@@ -3114,6 +3473,7 @@ MACRO user_project_wrapper
   PIN la_data_out[90]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2179.890 -4.800 2180.450 2.400 ;
@@ -3122,6 +3482,7 @@ MACRO user_project_wrapper
   PIN la_data_out[91]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2196.450 -4.800 2197.010 2.400 ;
@@ -3130,6 +3491,7 @@ MACRO user_project_wrapper
   PIN la_data_out[92]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2213.010 -4.800 2213.570 2.400 ;
@@ -3138,6 +3500,7 @@ MACRO user_project_wrapper
   PIN la_data_out[93]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2229.570 -4.800 2230.130 2.400 ;
@@ -3146,6 +3509,7 @@ MACRO user_project_wrapper
   PIN la_data_out[94]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2246.130 -4.800 2246.690 2.400 ;
@@ -3154,6 +3518,7 @@ MACRO user_project_wrapper
   PIN la_data_out[95]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2262.690 -4.800 2263.250 2.400 ;
@@ -3162,6 +3527,7 @@ MACRO user_project_wrapper
   PIN la_data_out[96]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2279.250 -4.800 2279.810 2.400 ;
@@ -3170,6 +3536,7 @@ MACRO user_project_wrapper
   PIN la_data_out[97]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2295.810 -4.800 2296.370 2.400 ;
@@ -3178,6 +3545,7 @@ MACRO user_project_wrapper
   PIN la_data_out[98]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2312.370 -4.800 2312.930 2.400 ;
@@ -3186,6 +3554,7 @@ MACRO user_project_wrapper
   PIN la_data_out[99]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2328.930 -4.800 2329.490 2.400 ;
@@ -3194,6 +3563,7 @@ MACRO user_project_wrapper
   PIN la_data_out[9]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 838.530 -4.800 839.090 2.400 ;
@@ -3202,6 +3572,7 @@ MACRO user_project_wrapper
   PIN la_oenb[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 695.010 -4.800 695.570 2.400 ;
@@ -3210,6 +3581,7 @@ MACRO user_project_wrapper
   PIN la_oenb[100]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2351.010 -4.800 2351.570 2.400 ;
@@ -3218,6 +3590,7 @@ MACRO user_project_wrapper
   PIN la_oenb[101]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2367.570 -4.800 2368.130 2.400 ;
@@ -3226,6 +3599,7 @@ MACRO user_project_wrapper
   PIN la_oenb[102]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2384.130 -4.800 2384.690 2.400 ;
@@ -3234,6 +3608,7 @@ MACRO user_project_wrapper
   PIN la_oenb[103]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2400.690 -4.800 2401.250 2.400 ;
@@ -3242,6 +3617,7 @@ MACRO user_project_wrapper
   PIN la_oenb[104]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2417.250 -4.800 2417.810 2.400 ;
@@ -3250,6 +3626,7 @@ MACRO user_project_wrapper
   PIN la_oenb[105]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2433.810 -4.800 2434.370 2.400 ;
@@ -3258,6 +3635,7 @@ MACRO user_project_wrapper
   PIN la_oenb[106]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2450.370 -4.800 2450.930 2.400 ;
@@ -3266,6 +3644,7 @@ MACRO user_project_wrapper
   PIN la_oenb[107]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2466.930 -4.800 2467.490 2.400 ;
@@ -3274,6 +3653,7 @@ MACRO user_project_wrapper
   PIN la_oenb[108]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2483.490 -4.800 2484.050 2.400 ;
@@ -3282,6 +3662,7 @@ MACRO user_project_wrapper
   PIN la_oenb[109]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2500.050 -4.800 2500.610 2.400 ;
@@ -3290,6 +3671,7 @@ MACRO user_project_wrapper
   PIN la_oenb[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 860.610 -4.800 861.170 2.400 ;
@@ -3298,6 +3680,7 @@ MACRO user_project_wrapper
   PIN la_oenb[110]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2516.610 -4.800 2517.170 2.400 ;
@@ -3306,6 +3689,7 @@ MACRO user_project_wrapper
   PIN la_oenb[111]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2533.170 -4.800 2533.730 2.400 ;
@@ -3314,6 +3698,7 @@ MACRO user_project_wrapper
   PIN la_oenb[112]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2549.730 -4.800 2550.290 2.400 ;
@@ -3322,6 +3707,7 @@ MACRO user_project_wrapper
   PIN la_oenb[113]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2566.290 -4.800 2566.850 2.400 ;
@@ -3330,6 +3716,7 @@ MACRO user_project_wrapper
   PIN la_oenb[114]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2582.850 -4.800 2583.410 2.400 ;
@@ -3338,6 +3725,7 @@ MACRO user_project_wrapper
   PIN la_oenb[115]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2599.410 -4.800 2599.970 2.400 ;
@@ -3346,6 +3734,7 @@ MACRO user_project_wrapper
   PIN la_oenb[116]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2615.970 -4.800 2616.530 2.400 ;
@@ -3354,6 +3743,7 @@ MACRO user_project_wrapper
   PIN la_oenb[117]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2632.530 -4.800 2633.090 2.400 ;
@@ -3362,6 +3752,7 @@ MACRO user_project_wrapper
   PIN la_oenb[118]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2649.090 -4.800 2649.650 2.400 ;
@@ -3370,6 +3761,7 @@ MACRO user_project_wrapper
   PIN la_oenb[119]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2665.650 -4.800 2666.210 2.400 ;
@@ -3378,6 +3770,7 @@ MACRO user_project_wrapper
   PIN la_oenb[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 877.170 -4.800 877.730 2.400 ;
@@ -3386,6 +3779,7 @@ MACRO user_project_wrapper
   PIN la_oenb[120]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2682.210 -4.800 2682.770 2.400 ;
@@ -3394,6 +3788,7 @@ MACRO user_project_wrapper
   PIN la_oenb[121]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2698.770 -4.800 2699.330 2.400 ;
@@ -3402,6 +3797,7 @@ MACRO user_project_wrapper
   PIN la_oenb[122]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2715.330 -4.800 2715.890 2.400 ;
@@ -3410,6 +3806,7 @@ MACRO user_project_wrapper
   PIN la_oenb[123]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2731.890 -4.800 2732.450 2.400 ;
@@ -3418,6 +3815,7 @@ MACRO user_project_wrapper
   PIN la_oenb[124]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2748.450 -4.800 2749.010 2.400 ;
@@ -3426,6 +3824,7 @@ MACRO user_project_wrapper
   PIN la_oenb[125]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2765.010 -4.800 2765.570 2.400 ;
@@ -3434,6 +3833,7 @@ MACRO user_project_wrapper
   PIN la_oenb[126]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2781.570 -4.800 2782.130 2.400 ;
@@ -3442,6 +3842,7 @@ MACRO user_project_wrapper
   PIN la_oenb[127]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2798.130 -4.800 2798.690 2.400 ;
@@ -3450,6 +3851,7 @@ MACRO user_project_wrapper
   PIN la_oenb[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 893.730 -4.800 894.290 2.400 ;
@@ -3458,6 +3860,7 @@ MACRO user_project_wrapper
   PIN la_oenb[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 910.290 -4.800 910.850 2.400 ;
@@ -3466,6 +3869,7 @@ MACRO user_project_wrapper
   PIN la_oenb[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 926.850 -4.800 927.410 2.400 ;
@@ -3474,6 +3878,7 @@ MACRO user_project_wrapper
   PIN la_oenb[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 943.410 -4.800 943.970 2.400 ;
@@ -3482,6 +3887,7 @@ MACRO user_project_wrapper
   PIN la_oenb[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 959.970 -4.800 960.530 2.400 ;
@@ -3490,6 +3896,7 @@ MACRO user_project_wrapper
   PIN la_oenb[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 976.530 -4.800 977.090 2.400 ;
@@ -3498,6 +3905,7 @@ MACRO user_project_wrapper
   PIN la_oenb[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 993.090 -4.800 993.650 2.400 ;
@@ -3506,6 +3914,7 @@ MACRO user_project_wrapper
   PIN la_oenb[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1009.650 -4.800 1010.210 2.400 ;
@@ -3514,6 +3923,7 @@ MACRO user_project_wrapper
   PIN la_oenb[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 711.570 -4.800 712.130 2.400 ;
@@ -3522,6 +3932,7 @@ MACRO user_project_wrapper
   PIN la_oenb[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1026.210 -4.800 1026.770 2.400 ;
@@ -3530,6 +3941,7 @@ MACRO user_project_wrapper
   PIN la_oenb[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1042.770 -4.800 1043.330 2.400 ;
@@ -3538,6 +3950,7 @@ MACRO user_project_wrapper
   PIN la_oenb[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1059.330 -4.800 1059.890 2.400 ;
@@ -3546,6 +3959,7 @@ MACRO user_project_wrapper
   PIN la_oenb[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1075.890 -4.800 1076.450 2.400 ;
@@ -3554,6 +3968,7 @@ MACRO user_project_wrapper
   PIN la_oenb[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1092.450 -4.800 1093.010 2.400 ;
@@ -3562,6 +3977,7 @@ MACRO user_project_wrapper
   PIN la_oenb[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1109.010 -4.800 1109.570 2.400 ;
@@ -3570,6 +3986,7 @@ MACRO user_project_wrapper
   PIN la_oenb[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1125.570 -4.800 1126.130 2.400 ;
@@ -3578,6 +3995,7 @@ MACRO user_project_wrapper
   PIN la_oenb[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1142.130 -4.800 1142.690 2.400 ;
@@ -3586,6 +4004,7 @@ MACRO user_project_wrapper
   PIN la_oenb[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1158.690 -4.800 1159.250 2.400 ;
@@ -3594,6 +4013,7 @@ MACRO user_project_wrapper
   PIN la_oenb[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1175.250 -4.800 1175.810 2.400 ;
@@ -3602,6 +4022,7 @@ MACRO user_project_wrapper
   PIN la_oenb[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 728.130 -4.800 728.690 2.400 ;
@@ -3610,6 +4031,7 @@ MACRO user_project_wrapper
   PIN la_oenb[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1191.810 -4.800 1192.370 2.400 ;
@@ -3618,6 +4040,7 @@ MACRO user_project_wrapper
   PIN la_oenb[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1208.370 -4.800 1208.930 2.400 ;
@@ -3626,6 +4049,7 @@ MACRO user_project_wrapper
   PIN la_oenb[32]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1224.930 -4.800 1225.490 2.400 ;
@@ -3634,6 +4058,7 @@ MACRO user_project_wrapper
   PIN la_oenb[33]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1241.490 -4.800 1242.050 2.400 ;
@@ -3642,6 +4067,7 @@ MACRO user_project_wrapper
   PIN la_oenb[34]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1258.050 -4.800 1258.610 2.400 ;
@@ -3650,6 +4076,7 @@ MACRO user_project_wrapper
   PIN la_oenb[35]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1274.610 -4.800 1275.170 2.400 ;
@@ -3658,6 +4085,7 @@ MACRO user_project_wrapper
   PIN la_oenb[36]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1291.170 -4.800 1291.730 2.400 ;
@@ -3666,6 +4094,7 @@ MACRO user_project_wrapper
   PIN la_oenb[37]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1307.730 -4.800 1308.290 2.400 ;
@@ -3674,6 +4103,7 @@ MACRO user_project_wrapper
   PIN la_oenb[38]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1324.290 -4.800 1324.850 2.400 ;
@@ -3682,6 +4112,7 @@ MACRO user_project_wrapper
   PIN la_oenb[39]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1340.850 -4.800 1341.410 2.400 ;
@@ -3690,6 +4121,7 @@ MACRO user_project_wrapper
   PIN la_oenb[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 744.690 -4.800 745.250 2.400 ;
@@ -3698,6 +4130,7 @@ MACRO user_project_wrapper
   PIN la_oenb[40]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1357.410 -4.800 1357.970 2.400 ;
@@ -3706,6 +4139,7 @@ MACRO user_project_wrapper
   PIN la_oenb[41]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1373.970 -4.800 1374.530 2.400 ;
@@ -3714,6 +4148,7 @@ MACRO user_project_wrapper
   PIN la_oenb[42]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1390.530 -4.800 1391.090 2.400 ;
@@ -3722,6 +4157,7 @@ MACRO user_project_wrapper
   PIN la_oenb[43]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1407.090 -4.800 1407.650 2.400 ;
@@ -3730,6 +4166,7 @@ MACRO user_project_wrapper
   PIN la_oenb[44]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1423.650 -4.800 1424.210 2.400 ;
@@ -3738,6 +4175,7 @@ MACRO user_project_wrapper
   PIN la_oenb[45]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1440.210 -4.800 1440.770 2.400 ;
@@ -3746,6 +4184,7 @@ MACRO user_project_wrapper
   PIN la_oenb[46]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1456.770 -4.800 1457.330 2.400 ;
@@ -3754,6 +4193,7 @@ MACRO user_project_wrapper
   PIN la_oenb[47]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1473.330 -4.800 1473.890 2.400 ;
@@ -3762,6 +4202,7 @@ MACRO user_project_wrapper
   PIN la_oenb[48]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1489.890 -4.800 1490.450 2.400 ;
@@ -3770,6 +4211,7 @@ MACRO user_project_wrapper
   PIN la_oenb[49]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1506.450 -4.800 1507.010 2.400 ;
@@ -3778,6 +4220,7 @@ MACRO user_project_wrapper
   PIN la_oenb[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 761.250 -4.800 761.810 2.400 ;
@@ -3786,6 +4229,7 @@ MACRO user_project_wrapper
   PIN la_oenb[50]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1523.010 -4.800 1523.570 2.400 ;
@@ -3794,6 +4238,7 @@ MACRO user_project_wrapper
   PIN la_oenb[51]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1539.570 -4.800 1540.130 2.400 ;
@@ -3802,6 +4247,7 @@ MACRO user_project_wrapper
   PIN la_oenb[52]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1556.130 -4.800 1556.690 2.400 ;
@@ -3810,6 +4256,7 @@ MACRO user_project_wrapper
   PIN la_oenb[53]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1572.690 -4.800 1573.250 2.400 ;
@@ -3818,6 +4265,7 @@ MACRO user_project_wrapper
   PIN la_oenb[54]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1589.250 -4.800 1589.810 2.400 ;
@@ -3826,6 +4274,7 @@ MACRO user_project_wrapper
   PIN la_oenb[55]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1605.810 -4.800 1606.370 2.400 ;
@@ -3834,6 +4283,7 @@ MACRO user_project_wrapper
   PIN la_oenb[56]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1622.370 -4.800 1622.930 2.400 ;
@@ -3842,6 +4292,7 @@ MACRO user_project_wrapper
   PIN la_oenb[57]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1638.930 -4.800 1639.490 2.400 ;
@@ -3850,6 +4301,7 @@ MACRO user_project_wrapper
   PIN la_oenb[58]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1655.490 -4.800 1656.050 2.400 ;
@@ -3858,6 +4310,7 @@ MACRO user_project_wrapper
   PIN la_oenb[59]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1672.050 -4.800 1672.610 2.400 ;
@@ -3866,6 +4319,7 @@ MACRO user_project_wrapper
   PIN la_oenb[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 777.810 -4.800 778.370 2.400 ;
@@ -3874,6 +4328,7 @@ MACRO user_project_wrapper
   PIN la_oenb[60]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1688.610 -4.800 1689.170 2.400 ;
@@ -3882,6 +4337,7 @@ MACRO user_project_wrapper
   PIN la_oenb[61]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1705.170 -4.800 1705.730 2.400 ;
@@ -3890,6 +4346,7 @@ MACRO user_project_wrapper
   PIN la_oenb[62]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1721.730 -4.800 1722.290 2.400 ;
@@ -3898,6 +4355,7 @@ MACRO user_project_wrapper
   PIN la_oenb[63]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1738.290 -4.800 1738.850 2.400 ;
@@ -3906,6 +4364,7 @@ MACRO user_project_wrapper
   PIN la_oenb[64]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1754.850 -4.800 1755.410 2.400 ;
@@ -3914,6 +4373,7 @@ MACRO user_project_wrapper
   PIN la_oenb[65]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1771.410 -4.800 1771.970 2.400 ;
@@ -3922,6 +4382,7 @@ MACRO user_project_wrapper
   PIN la_oenb[66]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1787.970 -4.800 1788.530 2.400 ;
@@ -3930,6 +4391,7 @@ MACRO user_project_wrapper
   PIN la_oenb[67]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1804.530 -4.800 1805.090 2.400 ;
@@ -3938,6 +4400,7 @@ MACRO user_project_wrapper
   PIN la_oenb[68]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1821.090 -4.800 1821.650 2.400 ;
@@ -3946,6 +4409,7 @@ MACRO user_project_wrapper
   PIN la_oenb[69]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1837.650 -4.800 1838.210 2.400 ;
@@ -3954,6 +4418,7 @@ MACRO user_project_wrapper
   PIN la_oenb[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 794.370 -4.800 794.930 2.400 ;
@@ -3962,6 +4427,7 @@ MACRO user_project_wrapper
   PIN la_oenb[70]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1854.210 -4.800 1854.770 2.400 ;
@@ -3970,6 +4436,7 @@ MACRO user_project_wrapper
   PIN la_oenb[71]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1870.770 -4.800 1871.330 2.400 ;
@@ -3978,6 +4445,7 @@ MACRO user_project_wrapper
   PIN la_oenb[72]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1887.330 -4.800 1887.890 2.400 ;
@@ -3986,6 +4454,7 @@ MACRO user_project_wrapper
   PIN la_oenb[73]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1903.890 -4.800 1904.450 2.400 ;
@@ -3994,6 +4463,7 @@ MACRO user_project_wrapper
   PIN la_oenb[74]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1920.450 -4.800 1921.010 2.400 ;
@@ -4002,6 +4472,7 @@ MACRO user_project_wrapper
   PIN la_oenb[75]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1937.010 -4.800 1937.570 2.400 ;
@@ -4010,6 +4481,7 @@ MACRO user_project_wrapper
   PIN la_oenb[76]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1953.570 -4.800 1954.130 2.400 ;
@@ -4018,6 +4490,7 @@ MACRO user_project_wrapper
   PIN la_oenb[77]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1970.130 -4.800 1970.690 2.400 ;
@@ -4026,6 +4499,7 @@ MACRO user_project_wrapper
   PIN la_oenb[78]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 1986.690 -4.800 1987.250 2.400 ;
@@ -4034,6 +4508,7 @@ MACRO user_project_wrapper
   PIN la_oenb[79]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2003.250 -4.800 2003.810 2.400 ;
@@ -4042,6 +4517,7 @@ MACRO user_project_wrapper
   PIN la_oenb[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 810.930 -4.800 811.490 2.400 ;
@@ -4050,6 +4526,7 @@ MACRO user_project_wrapper
   PIN la_oenb[80]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2019.810 -4.800 2020.370 2.400 ;
@@ -4058,6 +4535,7 @@ MACRO user_project_wrapper
   PIN la_oenb[81]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2036.370 -4.800 2036.930 2.400 ;
@@ -4066,6 +4544,7 @@ MACRO user_project_wrapper
   PIN la_oenb[82]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2052.930 -4.800 2053.490 2.400 ;
@@ -4074,6 +4553,7 @@ MACRO user_project_wrapper
   PIN la_oenb[83]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2069.490 -4.800 2070.050 2.400 ;
@@ -4082,6 +4562,7 @@ MACRO user_project_wrapper
   PIN la_oenb[84]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2086.050 -4.800 2086.610 2.400 ;
@@ -4090,6 +4571,7 @@ MACRO user_project_wrapper
   PIN la_oenb[85]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2102.610 -4.800 2103.170 2.400 ;
@@ -4098,6 +4580,7 @@ MACRO user_project_wrapper
   PIN la_oenb[86]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2119.170 -4.800 2119.730 2.400 ;
@@ -4106,6 +4589,7 @@ MACRO user_project_wrapper
   PIN la_oenb[87]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2135.730 -4.800 2136.290 2.400 ;
@@ -4114,6 +4598,7 @@ MACRO user_project_wrapper
   PIN la_oenb[88]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2152.290 -4.800 2152.850 2.400 ;
@@ -4122,6 +4607,7 @@ MACRO user_project_wrapper
   PIN la_oenb[89]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2168.850 -4.800 2169.410 2.400 ;
@@ -4130,6 +4616,7 @@ MACRO user_project_wrapper
   PIN la_oenb[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 827.490 -4.800 828.050 2.400 ;
@@ -4138,6 +4625,7 @@ MACRO user_project_wrapper
   PIN la_oenb[90]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2185.410 -4.800 2185.970 2.400 ;
@@ -4146,6 +4634,7 @@ MACRO user_project_wrapper
   PIN la_oenb[91]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2201.970 -4.800 2202.530 2.400 ;
@@ -4154,6 +4643,7 @@ MACRO user_project_wrapper
   PIN la_oenb[92]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2218.530 -4.800 2219.090 2.400 ;
@@ -4162,6 +4652,7 @@ MACRO user_project_wrapper
   PIN la_oenb[93]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2235.090 -4.800 2235.650 2.400 ;
@@ -4170,6 +4661,7 @@ MACRO user_project_wrapper
   PIN la_oenb[94]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2251.650 -4.800 2252.210 2.400 ;
@@ -4178,6 +4670,7 @@ MACRO user_project_wrapper
   PIN la_oenb[95]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2268.210 -4.800 2268.770 2.400 ;
@@ -4186,6 +4679,7 @@ MACRO user_project_wrapper
   PIN la_oenb[96]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2284.770 -4.800 2285.330 2.400 ;
@@ -4194,6 +4688,7 @@ MACRO user_project_wrapper
   PIN la_oenb[97]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2301.330 -4.800 2301.890 2.400 ;
@@ -4202,6 +4697,7 @@ MACRO user_project_wrapper
   PIN la_oenb[98]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2317.890 -4.800 2318.450 2.400 ;
@@ -4210,6 +4706,7 @@ MACRO user_project_wrapper
   PIN la_oenb[99]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2334.450 -4.800 2335.010 2.400 ;
@@ -4218,6 +4715,7 @@ MACRO user_project_wrapper
   PIN la_oenb[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 844.050 -4.800 844.610 2.400 ;
@@ -4226,6 +4724,7 @@ MACRO user_project_wrapper
   PIN user_clock2
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 2803.650 -4.800 2804.210 2.400 ;
@@ -4234,6 +4733,7 @@ MACRO user_project_wrapper
   PIN user_irq[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2809.170 -4.800 2809.730 2.400 ;
@@ -4242,6 +4742,7 @@ MACRO user_project_wrapper
   PIN user_irq[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2814.690 -4.800 2815.250 2.400 ;
@@ -4250,6 +4751,7 @@ MACRO user_project_wrapper
   PIN user_irq[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 2820.210 -4.800 2820.770 2.400 ;
@@ -6110,6 +6612,7 @@ MACRO user_project_wrapper
   PIN wb_clk_i
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 98.850 -4.800 99.410 2.400 ;
@@ -6118,6 +6621,7 @@ MACRO user_project_wrapper
   PIN wb_rst_i
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 104.370 -4.800 104.930 2.400 ;
@@ -6126,6 +6630,7 @@ MACRO user_project_wrapper
   PIN wbs_ack_o
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 109.890 -4.800 110.450 2.400 ;
@@ -6134,6 +6639,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 131.970 -4.800 132.530 2.400 ;
@@ -6142,6 +6648,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 319.650 -4.800 320.210 2.400 ;
@@ -6150,6 +6657,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 336.210 -4.800 336.770 2.400 ;
@@ -6158,6 +6666,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 352.770 -4.800 353.330 2.400 ;
@@ -6166,6 +6675,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 369.330 -4.800 369.890 2.400 ;
@@ -6174,6 +6684,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 385.890 -4.800 386.450 2.400 ;
@@ -6182,6 +6693,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 402.450 -4.800 403.010 2.400 ;
@@ -6190,6 +6702,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 419.010 -4.800 419.570 2.400 ;
@@ -6198,6 +6711,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 435.570 -4.800 436.130 2.400 ;
@@ -6206,6 +6720,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 452.130 -4.800 452.690 2.400 ;
@@ -6214,6 +6729,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 468.690 -4.800 469.250 2.400 ;
@@ -6222,6 +6738,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 154.050 -4.800 154.610 2.400 ;
@@ -6230,6 +6747,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 485.250 -4.800 485.810 2.400 ;
@@ -6238,6 +6756,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 501.810 -4.800 502.370 2.400 ;
@@ -6246,6 +6765,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 518.370 -4.800 518.930 2.400 ;
@@ -6254,6 +6774,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 534.930 -4.800 535.490 2.400 ;
@@ -6262,6 +6783,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 551.490 -4.800 552.050 2.400 ;
@@ -6270,6 +6792,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 568.050 -4.800 568.610 2.400 ;
@@ -6278,6 +6801,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 584.610 -4.800 585.170 2.400 ;
@@ -6286,6 +6810,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 601.170 -4.800 601.730 2.400 ;
@@ -6294,6 +6819,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 617.730 -4.800 618.290 2.400 ;
@@ -6302,6 +6828,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 634.290 -4.800 634.850 2.400 ;
@@ -6310,6 +6837,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 176.130 -4.800 176.690 2.400 ;
@@ -6318,6 +6846,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 650.850 -4.800 651.410 2.400 ;
@@ -6326,6 +6855,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 667.410 -4.800 667.970 2.400 ;
@@ -6334,6 +6864,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 198.210 -4.800 198.770 2.400 ;
@@ -6342,6 +6873,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 220.290 -4.800 220.850 2.400 ;
@@ -6350,6 +6882,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 236.850 -4.800 237.410 2.400 ;
@@ -6358,6 +6891,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 253.410 -4.800 253.970 2.400 ;
@@ -6366,6 +6900,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 269.970 -4.800 270.530 2.400 ;
@@ -6374,6 +6909,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 286.530 -4.800 287.090 2.400 ;
@@ -6382,6 +6918,7 @@ MACRO user_project_wrapper
   PIN wbs_adr_i[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 303.090 -4.800 303.650 2.400 ;
@@ -6390,6 +6927,7 @@ MACRO user_project_wrapper
   PIN wbs_cyc_i
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 115.410 -4.800 115.970 2.400 ;
@@ -6398,6 +6936,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 137.490 -4.800 138.050 2.400 ;
@@ -6406,6 +6945,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 325.170 -4.800 325.730 2.400 ;
@@ -6414,6 +6954,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 341.730 -4.800 342.290 2.400 ;
@@ -6422,6 +6963,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 358.290 -4.800 358.850 2.400 ;
@@ -6430,6 +6972,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 374.850 -4.800 375.410 2.400 ;
@@ -6438,6 +6981,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 391.410 -4.800 391.970 2.400 ;
@@ -6446,6 +6990,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 407.970 -4.800 408.530 2.400 ;
@@ -6454,6 +6999,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 424.530 -4.800 425.090 2.400 ;
@@ -6462,6 +7008,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 441.090 -4.800 441.650 2.400 ;
@@ -6470,6 +7017,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 457.650 -4.800 458.210 2.400 ;
@@ -6478,6 +7026,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 474.210 -4.800 474.770 2.400 ;
@@ -6486,6 +7035,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 159.570 -4.800 160.130 2.400 ;
@@ -6494,6 +7044,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 490.770 -4.800 491.330 2.400 ;
@@ -6502,6 +7053,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 507.330 -4.800 507.890 2.400 ;
@@ -6510,6 +7062,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 523.890 -4.800 524.450 2.400 ;
@@ -6518,6 +7071,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 540.450 -4.800 541.010 2.400 ;
@@ -6526,6 +7080,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 557.010 -4.800 557.570 2.400 ;
@@ -6534,6 +7089,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 573.570 -4.800 574.130 2.400 ;
@@ -6542,6 +7098,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 590.130 -4.800 590.690 2.400 ;
@@ -6550,6 +7107,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 606.690 -4.800 607.250 2.400 ;
@@ -6558,6 +7116,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 623.250 -4.800 623.810 2.400 ;
@@ -6566,6 +7125,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 639.810 -4.800 640.370 2.400 ;
@@ -6574,6 +7134,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 181.650 -4.800 182.210 2.400 ;
@@ -6582,6 +7143,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 656.370 -4.800 656.930 2.400 ;
@@ -6590,6 +7152,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 672.930 -4.800 673.490 2.400 ;
@@ -6598,6 +7161,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 203.730 -4.800 204.290 2.400 ;
@@ -6606,6 +7170,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 225.810 -4.800 226.370 2.400 ;
@@ -6614,6 +7179,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 242.370 -4.800 242.930 2.400 ;
@@ -6622,6 +7188,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 258.930 -4.800 259.490 2.400 ;
@@ -6630,6 +7197,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 275.490 -4.800 276.050 2.400 ;
@@ -6638,6 +7206,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 292.050 -4.800 292.610 2.400 ;
@@ -6646,6 +7215,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_i[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 308.610 -4.800 309.170 2.400 ;
@@ -6654,6 +7224,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[0]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 143.010 -4.800 143.570 2.400 ;
@@ -6662,6 +7233,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[10]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 330.690 -4.800 331.250 2.400 ;
@@ -6670,6 +7242,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[11]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 347.250 -4.800 347.810 2.400 ;
@@ -6678,6 +7251,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[12]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 363.810 -4.800 364.370 2.400 ;
@@ -6686,6 +7260,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[13]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 380.370 -4.800 380.930 2.400 ;
@@ -6694,6 +7269,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[14]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 396.930 -4.800 397.490 2.400 ;
@@ -6702,6 +7278,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[15]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 413.490 -4.800 414.050 2.400 ;
@@ -6710,6 +7287,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[16]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 430.050 -4.800 430.610 2.400 ;
@@ -6718,6 +7296,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[17]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 446.610 -4.800 447.170 2.400 ;
@@ -6726,6 +7305,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[18]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 463.170 -4.800 463.730 2.400 ;
@@ -6734,6 +7314,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 479.730 -4.800 480.290 2.400 ;
@@ -6742,6 +7323,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 165.090 -4.800 165.650 2.400 ;
@@ -6750,6 +7332,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[20]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 496.290 -4.800 496.850 2.400 ;
@@ -6758,6 +7341,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[21]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 512.850 -4.800 513.410 2.400 ;
@@ -6766,6 +7350,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[22]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 529.410 -4.800 529.970 2.400 ;
@@ -6774,6 +7359,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[23]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 545.970 -4.800 546.530 2.400 ;
@@ -6782,6 +7368,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[24]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 562.530 -4.800 563.090 2.400 ;
@@ -6790,6 +7377,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[25]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 579.090 -4.800 579.650 2.400 ;
@@ -6798,6 +7386,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[26]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 595.650 -4.800 596.210 2.400 ;
@@ -6806,6 +7395,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[27]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 612.210 -4.800 612.770 2.400 ;
@@ -6814,6 +7404,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[28]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 628.770 -4.800 629.330 2.400 ;
@@ -6822,6 +7413,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[29]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 645.330 -4.800 645.890 2.400 ;
@@ -6830,6 +7422,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[2]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 187.170 -4.800 187.730 2.400 ;
@@ -6838,6 +7431,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[30]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 661.890 -4.800 662.450 2.400 ;
@@ -6846,6 +7440,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[31]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 678.450 -4.800 679.010 2.400 ;
@@ -6854,6 +7449,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[3]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 209.250 -4.800 209.810 2.400 ;
@@ -6862,6 +7458,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[4]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 231.330 -4.800 231.890 2.400 ;
@@ -6870,6 +7467,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[5]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 247.890 -4.800 248.450 2.400 ;
@@ -6878,6 +7476,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[6]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 264.450 -4.800 265.010 2.400 ;
@@ -6886,6 +7485,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[7]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 281.010 -4.800 281.570 2.400 ;
@@ -6894,6 +7494,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[8]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 297.570 -4.800 298.130 2.400 ;
@@ -6902,6 +7503,7 @@ MACRO user_project_wrapper
   PIN wbs_dat_o[9]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
+    ANTENNADIFFAREA 0.275600 ;
     PORT
       LAYER met2 ;
         RECT 314.130 -4.800 314.690 2.400 ;
@@ -6910,6 +7512,7 @@ MACRO user_project_wrapper
   PIN wbs_sel_i[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 148.530 -4.800 149.090 2.400 ;
@@ -6918,6 +7521,7 @@ MACRO user_project_wrapper
   PIN wbs_sel_i[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 170.610 -4.800 171.170 2.400 ;
@@ -6926,6 +7530,7 @@ MACRO user_project_wrapper
   PIN wbs_sel_i[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 192.690 -4.800 193.250 2.400 ;
@@ -6934,6 +7539,7 @@ MACRO user_project_wrapper
   PIN wbs_sel_i[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 214.770 -4.800 215.330 2.400 ;
@@ -6942,6 +7548,7 @@ MACRO user_project_wrapper
   PIN wbs_stb_i
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 120.930 -4.800 121.490 2.400 ;
@@ -6950,6 +7557,7 @@ MACRO user_project_wrapper
   PIN wbs_we_i
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.126000 ;
     PORT
       LAYER met2 ;
         RECT 126.450 -4.800 127.010 2.400 ;

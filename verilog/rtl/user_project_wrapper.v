@@ -39,7 +39,7 @@ module user_project_wrapper #(
     input [3:0] wbs_sel_i,
     input [31:0] wbs_dat_i,
     input [31:0] wbs_adr_i,
-    output reg wbs_ack_o,
+    output wbs_ack_o,
     output [31:0] wbs_dat_o,
 
     // Logic Analyzer Signals
@@ -64,7 +64,7 @@ module user_project_wrapper #(
     // User maskable interrupt signals
     output [2:0] user_irq
 );
-  reg  [     CFG_BITS-1:0] configuration;
+  wire  [     CFG_BITS-1:0] configuration;
 
 
   // Wishbone Slave outputs from user projects

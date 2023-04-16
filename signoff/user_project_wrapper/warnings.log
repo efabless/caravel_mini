@@ -1,5 +1,2 @@
-[WARNING]: DPL_CELL_PADDING is set higher than GPL_CELL_PADDING (4 > 0). This may result in inconsistent behavior.
-[WARNING]: DPL_CELL_PADDING is set higher than GPL_CELL_PADDING (4 > 0). This may result in inconsistent behavior.
-[WARNING]: DPL_CELL_PADDING is set higher than GPL_CELL_PADDING (4 > 0). This may result in inconsistent behavior.
-[WARNING]: There are max slew violations in the design at the typical corner. Please refer to 'user_project_wrapper/runs/23_03_31_06_43/reports/signoff/41-rcx_sta.slew.rpt'.
-[WARNING]: There are max fanout violations in the design at the typical corner. Please refer to 'user_project_wrapper/runs/23_03_31_06_43/reports/signoff/41-rcx_sta.slew.rpt'.
+[WARNING]: There are max slew violations in the design at the typical corner. Please refer to 'user_project_wrapper/runs/23_04_13_05_52/reports/signoff/41-rcx_sta.slew.rpt'.
+[WARNING]: There are max fanout violations in the design at the typical corner. Please refer to 'user_project_wrapper/runs/23_04_13_05_52/reports/signoff/41-rcx_sta.slew.rpt'.
