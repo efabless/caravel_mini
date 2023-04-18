@@ -92,8 +92,9 @@ module user_project_wrapper #(
     for (i = 0; i < USER_PROJECTS; i = i + 1) begin : user_projects
       if (i % 2 == 0)
         user_project #(
-            // .COUNT_STEP(2 * i + 1),
-            // .COUNT_ADDR(i * 4)
+            `ifndef PnR 
+            .COUNT_STEP(2 * i + 1)
+            `endif 
         ) user_project (
 `ifdef USE_POWER_PINS
             .VPWR(vccd2), // User area 1 1.8V supply
@@ -135,8 +136,9 @@ module user_project_wrapper #(
         );
       else
         user_project #(
-            // .COUNT_STEP(2 * i + 1),
-            // .COUNT_ADDR(i * 4)
+            `ifndef PnR 
+            .COUNT_STEP(2 * i + 1)
+            `endif 
         ) user_project (
 `ifdef USE_POWER_PINS
             .VPWR(vccd1), // User area 1 1.8V supply
