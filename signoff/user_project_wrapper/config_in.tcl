@@ -24,7 +24,6 @@ set ::env(BASE_SDC_FILE) "$::env(DESIGN_DIR)/base_user_project_wrapper.sdc"
 set ::env(RCX_SDC_FILE) "$::env(DESIGN_DIR)/signoff_user_project_wrapper.sdc"
 
 set ::env(VERILOG_FILES) "\
-                        $::env(DESIGN_DIR)/../../verilog/rtl/defines.v \
                         $::env(DESIGN_DIR)/../../verilog/rtl/user_project_wrapper.v \
 "
                     
@@ -33,7 +32,7 @@ set ::env(RUN_KLAYOUT) 0
 # clock constraints
 set ::env(CLOCK_PORT) "wb_clk_i"
 set ::env(CLOCK_NET) "mprj.clk"
-set ::env(CLOCK_PERIOD) 20
+set ::env(CLOCK_PERIOD) 30
 
 # Synthesis
 set ::env(SYNTH_STRATEGY) "DELAY 1"
@@ -111,7 +110,7 @@ set ::env(GLB_RESIZER_MAX_CAP_MARGIN) 20
 ## Antenna
 set ::env(GRT_REPAIR_ANTENNAS) 1
 set ::env(RUN_HEURISTIC_DIODE_INSERTION) 1
-set ::env(HEURISTIC_ANTENNA_THRESHOLD) 90
+set ::env(HEURISTIC_ANTENNA_THRESHOLD) 120
 set ::env(DIODE_ON_PORTS) "both"
 set ::env(GRT_ANT_ITERS) 12
 set ::env(GRT_ANT_MARGIN) 20
@@ -123,7 +122,6 @@ set ::env(MACRO_PLACEMENT_CFG) [glob $::env(DESIGN_DIR)/macro_placement.cfg]
 
 
 set ::env(VERILOG_FILES_BLACKBOX) "\
-    $::env(DESIGN_DIR)/../../verilog/rtl/defines.v \
     $::env(DESIGN_DIR)/../../verilog/gl/user_project.v \
 "
 
@@ -142,9 +140,11 @@ set ::env(EXTRA_LIBS) "\
 set ::env(STA_WRITE_LIB) 0
 
 ## For faster development
-set ::env(QUIT_ON_TR_DRC) 0
-set ::env(QUIT_ON_LVS_ERROR) 0
-set ::env(QUIT_ON_MAGIC_DRC) 0
+# set ::env(QUIT_ON_TR_DRC) 0
+# set ::env(QUIT_ON_LVS_ERROR) 0
+# set ::env(QUIT_ON_MAGIC_DRC) 0
 
 set ::env(MAGIC_DEF_LABELS) 0
 set ::env(MAGIC_EXT_USE_GDS) 0
+
+set ::env(SYNTH_DEFINES) "PnR"

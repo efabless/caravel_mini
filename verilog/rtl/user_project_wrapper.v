@@ -13,6 +13,10 @@
 // limitations under the License.
 // SPDX-License-Identifier: Apache-2.0
 
+`define MPRJ_IO_PADS_1 19	/* number of user GPIO pads on user1 side */
+`define MPRJ_IO_PADS_2 19	/* number of user GPIO pads on user2 side */
+`define MPRJ_IO_PADS (`MPRJ_IO_PADS_1 + `MPRJ_IO_PADS_2)
+
 module user_project_wrapper #(
     parameter BITS = 32,
     parameter integer CFG_ADDRESS = 32'h300FFFFC,  // last address in address space
