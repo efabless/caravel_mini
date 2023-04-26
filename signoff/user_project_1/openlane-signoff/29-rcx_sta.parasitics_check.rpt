@@ -1,0 +1,174 @@
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 71 unannotated nets.
+ io_in[0]
+ io_in[10]
+ io_in[11]
+ io_in[12]
+ io_in[13]
+ io_in[14]
+ io_in[15]
+ io_in[16]
+ io_in[17]
+ io_in[18]
+ io_in[19]
+ io_in[1]
+ io_in[20]
+ io_in[21]
+ io_in[22]
+ io_in[23]
+ io_in[24]
+ io_in[25]
+ io_in[26]
+ io_in[27]
+ io_in[28]
+ io_in[29]
+ io_in[2]
+ io_in[30]
+ io_in[31]
+ io_in[32]
+ io_in[33]
+ io_in[34]
+ io_in[35]
+ io_in[3]
+ io_in[4]
+ io_in[5]
+ io_in[6]
+ io_in[7]
+ io_in[8]
+ io_in[9]
+ user_clock2
+ wbs_adr_i[0]
+ wbs_adr_i[10]
+ wbs_adr_i[11]
+ wbs_adr_i[12]
+ wbs_adr_i[13]
+ wbs_adr_i[14]
+ wbs_adr_i[15]
+ wbs_adr_i[16]
+ wbs_adr_i[17]
+ wbs_adr_i[18]
+ wbs_adr_i[19]
+ wbs_adr_i[1]
+ wbs_adr_i[20]
+ wbs_adr_i[21]
+ wbs_adr_i[22]
+ wbs_adr_i[23]
+ wbs_adr_i[24]
+ wbs_adr_i[25]
+ wbs_adr_i[26]
+ wbs_adr_i[27]
+ wbs_adr_i[28]
+ wbs_adr_i[29]
+ wbs_adr_i[2]
+ wbs_adr_i[30]
+ wbs_adr_i[31]
+ wbs_adr_i[3]
+ wbs_adr_i[4]
+ wbs_adr_i[5]
+ wbs_adr_i[6]
+ wbs_adr_i[7]
+ wbs_adr_i[8]
+ wbs_adr_i[9]
+ wbs_dat_i[30]
+ wbs_dat_i[31]
+Found 0 partially unannotated nets.
+parastic_annotation_check
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+wire340/X                                14     32    -18 (VIOLATED)
+_419_/X                                  14     28    -14 (VIOLATED)
+_420_/X                                  14     28    -14 (VIOLATED)
+fanout327/X                              14     28    -14 (VIOLATED)
+_407_/X                                  14     26    -12 (VIOLATED)
+hold103/X                                14     22     -8 (VIOLATED)
+_408_/Y                                  14     20     -6 (VIOLATED)
+_454_/Y                                  14     18     -4 (VIOLATED)
+_402_/X                                  14     16     -2 (VIOLATED)
+_541_/Y                                  14     16     -2 (VIOLATED)
+_410_/X                                  14     15        (VIOLATED)
+_432_/X                                  14     15        (VIOLATED)
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 12
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack 6.36
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack 1.25
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock clk
+Latency      CRPR       Skew
+_697_/CLK ^
+  18.90
+_701_/CLK ^
+   5.88      0.00      13.02
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             8.79e-05   1.14e-05   5.19e-10   9.92e-05  12.2%
+Combinational          2.78e-04   4.34e-04   1.07e-07   7.12e-04  87.8%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.66e-04   4.46e-04   1.08e-07   8.11e-04 100.0%
+                          45.1%      54.9%       0.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 56772 u^2 3% utilization.
+area_report_end
+Setting global connections for newly added cells...
+[WARNING] Did not save OpenROAD database!
+Writing SDF to /home/hosni/mpc/openlane/user_project_1/runs/23_04_23_17_59/results/routing/mca/process_corner_nom/user_project_1.sdf...
+Writing timing model to /home/hosni/mpc/openlane/user_project_1/runs/23_04_23_17_59/results/routing/mca/process_corner_nom/user_project_1.lib...
+

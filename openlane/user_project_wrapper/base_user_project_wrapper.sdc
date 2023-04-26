@@ -57,6 +57,9 @@ set_max_transition $::env(SYNTH_MAX_TRAN) [current_design]
 set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]
 puts "\[INFO\]: Setting maximum fanout to: $::env(SYNTH_MAX_FANOUT)"
 
+# Maximum capacitance
+# set_max_cap 0.15 [current_design]
+
 # Timing paths delays derate
 set_timing_derate -early [expr {1-$::env(SYNTH_TIMING_DERATE)}]
 set_timing_derate -late [expr {1+$::env(SYNTH_TIMING_DERATE)}]

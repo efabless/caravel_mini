@@ -1,0 +1,19 @@
+Design Name: user_project_1
+Run Directory: /home/hosni/mpc/openlane/user_project_1/runs/23_04_23_17_59
+----------------------------------------
+
+Magic DRC Summary:
+Source: /home/hosni/mpc/openlane/user_project_1/runs/23_04_23_17_59/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /home/hosni/mpc/openlane/user_project_1/runs/23_04_23_17_59/logs/signoff/35-user_project_1.lef.lvs.log
+Number of nets: 2002                       |Number of nets: 2002                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /home/hosni/mpc/openlane/user_project_1/runs/23_04_23_17_59/logs/signoff/37-antenna.log
+Pin violations: 5
+Net violations: 5

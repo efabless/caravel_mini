@@ -1,19 +1,19 @@
 Design Name: user_project_wrapper
-Run Directory: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_13_05_52
+Run Directory: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_25_06_48
 ----------------------------------------
 
 Magic DRC Summary:
-Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_13_05_52/reports/signoff/drc.rpt
+Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_25_06_48/reports/signoff/drc.rpt
 Total Magic DRC violations is 0
 ----------------------------------------
 
 LVS Summary:
-Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_13_05_52/logs/signoff/47-user_project_wrapper.lef.lvs.log
-Number of nets: 9027                       |Number of nets: 9027                       
+Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_25_06_48/logs/signoff/47-user_project_wrapper.lef.lvs.log
+Number of nets: 9293                       |Number of nets: 9293                       
 Design is LVS clean.
 ----------------------------------------
 
 Antenna Summary:
-Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_13_05_52/logs/signoff/42-antenna.log
-Pin violations: 5
-Net violations: 5
+Source: /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_25_06_48/logs/signoff/42-antenna.log
+Pin violations: 8
+Net violations: 8
