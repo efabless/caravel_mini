@@ -54,7 +54,7 @@ module user_project_7 #(
     assign io_out = io_in;
 `else
     wire valid = wbs_cyc_i && wbs_stb_i;
-    assign io_oeb[37:32] = 6'h3f;
+    assign io_oeb[35:32] = 6'h3f;
 
     counter #(.COUNT_STEP(COUNT_STEP)) count(
         .wb_clk_i(wb_clk_i),
@@ -63,13 +63,13 @@ module user_project_7 #(
         .la_clk_rst_oenb(la_oenb[31:30]),
         .valid(valid),
         .wstrb(wbs_sel_i & {4{wbs_we_i}}),
-        .wdata(wbs_dat_i),
-        .wbs_adr_i(wbs_adr_i),
+        .wdata(wbs_dat_i[BITS-1:0]),
+        .wbs_adr_i(wbs_adr_i[BITS-1:0]),
         .la_write(~la_oenb[29:0] & ~{BITS-2{valid}}),
         .la_input(la_data_in[29:0]),
         .ready(wbs_ack_o),
-        .rdata(wbs_dat_o),
-        .count(io_out),
+        .rdata(wbs_dat_o[BITS-1:0]),
+        .count(io_out[BITS-1:0]),
         .io_oeb(io_oeb[BITS-1:0])
 
     );
