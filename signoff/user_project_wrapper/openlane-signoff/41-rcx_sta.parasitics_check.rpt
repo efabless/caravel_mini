@@ -1,0 +1,1763 @@
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 221 unannotated nets.
+ analog_io[0]
+ analog_io[10]
+ analog_io[11]
+ analog_io[12]
+ analog_io[13]
+ analog_io[14]
+ analog_io[15]
+ analog_io[16]
+ analog_io[17]
+ analog_io[18]
+ analog_io[19]
+ analog_io[1]
+ analog_io[20]
+ analog_io[21]
+ analog_io[22]
+ analog_io[23]
+ analog_io[24]
+ analog_io[25]
+ analog_io[26]
+ analog_io[27]
+ analog_io[28]
+ analog_io[2]
+ analog_io[3]
+ analog_io[4]
+ analog_io[5]
+ analog_io[6]
+ analog_io[7]
+ analog_io[8]
+ analog_io[9]
+ la_data_in[100]
+ la_data_in[101]
+ la_data_in[102]
+ la_data_in[103]
+ la_data_in[104]
+ la_data_in[105]
+ la_data_in[106]
+ la_data_in[107]
+ la_data_in[108]
+ la_data_in[109]
+ la_data_in[110]
+ la_data_in[111]
+ la_data_in[112]
+ la_data_in[113]
+ la_data_in[114]
+ la_data_in[115]
+ la_data_in[116]
+ la_data_in[117]
+ la_data_in[118]
+ la_data_in[119]
+ la_data_in[120]
+ la_data_in[121]
+ la_data_in[122]
+ la_data_in[123]
+ la_data_in[124]
+ la_data_in[125]
+ la_data_in[126]
+ la_data_in[127]
+ la_data_in[32]
+ la_data_in[33]
+ la_data_in[34]
+ la_data_in[35]
+ la_data_in[36]
+ la_data_in[37]
+ la_data_in[38]
+ la_data_in[39]
+ la_data_in[40]
+ la_data_in[41]
+ la_data_in[42]
+ la_data_in[43]
+ la_data_in[44]
+ la_data_in[45]
+ la_data_in[46]
+ la_data_in[47]
+ la_data_in[48]
+ la_data_in[49]
+ la_data_in[50]
+ la_data_in[51]
+ la_data_in[52]
+ la_data_in[53]
+ la_data_in[54]
+ la_data_in[55]
+ la_data_in[56]
+ la_data_in[57]
+ la_data_in[58]
+ la_data_in[59]
+ la_data_in[60]
+ la_data_in[61]
+ la_data_in[62]
+ la_data_in[63]
+ la_data_in[64]
+ la_data_in[65]
+ la_data_in[66]
+ la_data_in[67]
+ la_data_in[68]
+ la_data_in[69]
+ la_data_in[70]
+ la_data_in[71]
+ la_data_in[72]
+ la_data_in[73]
+ la_data_in[74]
+ la_data_in[75]
+ la_data_in[76]
+ la_data_in[77]
+ la_data_in[78]
+ la_data_in[79]
+ la_data_in[80]
+ la_data_in[81]
+ la_data_in[82]
+ la_data_in[83]
+ la_data_in[84]
+ la_data_in[85]
+ la_data_in[86]
+ la_data_in[87]
+ la_data_in[88]
+ la_data_in[89]
+ la_data_in[90]
+ la_data_in[91]
+ la_data_in[92]
+ la_data_in[93]
+ la_data_in[94]
+ la_data_in[95]
+ la_data_in[96]
+ la_data_in[97]
+ la_data_in[98]
+ la_data_in[99]
+ la_oenb[100]
+ la_oenb[101]
+ la_oenb[102]
+ la_oenb[103]
+ la_oenb[104]
+ la_oenb[105]
+ la_oenb[106]
+ la_oenb[107]
+ la_oenb[108]
+ la_oenb[109]
+ la_oenb[110]
+ la_oenb[111]
+ la_oenb[112]
+ la_oenb[113]
+ la_oenb[114]
+ la_oenb[115]
+ la_oenb[116]
+ la_oenb[117]
+ la_oenb[118]
+ la_oenb[119]
+ la_oenb[120]
+ la_oenb[121]
+ la_oenb[122]
+ la_oenb[123]
+ la_oenb[124]
+ la_oenb[125]
+ la_oenb[126]
+ la_oenb[127]
+ la_oenb[32]
+ la_oenb[33]
+ la_oenb[34]
+ la_oenb[35]
+ la_oenb[36]
+ la_oenb[37]
+ la_oenb[38]
+ la_oenb[39]
+ la_oenb[40]
+ la_oenb[41]
+ la_oenb[42]
+ la_oenb[43]
+ la_oenb[44]
+ la_oenb[45]
+ la_oenb[46]
+ la_oenb[47]
+ la_oenb[48]
+ la_oenb[49]
+ la_oenb[50]
+ la_oenb[51]
+ la_oenb[52]
+ la_oenb[53]
+ la_oenb[54]
+ la_oenb[55]
+ la_oenb[56]
+ la_oenb[57]
+ la_oenb[58]
+ la_oenb[59]
+ la_oenb[60]
+ la_oenb[61]
+ la_oenb[62]
+ la_oenb[63]
+ la_oenb[64]
+ la_oenb[65]
+ la_oenb[66]
+ la_oenb[67]
+ la_oenb[68]
+ la_oenb[69]
+ la_oenb[70]
+ la_oenb[71]
+ la_oenb[72]
+ la_oenb[73]
+ la_oenb[74]
+ la_oenb[75]
+ la_oenb[76]
+ la_oenb[77]
+ la_oenb[78]
+ la_oenb[79]
+ la_oenb[80]
+ la_oenb[81]
+ la_oenb[82]
+ la_oenb[83]
+ la_oenb[84]
+ la_oenb[85]
+ la_oenb[86]
+ la_oenb[87]
+ la_oenb[88]
+ la_oenb[89]
+ la_oenb[90]
+ la_oenb[91]
+ la_oenb[92]
+ la_oenb[93]
+ la_oenb[94]
+ la_oenb[95]
+ la_oenb[96]
+ la_oenb[97]
+ la_oenb[98]
+ la_oenb[99]
+Found 672 partially unannotated nets.
+ net6
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[14]/DIODE
+ net27
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[33]/DIODE
+ net33
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[4]/DIODE
+ net34
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[5]/DIODE
+ net35
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[6]/DIODE
+ net4410
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[6]/DIODE
+ net4418
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[5]/DIODE
+ net4420
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[4]/DIODE
+ net4426
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[4]/DIODE
+ net4428
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[3]/DIODE
+ net4432
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[3]/DIODE
+ net4434
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[3]/DIODE
+ net4452
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[2]/DIODE
+ net4456
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[2]/DIODE
+ net4458
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[2]/DIODE
+ net4466
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[29]/DIODE
+ net4486
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[17]/DIODE
+ net4490
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[17]/DIODE
+ net4497
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[26]/DIODE
+ net4547
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[1]/DIODE
+ net4551
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[1]/DIODE
+ net4553
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[1]/DIODE
+ net4561
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[19]/DIODE
+ net4569
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[18]/DIODE
+ net4571
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[16]/DIODE
+ net4573
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[16]/DIODE
+ net4577
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[16]/DIODE
+ net4584
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[17]/DIODE
+ net4592
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[16]/DIODE
+ net4600
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[15]/DIODE
+ net4608
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[14]/DIODE
+ net4616
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[13]/DIODE
+ net4624
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[12]/DIODE
+ net4632
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[11]/DIODE
+ net4640
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[10]/DIODE
+ net4642
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[0]/DIODE
+ net4646
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[0]/DIODE
+ net4648
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[0]/DIODE
+ net4655
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[9]/DIODE
+ net4657
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[15]/DIODE
+ net4659
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[15]/DIODE
+ net4663
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[15]/DIODE
+ net4664
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[8]/DIODE
+ net4669
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[8]/DIODE
+ net4674
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[7]/DIODE
+ net4681
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[6]/DIODE
+ net4690
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[5]/DIODE
+ net4695
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[4]/DIODE
+ net4697
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[4]/DIODE
+ net4704
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[3]/DIODE
+ net4706
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[31]/DIODE
+ net4708
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[31]/DIODE
+ net4712
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[31]/DIODE
+ net4713
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[30]/DIODE
+ net4715
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[30]/DIODE
+ net4719
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[30]/DIODE
+ net4727
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[29]/DIODE
+ net4729
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[29]/DIODE
+ net4733
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[29]/DIODE
+ net4734
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[14]/DIODE
+ net4736
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[14]/DIODE
+ net4738
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[14]/DIODE
+ net4741
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[28]/DIODE
+ net4746
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[28]/DIODE
+ net4748
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[27]/DIODE
+ net4753
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[27]/DIODE
+ net4762
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[25]/DIODE
+ net4767
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[25]/DIODE
+ net4813
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[13]/DIODE
+ net4817
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[13]/DIODE
+ net4830
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[18]/DIODE
+ net4837
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[17]/DIODE
+ net4851
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[15]/DIODE
+ net4865
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[13]/DIODE
+ net4872
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[12]/DIODE
+ net4879
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[11]/DIODE
+ net4886
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[10]/DIODE
+ net4890
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[12]/DIODE
+ net4894
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[12]/DIODE
+ net4927
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[6]/DIODE
+ net4934
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[5]/DIODE
+ net4951
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[3]/DIODE
+ net5168
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[11]/DIODE
+ net5176
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[35]/DIODE
+ net5184
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[34]/DIODE
+ net5189
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[33]/DIODE
+ net5220
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[2]/DIODE
+ net5240
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[27]/DIODE
+ net5251
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[26]/DIODE
+ net5255
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[26]/DIODE
+ net5256
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[25]/DIODE
+ net5258
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[25]/DIODE
+ net5260
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[25]/DIODE
+ net5262
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[25]/DIODE
+ net5277
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_sel_i[3]/DIODE
+ net5281
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_sel_i[3]/DIODE
+ net5283
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_sel_i[3]/DIODE
+ net5284
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_sel_i[2]/DIODE
+ net5288
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_sel_i[2]/DIODE
+ net5290
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_sel_i[2]/DIODE
+ net5291
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_sel_i[1]/DIODE
+ net5295
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_sel_i[1]/DIODE
+ net5297
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_sel_i[1]/DIODE
+ net5298
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_sel_i[0]/DIODE
+ net5302
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_sel_i[0]/DIODE
+ net5304
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_sel_i[0]/DIODE
+ net5305
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[24]/DIODE
+ net5309
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[24]/DIODE
+ net5311
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[24]/DIODE
+ net5312
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[9]/DIODE
+ net5316
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[9]/DIODE
+ net5318
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[9]/DIODE
+ net5320
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[8]/DIODE
+ net5324
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[8]/DIODE
+ net5326
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[8]/DIODE
+ net5328
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[7]/DIODE
+ net5332
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[7]/DIODE
+ net5334
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[7]/DIODE
+ net5336
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[6]/DIODE
+ net5340
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[6]/DIODE
+ net5342
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[6]/DIODE
+ net5344
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[5]/DIODE
+ net5348
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[5]/DIODE
+ net5350
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[5]/DIODE
+ net5351
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[4]/DIODE
+ net5355
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[4]/DIODE
+ net5357
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[4]/DIODE
+ net5358
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[3]/DIODE
+ net5362
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[3]/DIODE
+ net5364
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[3]/DIODE
+ net5365
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[31]/DIODE
+ net5369
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[31]/DIODE
+ net5371
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[31]/DIODE
+ net5373
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[30]/DIODE
+ net5377
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[30]/DIODE
+ net5379
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[30]/DIODE
+ net5381
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[2]/DIODE
+ net5385
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[2]/DIODE
+ net5387
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[2]/DIODE
+ net5388
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[23]/DIODE
+ net5392
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[23]/DIODE
+ net5394
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[23]/DIODE
+ net5395
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[29]/DIODE
+ net5399
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[29]/DIODE
+ net5403
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[28]/DIODE
+ net5407
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[28]/DIODE
+ net5409
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[28]/DIODE
+ net5411
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[27]/DIODE
+ net5415
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[27]/DIODE
+ net5417
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[27]/DIODE
+ net5419
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[26]/DIODE
+ net5423
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[26]/DIODE
+ net5425
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[26]/DIODE
+ net5427
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[25]/DIODE
+ net5431
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[25]/DIODE
+ net5433
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[25]/DIODE
+ net5435
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[24]/DIODE
+ net5439
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[24]/DIODE
+ net5441
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[24]/DIODE
+ net5443
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[23]/DIODE
+ net5447
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[23]/DIODE
+ net5451
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[22]/DIODE
+ net5455
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[22]/DIODE
+ net5457
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[22]/DIODE
+ net5459
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[21]/DIODE
+ net5463
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[21]/DIODE
+ net5465
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[21]/DIODE
+ net5467
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[20]/DIODE
+ net5471
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[20]/DIODE
+ net5473
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[20]/DIODE
+ net5475
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[22]/DIODE
+ net5479
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[22]/DIODE
+ net5480
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[22]/DIODE
+ net5482
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[1]/DIODE
+ net5486
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[1]/DIODE
+ net5488
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[1]/DIODE
+ net5489
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[19]/DIODE
+ net5493
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[19]/DIODE
+ net5495
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[19]/DIODE
+ net5497
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[18]/DIODE
+ net5501
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[18]/DIODE
+ net5503
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[18]/DIODE
+ net5505
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[17]/DIODE
+ net5509
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[17]/DIODE
+ net5511
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[17]/DIODE
+ net5513
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[16]/DIODE
+ net5517
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[16]/DIODE
+ net5521
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[15]/DIODE
+ net5525
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[15]/DIODE
+ net5529
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[14]/DIODE
+ net5533
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[14]/DIODE
+ net5537
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[13]/DIODE
+ net5541
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[13]/DIODE
+ net5545
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[12]/DIODE
+ net5549
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[12]/DIODE
+ net5553
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[11]/DIODE
+ net5557
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[11]/DIODE
+ net5568
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[10]/DIODE
+ net5572
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[10]/DIODE
+ net5576
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_dat_i[0]/DIODE
+ net5580
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_dat_i[0]/DIODE
+ net5582
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[0]/DIODE
+ net5590
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[9]/DIODE
+ net5594
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[9]/DIODE
+ net5596
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[9]/DIODE
+ net5598
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[8]/DIODE
+ net5602
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[8]/DIODE
+ net5604
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[8]/DIODE
+ net5606
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[7]/DIODE
+ net5610
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[7]/DIODE
+ net5612
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[7]/DIODE
+ net5614
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[6]/DIODE
+ net5618
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[6]/DIODE
+ net5620
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[6]/DIODE
+ net5622
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[5]/DIODE
+ net5626
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[5]/DIODE
+ net5628
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[5]/DIODE
+ net5629
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[4]/DIODE
+ net5633
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[4]/DIODE
+ net5635
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[4]/DIODE
+ net5636
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[3]/DIODE
+ net5640
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[3]/DIODE
+ net5642
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[3]/DIODE
+ net5643
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[20]/DIODE
+ net5650
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[31]/DIODE
+ net5654
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[31]/DIODE
+ net5656
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[31]/DIODE
+ net5658
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[30]/DIODE
+ net5662
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[30]/DIODE
+ net5664
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[30]/DIODE
+ net5666
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[2]/DIODE
+ net5670
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[2]/DIODE
+ net5672
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[2]/DIODE
+ net5673
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[29]/DIODE
+ net5677
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[29]/DIODE
+ net5681
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[28]/DIODE
+ net5685
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[28]/DIODE
+ net5687
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[28]/DIODE
+ net5689
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[27]/DIODE
+ net5693
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[27]/DIODE
+ net5695
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[27]/DIODE
+ net5697
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[26]/DIODE
+ net5701
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[26]/DIODE
+ net5703
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[26]/DIODE
+ net5705
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[25]/DIODE
+ net5709
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[25]/DIODE
+ net5711
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[25]/DIODE
+ net5713
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[24]/DIODE
+ net5717
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[24]/DIODE
+ net5719
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[24]/DIODE
+ net5721
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[23]/DIODE
+ net5725
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[23]/DIODE
+ net5727
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[23]/DIODE
+ net5729
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[1]/DIODE
+ net5736
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[1]/DIODE
+ net5737
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[22]/DIODE
+ net5741
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[22]/DIODE
+ net5743
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[22]/DIODE
+ net5745
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[21]/DIODE
+ net5749
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[21]/DIODE
+ net5751
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[21]/DIODE
+ net5753
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[20]/DIODE
+ net5757
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[20]/DIODE
+ net5759
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[20]/DIODE
+ net5761
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[1]/DIODE
+ net5765
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[1]/DIODE
+ net5767
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[1]/DIODE
+ net5768
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[19]/DIODE
+ net5772
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[19]/DIODE
+ net5774
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[19]/DIODE
+ net5776
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[18]/DIODE
+ net5780
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[18]/DIODE
+ net5782
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[18]/DIODE
+ net5784
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[17]/DIODE
+ net5788
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[17]/DIODE
+ net5790
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[17]/DIODE
+ net5792
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[16]/DIODE
+ net5796
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[16]/DIODE
+ net5798
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[16]/DIODE
+ net5800
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[15]/DIODE
+ net5804
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[15]/DIODE
+ net5808
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[14]/DIODE
+ net5812
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[14]/DIODE
+ net5816
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[19]/DIODE
+ net5819
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[19]/DIODE
+ net5822
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[13]/DIODE
+ net5826
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[13]/DIODE
+ net5830
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[12]/DIODE
+ net5834
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[12]/DIODE
+ net5838
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[11]/DIODE
+ net5842
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[11]/DIODE
+ net5846
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[10]/DIODE
+ net5850
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[10]/DIODE
+ net5854
+  ANTENNA_user_projects\[3\].genblk1.user_project_wbs_adr_i[0]/DIODE
+ net5858
+  ANTENNA_user_projects\[1\].genblk1.user_project_wbs_adr_i[0]/DIODE
+ net5860
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[0]/DIODE
+ net5881
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[9]/DIODE
+ net5889
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[8]/DIODE
+ net5897
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[7]/DIODE
+ net6857
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[0]/DIODE
+ net6858
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[7]/DIODE
+ net6859
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[8]/DIODE
+ net6860
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[9]/DIODE
+ net6861
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[1]/DIODE
+ net6862
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[2]/DIODE
+ net6863
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[35]/DIODE
+ net6867
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[3]/DIODE
+ net6868
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[0]/DIODE
+ net6869
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[10]/DIODE
+ net6870
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[11]/DIODE
+ net6871
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[12]/DIODE
+ net6872
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[1]/DIODE
+ net6873
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[2]/DIODE
+ net6874
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[3]/DIODE
+ net6875
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[5]/DIODE
+ net6876
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[7]/DIODE
+ net6877
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[9]/DIODE
+ net6878
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[10]/DIODE
+ net6879
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[11]/DIODE
+ net6880
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[12]/DIODE
+ net6881
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[13]/DIODE
+ net6882
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[14]/DIODE
+ net6883
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[15]/DIODE
+ net6884
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[16]/DIODE
+ net6885
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[17]/DIODE
+ net6886
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[18]/DIODE
+ net6887
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[19]/DIODE
+ net6888
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[20]/DIODE
+ net6889
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[21]/DIODE
+ net6890
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[22]/DIODE
+ net6891
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[23]/DIODE
+ net6892
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[24]/DIODE
+ net6893
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[25]/DIODE
+ net6894
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[26]/DIODE
+ net6895
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[27]/DIODE
+ net6896
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[28]/DIODE
+ net6897
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[29]/DIODE
+ net6898
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[30]/DIODE
+ net6899
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[31]/DIODE
+ net6900
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[5]/DIODE
+ net6901
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_oenb[6]/DIODE
+ net6908
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[16]/DIODE
+ net6910
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[17]/DIODE
+ net6912
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[18]/DIODE
+ net6914
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[19]/DIODE
+ net6916
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[20]/DIODE
+ net6918
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[21]/DIODE
+ net6920
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[22]/DIODE
+ net6923
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[23]/DIODE
+ net6925
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[24]/DIODE
+ net6927
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[26]/DIODE
+ net6928
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[17]/DIODE
+ net6930
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[18]/DIODE
+ net6932
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[19]/DIODE
+ net6934
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[20]/DIODE
+ net6936
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[21]/DIODE
+ net6938
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[22]/DIODE
+ net6941
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[33]/DIODE
+ net6942
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[34]/DIODE
+ net6949
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[4]/DIODE
+ net6950
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[5]/DIODE
+ net6951
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[6]/DIODE
+ net6953
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[0]/DIODE
+ net6954
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[10]/DIODE
+ net6956
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[11]/DIODE
+ net6958
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[12]/DIODE
+ net6961
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[1]/DIODE
+ net6963
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[2]/DIODE
+ net6965
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[3]/DIODE
+ net6966
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[4]/DIODE
+ net6968
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[5]/DIODE
+ net6970
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[6]/DIODE
+ net6972
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[8]/DIODE
+ net6974
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[9]/DIODE
+ net6981
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[0]/DIODE
+ net6984
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[7]/DIODE
+ net6986
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[8]/DIODE
+ net6988
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[9]/DIODE
+ net6989
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[10]/DIODE
+ net6990
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[11]/DIODE
+ net6991
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[12]/DIODE
+ net6993
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[13]/DIODE
+ net6995
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[14]/DIODE
+ net6997
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[15]/DIODE
+ net6999
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[1]/DIODE
+ net7001
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[25]/DIODE
+ net7003
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[27]/DIODE
+ net7005
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[28]/DIODE
+ net7007
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[29]/DIODE
+ net7009
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[30]/DIODE
+ net7011
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[31]/DIODE
+ net7013
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[20]/DIODE
+ net7014
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[6]/DIODE
+ net7015
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[7]/DIODE
+ net7016
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[8]/DIODE
+ net7017
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[9]/DIODE
+ net7018
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[10]/DIODE
+ net7019
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[21]/DIODE
+ net7020
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[11]/DIODE
+ net7021
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[12]/DIODE
+ net7023
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[13]/DIODE
+ net7025
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[14]/DIODE
+ net7027
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[15]/DIODE
+ net7029
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[16]/DIODE
+ net7031
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[23]/DIODE
+ net7033
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[24]/DIODE
+ net7035
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[25]/DIODE
+ net7037
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[26]/DIODE
+ net7039
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[27]/DIODE
+ net7041
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[28]/DIODE
+ net7043
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[29]/DIODE
+ net7045
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[30]/DIODE
+ net7047
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[31]/DIODE
+ net7049
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[6]/DIODE
+ net7050
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[7]/DIODE
+ net7051
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[8]/DIODE
+ net7052
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[9]/DIODE
+ net7053
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[26]/DIODE
+ net7054
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[10]/DIODE
+ net7055
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[10]/DIODE
+ net7056
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[27]/DIODE
+ net7057
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[27]/DIODE
+ net7058
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[28]/DIODE
+ net7059
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[28]/DIODE
+ net7060
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[29]/DIODE
+ net7061
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[29]/DIODE
+ net7062
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[2]/DIODE
+ net7064
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[30]/DIODE
+ net7065
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[30]/DIODE
+ net7066
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[31]/DIODE
+ net7067
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[32]/DIODE
+ net7070
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[35]/DIODE
+ net7072
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[11]/DIODE
+ net7073
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[11]/DIODE
+ net7074
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[3]/DIODE
+ net7078
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[7]/DIODE
+ net7079
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[8]/DIODE
+ net7080
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[9]/DIODE
+ net7081
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[9]/DIODE
+ net7082
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[0]/DIODE
+ net7083
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[12]/DIODE
+ net7085
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[10]/DIODE
+ net7087
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[11]/DIODE
+ net7089
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[12]/DIODE
+ net7090
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[13]/DIODE
+ net7091
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[13]/DIODE
+ net7092
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[14]/DIODE
+ net7093
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[14]/DIODE
+ net7094
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[15]/DIODE
+ net7095
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[15]/DIODE
+ net7096
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[16]/DIODE
+ net7097
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[16]/DIODE
+ net7098
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[17]/DIODE
+ net7099
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[17]/DIODE
+ net7100
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[18]/DIODE
+ net7101
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[18]/DIODE
+ net7102
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[19]/DIODE
+ net7103
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[19]/DIODE
+ net7104
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[13]/DIODE
+ net7105
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[1]/DIODE
+ net7107
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[20]/DIODE
+ net7108
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[20]/DIODE
+ net7109
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[21]/DIODE
+ net7110
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[21]/DIODE
+ net7111
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[22]/DIODE
+ net7112
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[22]/DIODE
+ net7113
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[23]/DIODE
+ net7114
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[23]/DIODE
+ net7115
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[24]/DIODE
+ net7116
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[24]/DIODE
+ net7117
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[25]/DIODE
+ net7118
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[26]/DIODE
+ net7119
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_data_in[26]/DIODE
+ net7120
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[27]/DIODE
+ net7121
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[28]/DIODE
+ net7122
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[2]/DIODE
+ net7129
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[6]/DIODE
+ net7131
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[7]/DIODE
+ net7133
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[8]/DIODE
+ net7135
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[9]/DIODE
+ net7137
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[0]/DIODE
+ net7139
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[10]/DIODE
+ net7141
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[11]/DIODE
+ net7142
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[12]/DIODE
+ net7144
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[13]/DIODE
+ net7146
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[14]/DIODE
+ net7148
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[15]/DIODE
+ net7150
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[16]/DIODE
+ net7152
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[17]/DIODE
+ net7154
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[18]/DIODE
+ net7156
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[19]/DIODE
+ net7159
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[1]/DIODE
+ net7160
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[20]/DIODE
+ net7162
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[21]/DIODE
+ net7164
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[22]/DIODE
+ net7166
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[23]/DIODE
+ net7168
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[24]/DIODE
+ net7170
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[25]/DIODE
+ net7172
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[26]/DIODE
+ net7174
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[17]/DIODE
+ net7175
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[27]/DIODE
+ net7177
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[28]/DIODE
+ net7179
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[29]/DIODE
+ net7182
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[2]/DIODE
+ net7183
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[30]/DIODE
+ net7185
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[31]/DIODE
+ net7188
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[3]/DIODE
+ net7190
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[4]/DIODE
+ net7192
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[5]/DIODE
+ net7194
+  ANTENNA_user_projects\[2\].genblk1.user_project_la_oenb[6]/DIODE
+ net7198
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[0]/DIODE
+ net7199
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[18]/DIODE
+ net7200
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[18]/DIODE
+ net7201
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[7]/DIODE
+ net7202
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[8]/DIODE
+ net7203
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[9]/DIODE
+ net7205
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[0]/DIODE
+ net7209
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[1]/DIODE
+ net7210
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[2]/DIODE
+ net7212
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[3]/DIODE
+ net7213
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[4]/DIODE
+ net7214
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_adr_i[5]/DIODE
+ net7216
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[0]/DIODE
+ net7218
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[21]/DIODE
+ net7219
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[1]/DIODE
+ net7220
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[22]/DIODE
+ net7221
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[23]/DIODE
+ net7222
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[2]/DIODE
+ net7223
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[3]/DIODE
+ net7224
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[4]/DIODE
+ net7225
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_dat_i[5]/DIODE
+ net7228
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[24]/DIODE
+ net7229
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_sel_i[0]/DIODE
+ net7230
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_sel_i[1]/DIODE
+ net7231
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_sel_i[2]/DIODE
+ net7232
+  ANTENNA_user_projects\[2\].genblk1.user_project_wbs_sel_i[3]/DIODE
+ net7235
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[26]/DIODE
+ net7236
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[2]/DIODE
+ net7238
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[31]/DIODE
+ net7240
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[32]/DIODE
+ net7243
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[34]/DIODE
+ net7245
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[35]/DIODE
+ net7248
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[3]/DIODE
+ net7249
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[4]/DIODE
+ net7255
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[7]/DIODE
+ net7256
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[8]/DIODE
+ net7257
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[0]/DIODE
+ net7258
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[12]/DIODE
+ net7274
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[13]/DIODE
+ net7275
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[1]/DIODE
+ net7287
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[29]/DIODE
+ net7288
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[2]/DIODE
+ net7289
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[30]/DIODE
+ net7290
+  ANTENNA_user_projects\[3\].genblk1.user_project_la_data_in[31]/DIODE
+ net7291
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[3]/DIODE
+ net7292
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[4]/DIODE
+ net7293
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[5]/DIODE
+ net7294
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[6]/DIODE
+ net7295
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[7]/DIODE
+ net7297
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[15]/DIODE
+ net7299
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[10]/DIODE
+ net7300
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[11]/DIODE
+ net7301
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[12]/DIODE
+ net7302
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[13]/DIODE
+ net7303
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[14]/DIODE
+ net7304
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[15]/DIODE
+ net7305
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[16]/DIODE
+ net7306
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[17]/DIODE
+ net7307
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[16]/DIODE
+ net7308
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[18]/DIODE
+ net7309
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[19]/DIODE
+ net7310
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[20]/DIODE
+ net7311
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[21]/DIODE
+ net7312
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[22]/DIODE
+ net7313
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[23]/DIODE
+ net7314
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[24]/DIODE
+ net7315
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[25]/DIODE
+ net7316
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[26]/DIODE
+ net7317
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[17]/DIODE
+ net7318
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[27]/DIODE
+ net7319
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[28]/DIODE
+ net7320
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[29]/DIODE
+ net7321
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[30]/DIODE
+ net7322
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[31]/DIODE
+ net7323
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[4]/DIODE
+ net7324
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[5]/DIODE
+ net7325
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_oenb[6]/DIODE
+ net7348
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[20]/DIODE
+ net7350
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[20]/DIODE
+ net7352
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[21]/DIODE
+ net7357
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[10]/DIODE
+ net7359
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[10]/DIODE
+ net7362
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[27]/DIODE
+ net7364
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[28]/DIODE
+ net7366
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[28]/DIODE
+ net7368
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[29]/DIODE
+ net7369
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[29]/DIODE
+ net7373
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[30]/DIODE
+ net7374
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[30]/DIODE
+ net7376
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[31]/DIODE
+ net7379
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[32]/DIODE
+ net7381
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[33]/DIODE
+ net7382
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[34]/DIODE
+ net7386
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[11]/DIODE
+ net7388
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[4]/DIODE
+ net7389
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[5]/DIODE
+ net7390
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[6]/DIODE
+ net7392
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[7]/DIODE
+ net7395
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[8]/DIODE
+ net7397
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[9]/DIODE
+ net7398
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[9]/DIODE
+ net7402
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[13]/DIODE
+ net7404
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[14]/DIODE
+ net7405
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[14]/DIODE
+ net7407
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[15]/DIODE
+ net7409
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[16]/DIODE
+ net7410
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[16]/DIODE
+ net7412
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[17]/DIODE
+ net7414
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[18]/DIODE
+ net7416
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[19]/DIODE
+ net7417
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[19]/DIODE
+ net7420
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[20]/DIODE
+ net7421
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[20]/DIODE
+ net7423
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[21]/DIODE
+ net7424
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[21]/DIODE
+ net7426
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[22]/DIODE
+ net7427
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[22]/DIODE
+ net7429
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[23]/DIODE
+ net7430
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[23]/DIODE
+ net7432
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[24]/DIODE
+ net7433
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[24]/DIODE
+ net7435
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[25]/DIODE
+ net7437
+  ANTENNA_user_projects\[1\].genblk1.user_project_la_data_in[26]/DIODE
+ net7438
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[26]/DIODE
+ net7440
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[27]/DIODE
+ net7442
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_data_in[28]/DIODE
+ net7458
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[10]/DIODE
+ net7460
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[11]/DIODE
+ net7462
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[12]/DIODE
+ net7464
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[13]/DIODE
+ net7466
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[14]/DIODE
+ net7468
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[15]/DIODE
+ net7481
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_adr_i[29]/DIODE
+ net7487
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[10]/DIODE
+ net7489
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[11]/DIODE
+ net7491
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[12]/DIODE
+ net7493
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[13]/DIODE
+ net7495
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[14]/DIODE
+ net7497
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[15]/DIODE
+ net7499
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[16]/DIODE
+ net7507
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[23]/DIODE
+ net7513
+  ANTENNA_user_projects\[0\].genblk1.user_project_wbs_dat_i[29]/DIODE
+ net7519
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[20]/DIODE
+ net7520
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[21]/DIODE
+ net7521
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[22]/DIODE
+ net7522
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[23]/DIODE
+ net7523
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[24]/DIODE
+ net7524
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[25]/DIODE
+ net7526
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[27]/DIODE
+ net7527
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[28]/DIODE
+ net7529
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[30]/DIODE
+ net7530
+  ANTENNA_user_projects\[0\].genblk1.user_project_la_oenb[31]/DIODE
+ net7534
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[0]/DIODE
+ net7536
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[18]/DIODE
+ net7537
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[18]/DIODE
+ net7539
+  ANTENNA_user_projects\[3\].genblk1.user_project_io_in[19]/DIODE
+ net7541
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[19]/DIODE
+ net7547
+  ANTENNA_user_projects\[2\].genblk1.user_project_io_in[21]/DIODE
+ net7551
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[31]/DIODE
+ net7560
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[8]/DIODE
+ net7596
+  ANTENNA_user_projects\[0\].genblk1.user_project_io_in[32]/DIODE
+ net7598
+  ANTENNA_user_projects\[1\].genblk1.user_project_io_in[7]/DIODE
+parastic_annotation_check
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+user_projects[1].genblk1.user_project/wb_clk_i    0.10    0.91   -0.81 (VIOLATED)
+user_projects[0].genblk1.user_project/wb_clk_i    0.10    0.67   -0.57 (VIOLATED)
+user_projects[2].genblk1.user_project/wb_clk_i    0.10    0.58   -0.48 (VIOLATED)
+user_projects[3].genblk1.user_project/wb_clk_i    0.10    0.24   -0.14 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+wire5602/X                               18     47    -29 (VIOLATED)
+wire4695/X                               18     41    -23 (VIOLATED)
+wire4674/X                               18     35    -17 (VIOLATED)
+wire4741/X                               18     35    -17 (VIOLATED)
+wire4762/X                               18     35    -17 (VIOLATED)
+max_length5409/X                         18     34    -16 (VIOLATED)
+wire6108/X                               18     32    -14 (VIOLATED)
+wire6109/X                               18     32    -14 (VIOLATED)
+wire6530/X                               18     32    -14 (VIOLATED)
+wire6531/X                               18     32    -14 (VIOLATED)
+wire4573/X                               18     29    -11 (VIOLATED)
+wire4659/X                               18     29    -11 (VIOLATED)
+wire5553/X                               18     29    -11 (VIOLATED)
+wire6099/X                               18     29    -11 (VIOLATED)
+wire6106/X                               18     29    -11 (VIOLATED)
+wire6107/X                               18     29    -11 (VIOLATED)
+wire6529/X                               18     29    -11 (VIOLATED)
+max_length5664/X                         18     26     -8 (VIOLATED)
+wire5336/X                               18     26     -8 (VIOLATED)
+wire5846/X                               18     26     -8 (VIOLATED)
+wire6105/X                               18     26     -8 (VIOLATED)
+wire6324/X                               18     26     -8 (VIOLATED)
+wire6526/X                               18     26     -8 (VIOLATED)
+wire4767/X                               18     25     -7 (VIOLATED)
+fanout4344/X                             18     24     -6 (VIOLATED)
+fanout4375/X                             18     24     -6 (VIOLATED)
+fanout4954/X                             18     24     -6 (VIOLATED)
+fanout4955/X                             18     24     -6 (VIOLATED)
+fanout4956/X                             18     24     -6 (VIOLATED)
+fanout4970/X                             18     24     -6 (VIOLATED)
+fanout4978/X                             18     24     -6 (VIOLATED)
+fanout4979/X                             18     24     -6 (VIOLATED)
+fanout4980/X                             18     24     -6 (VIOLATED)
+fanout4981/X                             18     24     -6 (VIOLATED)
+fanout4988/X                             18     24     -6 (VIOLATED)
+fanout4991/X                             18     24     -6 (VIOLATED)
+fanout4993/X                             18     24     -6 (VIOLATED)
+fanout4998/X                             18     24     -6 (VIOLATED)
+fanout5020/X                             18     24     -6 (VIOLATED)
+fanout5032/X                             18     24     -6 (VIOLATED)
+fanout5065/X                             18     24     -6 (VIOLATED)
+fanout5066/X                             18     24     -6 (VIOLATED)
+fanout5068/X                             18     24     -6 (VIOLATED)
+fanout5069/X                             18     24     -6 (VIOLATED)
+fanout5079/X                             18     24     -6 (VIOLATED)
+fanout5080/X                             18     24     -6 (VIOLATED)
+fanout5087/X                             18     24     -6 (VIOLATED)
+fanout5093/X                             18     24     -6 (VIOLATED)
+fanout5096/X                             18     24     -6 (VIOLATED)
+fanout5098/X                             18     24     -6 (VIOLATED)
+fanout5123/X                             18     24     -6 (VIOLATED)
+fanout5134/X                             18     24     -6 (VIOLATED)
+fanout5138/X                             18     24     -6 (VIOLATED)
+max_length5371/X                         18     24     -6 (VIOLATED)
+max_length5656/X                         18     24     -6 (VIOLATED)
+wire4664/X                               18     23     -5 (VIOLATED)
+wire5362/X                               18     23     -5 (VIOLATED)
+wire5385/X                               18     23     -5 (VIOLATED)
+wire5486/X                               18     23     -5 (VIOLATED)
+wire5493/X                               18     23     -5 (VIOLATED)
+wire5587/X                               18     23     -5 (VIOLATED)
+wire5594/X                               18     23     -5 (VIOLATED)
+wire5670/X                               18     23     -5 (VIOLATED)
+wire5780/X                               18     23     -5 (VIOLATED)
+wire5868/X                               18     23     -5 (VIOLATED)
+wire6104/X                               18     23     -5 (VIOLATED)
+wire6169/X                               18     23     -5 (VIOLATED)
+wire6184/X                               18     23     -5 (VIOLATED)
+wire6286/X                               18     23     -5 (VIOLATED)
+wire6319/X                               18     23     -5 (VIOLATED)
+wire6330/X                               18     23     -5 (VIOLATED)
+wire6459/X                               18     23     -5 (VIOLATED)
+fanout5067/X                             18     22     -4 (VIOLATED)
+fanout5095/X                             18     22     -4 (VIOLATED)
+max_length5703/X                         18     22     -4 (VIOLATED)
+wire5954/X                               18     22     -4 (VIOLATED)
+wire4452/X                               18     20     -2 (VIOLATED)
+wire4616/X                               18     20     -2 (VIOLATED)
+wire4642/X                               18     20     -2 (VIOLATED)
+wire4997/X                               18     20     -2 (VIOLATED)
+wire5064/X                               18     20     -2 (VIOLATED)
+wire5077/X                               18     20     -2 (VIOLATED)
+wire5340/X                               18     20     -2 (VIOLATED)
+wire5348/X                               18     20     -2 (VIOLATED)
+wire5580/X                               18     20     -2 (VIOLATED)
+wire5610/X                               18     20     -2 (VIOLATED)
+wire5618/X                               18     20     -2 (VIOLATED)
+wire5640/X                               18     20     -2 (VIOLATED)
+wire5765/X                               18     20     -2 (VIOLATED)
+wire6098/X                               18     20     -2 (VIOLATED)
+wire6100/X                               18     20     -2 (VIOLATED)
+wire6101/X                               18     20     -2 (VIOLATED)
+wire6102/X                               18     20     -2 (VIOLATED)
+wire6215/X                               18     20     -2 (VIOLATED)
+wire6235/X                               18     20     -2 (VIOLATED)
+wire6297/X                               18     20     -2 (VIOLATED)
+wire6309/X                               18     20     -2 (VIOLATED)
+wire6313/X                               18     20     -2 (VIOLATED)
+max_length5743/X                         18     19        (VIOLATED)
+wire4746/X                               18     19        (VIOLATED)
+wire4753/X                               18     19        (VIOLATED)
+wire6628/X                               18     19        (VIOLATED)
+wire6630/X                               18     19        (VIOLATED)
+
+
+===========================================================================
+max slew violation count 4
+max fanout violation count 103
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack 4.06
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack 0.78
+worst_slack_end
+clock_skew
+
+===========================================================================
+ report_clock_skew
+============================================================================
+Clock clk
+No launch/capture paths found.
+
+clock_skew_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          1.10e-03   2.64e-03   1.86e-07   3.73e-03 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  1.10e-03   2.64e-03   1.86e-07   3.73e-03 100.0%
+                          29.4%      70.6%       0.0%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 8478114 u^2 83% utilization.
+area_report_end
+Setting global connections for newly added cells...
+[WARNING] Did not save OpenROAD database!
+Writing SDF to /home/hosni/mpc/openlane/user_project_wrapper/runs/23_04_25_06_48/results/routing/mca/process_corner_nom/user_project_wrapper.sdf...
+
