@@ -1,7 +1,7 @@
 ## Clock constraints
 # Clock network
 set ::env(CLOCK_PORT) "wb_clk_i"
-set ::env(CLOCK_PERIOD) 25
+set ::env(CLOCK_PERIOD) 30
 
 if {[info exists ::env(CLOCK_PORT)] && $::env(CLOCK_PORT) != ""} {
     set clk_input $::env(CLOCK_PORT)
@@ -42,4 +42,4 @@ set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx ""]
 set_input_delay 1 -clock [get_clocks {clk}] $all_inputs_wo_clk
 set_output_delay 1 -clock [get_clocks {clk}] [all_outputs]
 
-set_load 0.03 [all_outputs]
+set_load 0.2 [all_outputs]
