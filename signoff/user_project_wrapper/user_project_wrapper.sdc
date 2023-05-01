@@ -37,9 +37,9 @@ set_timing_derate -late [expr {1+$::env(SYNTH_TIMING_DERATE)}]
 puts "\[INFO\]: Setting timing derate to: [expr {$::env(SYNTH_TIMING_DERATE) * 100}] %"
 
 # Input/Output delay budget
-set clk_indx [lsearch [all_inputs] $clk_input]
-set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx ""]
-set_input_delay 1 -clock [get_clocks {clk}] $all_inputs_wo_clk
+# set clk_indx [lsearch [all_inputs] $clk_input]
+# set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx ""]
+set_input_delay 1 -clock [get_clocks {clk}] [all_inputs]
 set_output_delay 1 -clock [get_clocks {clk}] [all_outputs]
 
 set_load 0.2 [all_outputs]
