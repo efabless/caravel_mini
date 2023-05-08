@@ -1,0 +1,41 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+Design : user_project_wrapper
+Version: T-2022.03-SP3
+Date   : Sun May  7 08:25:07 2023
+****************************************
+
+
+
+   min_delay/hold ('clock_gating_default' group)
+
+   Endpoint                                                  Slack
+   -----------------------------------------------------------------
+   _0663_/A_N                                             -15.3296  (VIOLATED)
+   _0664_/A_N                                             -14.8901  (VIOLATED)
+   _0664_/B                                               -14.6255  (VIOLATED)
+   _0665_/C                                               -14.3814  (VIOLATED)
+   _0666_/B                                               -14.3684  (VIOLATED)
+   _0666_/A                                               -13.9368  (VIOLATED)
+   _0665_/A                                               -13.8350  (VIOLATED)
+   _0663_/B                                               -12.9120  (VIOLATED)
+
+
+
+   clock_gating_hold
+
+   Endpoint                                                  Slack
+   -----------------------------------------------------------------
+   _0663_/A_N                                             -15.3296  (VIOLATED)
+   _0664_/A_N                                             -14.8901  (VIOLATED)
+   _0664_/B                                               -14.6255  (VIOLATED)
+   _0665_/C                                               -14.3814  (VIOLATED)
+   _0666_/B                                               -14.3684  (VIOLATED)
+   _0666_/A                                               -13.9368  (VIOLATED)
+   _0665_/A                                               -13.8350  (VIOLATED)
+   _0663_/B                                               -12.9120  (VIOLATED)
+
+
+1
