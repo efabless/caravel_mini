@@ -1,7 +1,7 @@
 ## Clock constraints
 # Clock network
 set ::env(CLOCK_PORT) "wb_clk_i"
-set ::env(CLOCK_PERIOD) 30
+set ::env(CLOCK_PERIOD) 31
 
 if {[info exists ::env(CLOCK_PORT)] && $::env(CLOCK_PORT) != ""} {
     set clk_input $::env(CLOCK_PORT)
@@ -42,4 +42,4 @@ puts "\[INFO\]: Setting timing derate to: [expr {$::env(SYNTH_TIMING_DERATE) * 1
 set_input_delay 1 -clock [get_clocks {clk}] [all_inputs]
 set_output_delay 1 -clock [get_clocks {clk}] [all_outputs]
 
-set_load 0.2 [all_outputs]
+set_load 0.1 [all_outputs]

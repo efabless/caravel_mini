@@ -14,7 +14,7 @@ puts "\[INFO\]: GPIOs mode is set as: $ios_mode"
 set ::env(IO_SYNC) 0
 
 ## MASTER CLOCKS
-set clk_period 30
+set clk_period 31
 create_clock -name clk -period $clk_period [get_ports {clock}] 
 puts "\[INFO\]: System clock period: $clk_period"
 
