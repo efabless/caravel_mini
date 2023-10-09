@@ -32,3 +32,16 @@ Each project gets the following:
 - Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board. <b>There is no on-chip power switching to power down non-active projects<b>.
 
 
+## Steps to reharden
+```
+export OPENLANE_ROOT=<openlane_dir>
+export OPENLANE_TAG=<openlane commit_id>
+epxort PDK_ROOT=<pdk dir>
+export PDK=sky130A
+cd openlane
+make user_project_1
+make user_project_3
+make user_project_5
+make user_project_7
+make user_project_wrapper
+```
