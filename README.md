@@ -29,10 +29,16 @@ Each project gets the following:
 
 ## Clocking and Powering (4 projects config)
 - The Clock is enabled only for the selected project. The active project selection is achieved through Caravel I/Os 36 and 37.
-- Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board. <b>There is no on-chip power switching to power down non-active projects<b>.
+- Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board. There is no on-chip power switching to power down non-active projects.
 
 
 ## Steps to reharden
+
+In order to harden such chip, 
+1. The 4 multiple projects should be hardened with a fixed floorplan, PDN, and boundary constraints. 
+2. Then, the top-level should be hardened. Or it can be regenerated using the new multiple user projects.
+
+To rebuild everything using the current designs. Run the following:
 ```
 export OPENLANE_ROOT=<openlane_dir>
 export OPENLANE_TAG=<openlane commit_id>
@@ -45,3 +51,9 @@ make user_project_5
 make user_project_7
 make user_project_wrapper
 ```
+In order to regenerate the wrapper with new designs, you can the following as in this [commit](https://github.com/shalan/mpc/commit/72613b52cf15d0b6bc56cfadecb487be7c267af0#diff-d943e068ae25658e91d569987c90bb4f2c79bf9d538782042214081b16f99715)
+1. Change the multiple project names in the `mag/user_project_wrapper.mag`
+![image](https://github.com/shalan/mpc/assets/112901987/8479e408-44aa-4367-a66c-c029a6e390d6)
+
+2. Make sure that the project GDS files are under `gds/`
+3. Regenarate the user project wrapper GDS using this [script](https://github.com/shalan/mpc/blob/main/mag/magic_write_gds.sh)
