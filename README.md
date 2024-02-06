@@ -55,5 +55,5 @@ In order to regenerate the wrapper with new designs, you can the following as in
 1. Change the multiple project names in the `mag/user_project_wrapper.mag`
 ![image](https://github.com/shalan/mpc/assets/112901987/8479e408-44aa-4367-a66c-c029a6e390d6)
 
-2. Make sure that the project GDS files are under `gds/`
+2. Make sure that the project mag files are under `mag/`
 3. Regenarate the user project wrapper GDS using this [script](https://github.com/shalan/mpc/blob/main/mag/magic_write_gds.sh)
