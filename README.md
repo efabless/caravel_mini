@@ -19,7 +19,7 @@ Each project gets the following:
 - Area of 1300 um x 1600 um (for 4 projects/chip configuration)
 - 36 IO ports.
 - 32 logic analyzer probes only.
-- Wishbone port connection to the management SoC wishbone bus. The bus is not shared between all the projects.
+- Wishbone port connection to the management SoC wishbone bus.
 - 1 digital power domain only.
 
 ## Limitations
