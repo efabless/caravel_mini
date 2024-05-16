@@ -32,7 +32,7 @@ Each project gets the following:
 - Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board. There is no on-chip power switching to power down non-active projects.
 
 
-## Steps to reharden
+## Steps to Harden MPC
 
 In order to harden such chip, 
 1. The 4 multiple projects should be hardened with a fixed floorplan, PDN, and boundary constraints. 
