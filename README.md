@@ -1,4 +1,4 @@
-# Multi-Project Caravel (MPC)
+# Caravel Mini
 The objective is to enable multiple users to share the same Caravel chip. This would allow several small MPW projects to be implemented into a single chip, increasing the number of designs per each MPW run. 
 
 To minimize the effort, we leverage the existing Caravel chip design through a custom user’s project wrapper design. This unique design partitions the user’s project area between multiple projects. After fabrication, only one design can be active at any time. Design selection is performed through two dedicated I/O pads.
@@ -32,7 +32,7 @@ Each project gets the following:
 - Each project is assigned one power supply (either vccd1 or vccd2) based on it location in the chip. The left side projects are powered by vccd2 and the right side projects are powered using vccd1. The power supply domain not used for the active project can be disabled on the development board. There is no on-chip power switching to power down non-active projects.
 
 
-## Steps to Harden MPC
+## Steps to Harden Caravel Mini
 
 In order to harden such chip, 
 1. The 4 multiple projects should be hardened with a fixed floorplan, PDN, and boundary constraints. 
