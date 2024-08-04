@@ -95,11 +95,11 @@ module user_project_wrapper #(
   generate
     for (i = 0; i < USER_PROJECTS; i = i + 1) begin : user_projects
       if (i % 2 == 0)
-        user_project #(
+        user_project_wrapper_mini4 #(
             `ifndef PnR 
             .COUNT_STEP(2 * i + 1)
             `endif 
-        ) user_project (
+        ) user_project_wrapper_mini4 (
 `ifdef USE_POWER_PINS
             .VPWR(vccd2), // User area 1 1.8V supply
             .VGND(vssd2), // User area 1 digital ground
@@ -139,11 +139,11 @@ module user_project_wrapper #(
             .user_irq(proj_user_irq[i])
         );
       else
-        user_project #(
+        user_project_wrapper_mini4 #(
             `ifndef PnR 
             .COUNT_STEP(2 * i + 1)
             `endif 
-        ) user_project (
+        ) user_project_wrapper_mini4 (
 `ifdef USE_POWER_PINS
             .VPWR(vccd1), // User area 1 1.8V supply
             .VGND(vssd1), // User area 1 digital ground
